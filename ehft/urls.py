@@ -8,6 +8,7 @@ import views
 urlpatterns = patterns('',
 	url(r'^$', views.index),
 	url(r'^home/$', views.home),
+	url(r'^setup/$', views.post_setup)
     # Examples:
     # url(r'^$', 'ehft.views.home', name='home'),
     # url(r'^ehft/', include('ehft.foo.urls')),

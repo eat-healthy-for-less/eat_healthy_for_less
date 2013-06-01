@@ -6,6 +6,14 @@ def index(request):
 	return HttpResponseRedirect('/home/')
 
 def home(request):
-    """Presents the search page and displays session specific
-    assets if a session is loaded."""
+    """Presents the setup page for user input"""
     return render(request, 'setup.html')
+
+def post_setup(request):
+	"""TODO: save variables, perform lookup / algo
+	to find the recipe results"""
+	return results(request)
+
+def results(request):
+	"""Results Page"""
+	return render(request, 'setup.html')
