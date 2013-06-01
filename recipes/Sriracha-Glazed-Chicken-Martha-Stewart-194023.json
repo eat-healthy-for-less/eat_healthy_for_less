@@ -1,0 +1,232 @@
+{
+    "attributes": {
+        "course": [
+            "Main Dishes"
+        ], 
+        "cuisine": [
+            "Asian"
+        ]
+    }, 
+    "attribution": {
+        "html": "<a href='http://www.yummly.com/recipe/Sriracha-Glazed-Chicken-Martha-Stewart-194023'>Sriracha-Glazed Chicken recipe</a> information powered by <img alt='Yummly' src='http://static.yummly.com/api-logo.png'/>", 
+        "logo": "http://static.yummly.com/api-logo.png", 
+        "text": "Sriracha-Glazed Chicken recipes: information powered by Yummly", 
+        "url": "http://www.yummly.com/recipe/Sriracha-Glazed-Chicken-Martha-Stewart-194023"
+    }, 
+    "flavors": {
+        "Bitter": 0.007688903249800205, 
+        "Meaty": 0.000202823372092098, 
+        "Piquant": 0.0, 
+        "Salty": 0.00743393087759614, 
+        "Sour": 2.1157526134629734e-05, 
+        "Sweet": 0.00016197784862015396
+    }, 
+    "id": "Sriracha-Glazed-Chicken-Martha-Stewart-194023", 
+    "images": [
+        {
+            "hostedLargeUrl": "http://i.yummly.com/Sriracha-Glazed-Chicken-Martha-Stewart-194023-108049.l.png", 
+            "hostedSmallUrl": "http://i.yummly.com/Sriracha-Glazed-Chicken-Martha-Stewart-194023-108049.s.png"
+        }
+    ], 
+    "ingredientLines": [
+        "1/4 cup soy sauce", 
+        "2 tablespoons plus 1 teaspoon white vinegar", 
+        "1 tablespoon sriracha sauce", 
+        "1 tablespoon sugar", 
+        "1 1/2 teaspoons grated peeled fresh ginger", 
+        "1 1/2 teaspoons toasted sesame oil", 
+        "1 1/2 pounds chicken wings, cut in half at joint (wing tips removed), or drumsticks"
+    ], 
+    "name": "Sriracha-Glazed Chicken", 
+    "numberOfServings": 4, 
+    "nutritionEstimates": [
+        {
+            "attribute": "ENERC_KCAL", 
+            "description": "Energy", 
+            "unit": {
+                "abbreviation": "kcal", 
+                "id": "fea252f8-9888-4365-b005-e2c63ed3a776", 
+                "name": "calorie", 
+                "plural": "calories", 
+                "pluralAbbreviation": "kcal"
+            }, 
+            "value": 418.57
+        }, 
+        {
+            "attribute": "FAT", 
+            "description": "Total lipid (fat)", 
+            "unit": {
+                "abbreviation": "g", 
+                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
+                "name": "gram", 
+                "plural": "grams", 
+                "pluralAbbreviation": "grams"
+            }, 
+            "value": 29.04
+        }, 
+        {
+            "attribute": "FATRN", 
+            "description": "Fatty acids, total trans", 
+            "unit": {
+                "abbreviation": "g", 
+                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
+                "name": "gram", 
+                "plural": "grams", 
+                "pluralAbbreviation": "grams"
+            }, 
+            "value": 0.0
+        }, 
+        {
+            "attribute": "FASAT", 
+            "description": "Fatty acids, total saturated", 
+            "unit": {
+                "abbreviation": "g", 
+                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
+                "name": "gram", 
+                "plural": "grams", 
+                "pluralAbbreviation": "grams"
+            }, 
+            "value": 7.08
+        }, 
+        {
+            "attribute": "CHOLE", 
+            "description": "Cholesterol", 
+            "unit": {
+                "abbreviation": "g", 
+                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
+                "name": "gram", 
+                "plural": "grams", 
+                "pluralAbbreviation": "grams"
+            }, 
+            "value": 0.13
+        }, 
+        {
+            "attribute": "NA", 
+            "description": "Sodium, Na", 
+            "unit": {
+                "abbreviation": "g", 
+                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
+                "name": "gram", 
+                "plural": "grams", 
+                "pluralAbbreviation": "grams"
+            }, 
+            "value": 1.04
+        }, 
+        {
+            "attribute": "K", 
+            "description": "Potassium, K", 
+            "unit": {
+                "abbreviation": "g", 
+                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
+                "name": "gram", 
+                "plural": "grams", 
+                "pluralAbbreviation": "grams"
+            }, 
+            "value": 0.32
+        }, 
+        {
+            "attribute": "CHOCDF", 
+            "description": "Carbohydrate, by difference", 
+            "unit": {
+                "abbreviation": "g", 
+                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
+                "name": "gram", 
+                "plural": "grams", 
+                "pluralAbbreviation": "grams"
+            }, 
+            "value": 5.08
+        }, 
+        {
+            "attribute": "FIBTG", 
+            "description": "Fiber, total dietary", 
+            "unit": {
+                "abbreviation": "g", 
+                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
+                "name": "gram", 
+                "plural": "grams", 
+                "pluralAbbreviation": "grams"
+            }, 
+            "value": 0.29
+        }, 
+        {
+            "attribute": "SUGAR", 
+            "description": "Sugars, total", 
+            "unit": {
+                "abbreviation": "g", 
+                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
+                "name": "gram", 
+                "plural": "grams", 
+                "pluralAbbreviation": "grams"
+            }, 
+            "value": 3.82
+        }, 
+        {
+            "attribute": "PROCNT", 
+            "description": "Protein", 
+            "unit": {
+                "abbreviation": "g", 
+                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
+                "name": "gram", 
+                "plural": "grams", 
+                "pluralAbbreviation": "grams"
+            }, 
+            "value": 31.67
+        }, 
+        {
+            "attribute": "VITA_IU", 
+            "description": "Vitamin A, IU", 
+            "unit": {
+                "abbreviation": "IU", 
+                "id": "ed46fe0c-44fe-4c1f-b3a8-880f92e30930", 
+                "name": "IU", 
+                "plural": "IU", 
+                "pluralAbbreviation": "IU"
+            }, 
+            "value": 280.24
+        }, 
+        {
+            "attribute": "VITC", 
+            "description": "Vitamin C, total ascorbic acid", 
+            "unit": {
+                "abbreviation": "g", 
+                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
+                "name": "gram", 
+                "plural": "grams", 
+                "pluralAbbreviation": "grams"
+            }, 
+            "value": 0.0
+        }, 
+        {
+            "attribute": "CA", 
+            "description": "Calcium, Ca", 
+            "unit": {
+                "abbreviation": "g", 
+                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
+                "name": "gram", 
+                "plural": "grams", 
+                "pluralAbbreviation": "grams"
+            }, 
+            "value": 0.02
+        }, 
+        {
+            "attribute": "FE", 
+            "description": "Iron, Fe", 
+            "unit": {
+                "abbreviation": "g", 
+                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
+                "name": "gram", 
+                "plural": "grams", 
+                "pluralAbbreviation": "grams"
+            }, 
+            "value": 0.0
+        }
+    ], 
+    "rating": 5, 
+    "source": {
+        "sourceDisplayName": "Martha Stewart", 
+        "sourceRecipeUrl": "http://www.marthastewart.com/335370/sriracha-glazed-chicken", 
+        "sourceSiteUrl": "http://www.marthastewart.com"
+    }, 
+    "totalTimeInSeconds": null, 
+    "yield": ""
+}
