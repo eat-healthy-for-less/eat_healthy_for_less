@@ -3,6 +3,7 @@ import random
 DEFAULT_NUM_ITERS = 100
 DEFAULT_NUM_EPISODES = 100
 DEFAULT_DAYS_PER_WEEK = 7
+DEFAULT_NUM_MEALS = 100
 
 
 class Meal:
@@ -16,8 +17,11 @@ class Meal:
         self.convinience = convinience
         self.tags = tags
         
-def randomMeals():
-    return map(lambda x:Meal(random.randint(10,30),random.uniform(-1,1),random.random()),range(100))
+def random_meals():
+    return map(lambda x:Meal(random.randint(10,30),
+                             random.uniform(-1,1),
+                             random.random()),
+               range(DEFAULT_NUM_MEALS))
 
 class MealSelector:
     budget =0
@@ -28,11 +32,11 @@ class MealSelector:
     num_iters=DEFAULT_NUM_ITERS
     num_episodes=DEFAULT_NUM_EPISODES
     menu_size=DEFAULT_DAYS_PER_WEEK
-    def __init__(self,budget,b_pen,c_pen,c_pen):
+    def __init__(self,budget,b_pen,c_pen,n_pen):
         self.budget = budget
-        self.budget_penalty=0
-        self.nutrition_penalty=0
-        self.convinience_penalty=0
+        self.budget_penalty=b_pen
+        self.nutrition_penalty=n_pen
+        self.convinience_penalty=c_pen
     def penalty(self,menu):
         b_pen = self.budget_penalty*max(0,sum(map(lambda m: m.price,menu))-self.budget)
         n_pen = self.nutrition_penalty*sum(map(lambda m: m.nutrition,menu))
@@ -50,7 +54,7 @@ class MealSelector:
                 pen  = p
                 menu = newMenu
         return menu
-    def pickMenu(self,meals):
+    def pick_menu(self,meals):
         return min(map(lambda menu: self.optimize_episode(self.random_menu(meals),meals),
                        range(self.num_episodes)),
                    key=self.penalty)
