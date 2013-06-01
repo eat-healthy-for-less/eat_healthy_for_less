@@ -1,0 +1,25 @@
+body {
+	background-image:url('/static/img/subtle_grunge.png');
+}
+
+.content-box {
+	padding : 20px;
+	background-color:transparent;
+	background-image:url('/static/img/trans.png');
+
+  -webkit-box-shadow: 0px 0px 4px 0px #999; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+          box-shadow: 0px 0px 4px 0px #999; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */	
+
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+	-khtml-border-radius: 5px; /* for old Konqueror browsers */
+
+	margin-bottom: 10px;
+}
+
+.center {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
