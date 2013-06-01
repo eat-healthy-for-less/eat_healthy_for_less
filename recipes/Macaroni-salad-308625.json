@@ -1,0 +1,236 @@
+{
+   "attribution":{
+      "html":"<a href='http://www.yummly.com/recipe/Macaroni-salad-308625'>Macaroni Salad recipe</a> information powered by <img alt='Yummly' src='http://static.yummly.com/api-logo.png'/>",
+      "url":"http://www.yummly.com/recipe/Macaroni-salad-308625",
+      "text":"Macaroni Salad recipes: information powered by Yummly",
+      "logo":"http://static.yummly.com/api-logo.png"
+   },
+   "ingredientLines":[
+      "1 pound elbow macaroni",
+      "1/4 cup / 60 ml extra virgin olive oil",
+      "4 cups thinly sliced green onions {~3-4 bunches}",
+      "3 medium cloves garlic, chopped",
+      "fine grain sea salt",
+      "lots of freshly ground black pepper",
+      "zest and juice of one lemon",
+      "1/3 cup / 2 oz grated Parmesan",
+      "4 big handfuls arugula",
+      "1 large apple, diced"
+   ],
+   "flavors":{
+      "Piquant":0.0,
+      "Bitter":0.003441189881414175,
+      "Meaty":0.00170414918102324,
+      "Sour":0.011886144988238811,
+      "Sweet":8.696537697687745E-4,
+      "Salty":3.9948386256583035E-4
+   },
+   "nutritionEstimates":[
+      {
+         "attribute":"ENERC_KCAL",
+         "description":"Energy",
+         "value":602.31,
+         "unit":{
+            "id":"fea252f8-9888-4365-b005-e2c63ed3a776",
+            "name":"calorie",
+            "abbreviation":"kcal",
+            "plural":"calories",
+            "pluralAbbreviation":"kcal"
+         }
+      },
+      {
+         "attribute":"FAT",
+         "description":"Total lipid (fat)",
+         "value":17.96,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"FATRN",
+         "description":"Fatty acids, total trans",
+         "value":0.00,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"FASAT",
+         "description":"Fatty acids, total saturated",
+         "value":3.22,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"CHOLE",
+         "description":"Cholesterol",
+         "value":0.01,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"NA",
+         "description":"Sodium, Na",
+         "value":0.53,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"K",
+         "description":"Potassium, K",
+         "value":0.35,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"CHOCDF",
+         "description":"Carbohydrate, by difference",
+         "value":94.60,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"FIBTG",
+         "description":"Fiber, total dietary",
+         "value":5.59,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"SUGAR",
+         "description":"Sugars, total",
+         "value":7.61,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"PROCNT",
+         "description":"Protein",
+         "value":18.14,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"VITA_IU",
+         "description":"Vitamin A, IU",
+         "value":104.21,
+         "unit":{
+            "id":"ed46fe0c-44fe-4c1f-b3a8-880f92e30930",
+            "name":"IU",
+            "abbreviation":"IU",
+            "plural":"IU",
+            "pluralAbbreviation":"IU"
+         }
+      },
+      {
+         "attribute":"VITC",
+         "description":"Vitamin C, total ascorbic acid",
+         "value":0.02,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"CA",
+         "description":"Calcium, Ca",
+         "value":0.15,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"FE",
+         "description":"Iron, Fe",
+         "value":0.00,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      }
+   ],
+   "images":[
+      {
+         "hostedLargeUrl":"http://i.yummly.com/Macaroni-salad-308625-342735.l.jpg",
+         "hostedSmallUrl":"http://i.yummly.com/Macaroni-salad-308625-342735.s.jpg"
+      }
+   ],
+   "name":"Macaroni Salad",
+   "attributes":{
+      "cuisine":[
+         "American"
+      ],
+      "course":[
+         "Lunch and Snacks",
+         "Side Dishes",
+         "Salads"
+      ]
+   },
+   "totalTimeInSeconds":null,
+   "rating":5,
+   "numberOfServings":4,
+   "source":{
+      "sourceRecipeUrl":"http://www.101cookbooks.com/archives/macaroni-salad-recipe.html",
+      "sourceSiteUrl":"http://www.101cookbooks.com/",
+      "sourceDisplayName":"101 Cookbooks"
+   },
+   "id":"Macaroni-salad-308625"
+}

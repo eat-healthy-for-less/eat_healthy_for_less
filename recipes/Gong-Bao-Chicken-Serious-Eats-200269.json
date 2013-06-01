@@ -1,0 +1,237 @@
+{
+   "attribution":{
+      "html":"<a href='http://www.yummly.com/recipe/Gong-Bao-Chicken-Serious-Eats-200269'>Gong Bao Chicken recipe</a> information powered by <img alt='Yummly' src='http://static.yummly.com/api-logo.png'/>",
+      "url":"http://www.yummly.com/recipe/Gong-Bao-Chicken-Serious-Eats-200269",
+      "text":"Gong Bao Chicken recipes: information powered by Yummly",
+      "logo":"http://static.yummly.com/api-logo.png"
+   },
+   "ingredientLines":[
+      "1/3 cup unsalted peanuts",
+      "1 pound boneless, skinless chicken breasts, cut into 3/4-inch cubes",
+      "1 tablespoon cornstarch",
+      "4 tablespoons light soy sauce",
+      "2 tablespoons unroasted peanut oil or other neutral oil",
+      "1 teaspoon sichuan peppercorns",
+      "2 dried red chiles, roughly chopped or crushed",
+      "2 garlic cloves, peeled and very thinly sliced",
+      "1-inch knob ginger root, peeled and very thinly sliced",
+      "4 scallions, trimmed and roughly chopped",
+      "cooked white rice, for serving"
+   ],
+   "flavors":{
+      "Bitter":0.006511769,
+      "Salty":0.0029622214,
+      "Piquant":0.0,
+      "Sweet":1.6665513E-4,
+      "Meaty":0.0016866948,
+      "Sour":0.004309109
+   },
+   "nutritionEstimates":[
+      {
+         "attribute":"ENERC_KCAL",
+         "description":"Energy",
+         "value":287.38,
+         "unit":{
+            "id":"fea252f8-9888-4365-b005-e2c63ed3a776",
+            "name":"calorie",
+            "abbreviation":"kcal",
+            "plural":"calories",
+            "pluralAbbreviation":"kcal"
+         }
+      },
+      {
+         "attribute":"FAT",
+         "description":"Total lipid (fat)",
+         "value":15.05,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"FATRN",
+         "description":"Fatty acids, total trans",
+         "value":0.00,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"FASAT",
+         "description":"Fatty acids, total saturated",
+         "value":2.74,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"CHOLE",
+         "description":"Cholesterol",
+         "value":0.05,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"NA",
+         "description":"Sodium, Na",
+         "value":0.99,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"K",
+         "description":"Potassium, K",
+         "value":0.46,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"CHOCDF",
+         "description":"Carbohydrate, by difference",
+         "value":18.02,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"FIBTG",
+         "description":"Fiber, total dietary",
+         "value":2.00,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"SUGAR",
+         "description":"Sugars, total",
+         "value":1.11,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"PROCNT",
+         "description":"Protein",
+         "value":20.99,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"VITA_IU",
+         "description":"Vitamin A, IU",
+         "value":167.37,
+         "unit":{
+            "id":"ed46fe0c-44fe-4c1f-b3a8-880f92e30930",
+            "name":"IU",
+            "abbreviation":"IU",
+            "plural":"IU",
+            "pluralAbbreviation":"IU"
+         }
+      },
+      {
+         "attribute":"VITC",
+         "description":"Vitamin C, total ascorbic acid",
+         "value":0.00,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"CA",
+         "description":"Calcium, Ca",
+         "value":0.04,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"FE",
+         "description":"Iron, Fe",
+         "value":0.00,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      }
+   ],
+   "images":[
+      {
+         "hostedLargeUrl":"http://i.yummly.com/Gong-Bao-Chicken-Serious-Eats-200269-40061.l.png",
+         "hostedSmallUrl":"http://i.yummly.com/Gong-Bao-Chicken-Serious-Eats-200269-40061.s.png"
+      }
+   ],
+   "name":"Gong Bao Chicken",
+   "yield":"serves 4",
+   "attributes":{
+      "course":[
+         "Main Dishes"
+      ],
+      "cuisine":[
+         "Asian",
+         "Chinese"
+      ]
+   },
+   "totalTimeInSeconds":null,
+   "rating":5,
+   "numberOfServings":4,
+   "source":{
+      "sourceRecipeUrl":"http://www.seriouseats.com/recipes/2012/01/gong-bao-chicken-recipe.html",
+      "sourceSiteUrl":"http://www.seriouseats.com/recipes/",
+      "sourceDisplayName":"Serious Eats"
+   },
+   "id":"Gong-Bao-Chicken-Serious-Eats-200269"
+}

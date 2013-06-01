@@ -1,0 +1,220 @@
+{
+   "attribution":{
+      "html":"<a href='http://www.yummly.com/recipe/Sauteed-Asparagus-and-Peas-Once-Upon-A-Chef-199993'>Saut&eacute;ed Asparagus and Peas recipe</a> information powered by <img alt='Yummly' src='http://static.yummly.com/api-logo.png'/>",
+      "url":"http://www.yummly.com/recipe/Sauteed-Asparagus-and-Peas-Once-Upon-A-Chef-199993",
+      "text":"Saut&eacute;ed Asparagus and Peas recipes: information powered by Yummly",
+      "logo":"http://static.yummly.com/api-logo.png"
+   },
+   "ingredientLines":[
+      "2 tablespoons unsalted butter",
+      "¼ cup minced shallots",
+      "1 bunch thin asparagus spears, ends trimmed and cut into 1½-inch pieces on a diagonal*",
+      "1 cup thawed frozen peas",
+      "Salt",
+      "Freshly ground black pepper",
+      "1 teaspoon honey"
+   ],
+   "flavors":{
+      "Piquant":0.0,
+      "Bitter":8.280212E-4,
+      "Sweet":6.266907E-4,
+      "Salty":2.3570619E-4,
+      "Sour":0.0026227387,
+      "Meaty":3.4797748E-4
+   },
+   "nutritionEstimates":[
+      {
+         "attribute":"ENERC_KCAL",
+         "description":"Energy",
+         "value":96.04,
+         "unit":{
+            "id":"fea252f8-9888-4365-b005-e2c63ed3a776",
+            "name":"calorie",
+            "abbreviation":"kcal",
+            "plural":"calories",
+            "pluralAbbreviation":"kcal"
+         }
+      },
+      {
+         "attribute":"FAT",
+         "description":"Total lipid (fat)",
+         "value":5.75,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"FASAT",
+         "description":"Fatty acids, total saturated",
+         "value":3.62,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"CHOLE",
+         "description":"Cholesterol",
+         "value":0.02,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"NA",
+         "description":"Sodium, Na",
+         "value":0.43,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"K",
+         "description":"Potassium, K",
+         "value":0.16,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"CHOCDF",
+         "description":"Carbohydrate, by difference",
+         "value":9.16,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"FIBTG",
+         "description":"Fiber, total dietary",
+         "value":2.44,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"SUGAR",
+         "description":"Sugars, total",
+         "value":3.89,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"PROCNT",
+         "description":"Protein",
+         "value":2.77,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"VITA_IU",
+         "description":"Vitamin A, IU",
+         "value":1260.07,
+         "unit":{
+            "id":"ed46fe0c-44fe-4c1f-b3a8-880f92e30930",
+            "name":"IU",
+            "abbreviation":"IU",
+            "plural":"IU",
+            "pluralAbbreviation":"IU"
+         }
+      },
+      {
+         "attribute":"VITC",
+         "description":"Vitamin C, total ascorbic acid",
+         "value":0.01,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"CA",
+         "description":"Calcium, Ca",
+         "value":0.02,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"FE",
+         "description":"Iron, Fe",
+         "value":0.00,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      }
+   ],
+   "images":[
+      {
+         "hostedLargeUrl":"http://i.yummly.com/Sauteed-Asparagus-and-Peas-Once-Upon-A-Chef-199993-39829.l.png",
+         "hostedSmallUrl":"http://i.yummly.com/Sauteed-Asparagus-and-Peas-Once-Upon-A-Chef-199993-39829.s.png"
+      }
+   ],
+   "name":"Sautéed Asparagus and Peas",
+   "yield":"serves 4",
+   "attributes":{
+      "course":[
+         "Side Dishes"
+      ],
+      "cuisine":[
+         "American"
+      ]
+   },
+   "totalTimeInSeconds":null,
+   "rating":5,
+   "numberOfServings":4,
+   "source":{
+      "sourceRecipeUrl":"http://www.onceuponachef.com/2011/04/sauteed-asparagus-and-peas.html",
+      "sourceSiteUrl":"http://www.onceuponachef.com/",
+      "sourceDisplayName":"Once Upon A Chef"
+   },
+   "id":"Sauteed-Asparagus-and-Peas-Once-Upon-A-Chef-199993"
+}

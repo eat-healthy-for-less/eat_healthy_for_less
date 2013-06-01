@@ -1,0 +1,239 @@
+{
+   "attribution":{
+      "html":"<a href='http://www.yummly.com/recipe/Cashew-Chicken-Once-Upon-A-Chef-200044'>Cashew Chicken recipe</a> information powered by <img alt='Yummly' src='http://static.yummly.com/api-logo.png'/>",
+      "url":"http://www.yummly.com/recipe/Cashew-Chicken-Once-Upon-A-Chef-200044",
+      "text":"Cashew Chicken recipes: information powered by Yummly",
+      "logo":"http://static.yummly.com/api-logo.png"
+   },
+   "ingredientLines":[
+      "¾ cup roasted, unsalted cashews (these are sometimes in the produce section)",
+      "1 ½ pounds boneless, skinless chicken breasts or tenderloins, cut into 1-1 ½ inch pieces*",
+      "½ teaspoon salt",
+      "¼ teaspoon freshly ground black pepper",
+      "2 tablespoons vegetable oil",
+      "6 medium garlic cloves, minced (use a garlic press)",
+      "8 scallions (1 bunch), white and green parts separated, each cut into 1-inch pieces",
+      "8 scallions (1 bunch), white and green parts separated, each cut into 1-inch pieces",
+      "2 tablespoons rice vinegar",
+      "4 tablespoons hoisin sauce (best brands are Kikkoman or Lee Kum Kee)",
+      "1 tablespoon soy sauce",
+      "¼ cup water",
+      "¼ teaspoon Asian sesame oil"
+   ],
+   "flavors":{
+      "Bitter":0.008489580824971199,
+      "Sour":0.013377664610743523,
+      "Piquant":0.0,
+      "Sweet":0.0011866330169141293,
+      "Salty":0.0016371139790862799,
+      "Meaty":4.1038167546503246E-4
+   },
+   "nutritionEstimates":[
+      {
+         "attribute":"ENERC_KCAL",
+         "description":"Energy",
+         "value":388.65,
+         "unit":{
+            "id":"fea252f8-9888-4365-b005-e2c63ed3a776",
+            "name":"calorie",
+            "abbreviation":"kcal",
+            "plural":"calories",
+            "pluralAbbreviation":"kcal"
+         }
+      },
+      {
+         "attribute":"FAT",
+         "description":"Total lipid (fat)",
+         "value":22.74,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"FATRN",
+         "description":"Fatty acids, total trans",
+         "value":0.20,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"FASAT",
+         "description":"Fatty acids, total saturated",
+         "value":4.08,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"CHOLE",
+         "description":"Cholesterol",
+         "value":0.07,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"NA",
+         "description":"Sodium, Na",
+         "value":0.91,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"K",
+         "description":"Potassium, K",
+         "value":0.68,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"CHOCDF",
+         "description":"Carbohydrate, by difference",
+         "value":19.18,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"FIBTG",
+         "description":"Fiber, total dietary",
+         "value":2.24,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"SUGAR",
+         "description":"Sugars, total",
+         "value":6.30,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"PROCNT",
+         "description":"Protein",
+         "value":28.62,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"VITA_IU",
+         "description":"Vitamin A, IU",
+         "value":321.62,
+         "unit":{
+            "id":"ed46fe0c-44fe-4c1f-b3a8-880f92e30930",
+            "name":"IU",
+            "abbreviation":"IU",
+            "plural":"IU",
+            "pluralAbbreviation":"IU"
+         }
+      },
+      {
+         "attribute":"VITC",
+         "description":"Vitamin C, total ascorbic acid",
+         "value":0.01,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"CA",
+         "description":"Calcium, Ca",
+         "value":0.05,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"FE",
+         "description":"Iron, Fe",
+         "value":0.00,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      }
+   ],
+   "images":[
+      {
+         "hostedLargeUrl":"http://i.yummly.com/Cashew-Chicken-Once-Upon-A-Chef-200044-274913.l.jpg",
+         "hostedSmallUrl":"http://i.yummly.com/Cashew-Chicken-Once-Upon-A-Chef-200044-274913.s.jpg"
+      }
+   ],
+   "name":"Cashew Chicken",
+   "yield":"serves 4",
+   "attributes":{
+      "course":[
+         "Main Dishes"
+      ],
+      "cuisine":[
+         "Asian",
+         "Chinese"
+      ]
+   },
+   "totalTimeInSeconds":null,
+   "rating":5,
+   "numberOfServings":4,
+   "source":{
+      "sourceRecipeUrl":"http://www.onceuponachef.com/2010/03/cashew-chicken.html",
+      "sourceSiteUrl":"http://www.onceuponachef.com/",
+      "sourceDisplayName":"Once Upon A Chef"
+   },
+   "id":"Cashew-Chicken-Once-Upon-A-Chef-200044"
+}
