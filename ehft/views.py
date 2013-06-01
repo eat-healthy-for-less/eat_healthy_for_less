@@ -8,4 +8,4 @@ def index(request):
 def home(request):
     """Presents the search page and displays session specific
     assets if a session is loaded."""
-    return render(request, 'base.html')
+    return render(request, 'setup.html')
