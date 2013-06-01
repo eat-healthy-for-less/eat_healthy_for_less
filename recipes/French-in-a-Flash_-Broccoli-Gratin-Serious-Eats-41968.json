@@ -1,0 +1,220 @@
+{
+   "attribution":{
+      "html":"<a href='http://www.yummly.com/recipe/French-in-a-Flash_-Broccoli-Gratin-Serious-Eats-41968'>Broccoli Gratin recipe</a> information powered by <img alt='Yummly' src='http://static.yummly.com/api-logo.png'/>",
+      "url":"http://www.yummly.com/recipe/French-in-a-Flash_-Broccoli-Gratin-Serious-Eats-41968",
+      "text":"Broccoli Gratin recipes: information powered by Yummly",
+      "logo":"http://static.yummly.com/api-logo.png"
+   },
+   "ingredientLines":[
+      "4 cups broccoli florets",
+      "1/3 cup crème fraîche",
+      "1 cup grated Gruyère",
+      "Kosher salt",
+      "Freshly ground black pepper",
+      "3 tablespoon panko"
+   ],
+   "flavors":{
+      "Piquant":0.0,
+      "Meaty":2.458485832903534E-4,
+      "Bitter":0.001502266270108521,
+      "Salty":1.2790852633770555E-4,
+      "Sour":0.023527616634964943,
+      "Sweet":4.547981370706111E-4
+   },
+   "nutritionEstimates":[
+      {
+         "attribute":"ENERC_KCAL",
+         "description":"Energy",
+         "value":224.65,
+         "unit":{
+            "id":"fea252f8-9888-4365-b005-e2c63ed3a776",
+            "name":"calorie",
+            "abbreviation":"kcal",
+            "plural":"calories",
+            "pluralAbbreviation":"kcal"
+         }
+      },
+      {
+         "attribute":"FAT",
+         "description":"Total lipid (fat)",
+         "value":16.03,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"FASAT",
+         "description":"Fatty acids, total saturated",
+         "value":9.53,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"CHOLE",
+         "description":"Cholesterol",
+         "value":0.05,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"NA",
+         "description":"Sodium, Na",
+         "value":0.27,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"K",
+         "description":"Potassium, K",
+         "value":0.29,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"CHOCDF",
+         "description":"Carbohydrate, by difference",
+         "value":7.32,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"FIBTG",
+         "description":"Fiber, total dietary",
+         "value":2.22,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"SUGAR",
+         "description":"Sugars, total",
+         "value":2.46,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"PROCNT",
+         "description":"Protein",
+         "value":13.83,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"VITA_IU",
+         "description":"Vitamin A, IU",
+         "value":941.61,
+         "unit":{
+            "id":"ed46fe0c-44fe-4c1f-b3a8-880f92e30930",
+            "name":"IU",
+            "abbreviation":"IU",
+            "plural":"IU",
+            "pluralAbbreviation":"IU"
+         }
+      },
+      {
+         "attribute":"VITC",
+         "description":"Vitamin C, total ascorbic acid",
+         "value":0.07,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"CA",
+         "description":"Calcium, Ca",
+         "value":0.43,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      },
+      {
+         "attribute":"FE",
+         "description":"Iron, Fe",
+         "value":0.00,
+         "unit":{
+            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+            "name":"gram",
+            "abbreviation":"g",
+            "plural":"grams",
+            "pluralAbbreviation":"grams"
+         }
+      }
+   ],
+   "images":[
+      {
+         "hostedLargeUrl":"http://i.yummly.com/French-in-a-Flash_-Broccoli-Gratin-Serious-Eats-41968-344151.l.jpg",
+         "hostedSmallUrl":"http://i.yummly.com/French-in-a-Flash_-Broccoli-Gratin-Serious-Eats-41968-344151.s.jpg"
+      }
+   ],
+   "name":"Broccoli Gratin",
+   "yield":"serves 2 to 4",
+   "attributes":{
+      "cuisine":[
+         "American"
+      ],
+      "course":[
+         "Lunch and Snacks",
+         "Side Dishes"
+      ]
+   },
+   "totalTimeInSeconds":null,
+   "rating":5,
+   "numberOfServings":3,
+   "source":{
+      "sourceRecipeUrl":"http://www.seriouseats.com/recipes/2011/06/french-in-a-flash-broccoli-gratin-recipe.html",
+      "sourceSiteUrl":"http://www.seriouseats.com/recipes/",
+      "sourceDisplayName":"Serious Eats"
+   },
+   "id":"French-in-a-Flash_-Broccoli-Gratin-Serious-Eats-41968"
+}

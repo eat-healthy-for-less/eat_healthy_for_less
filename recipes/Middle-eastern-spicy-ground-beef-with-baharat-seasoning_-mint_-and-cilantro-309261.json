@@ -1,0 +1,51 @@
+{
+    "attributes": {}, 
+    "attribution": {
+        "html": "<a href='http://www.yummly.com/recipe/Middle-eastern-spicy-ground-beef-with-baharat-seasoning_-mint_-and-cilantro-309261'>Middle Eastern Spicy Ground Beef with Baharat Seasoning, Mint, and Cilantro recipe</a> information powered by <img alt='Yummly' src='http://static.yummly.com/api-logo.png'/>", 
+        "logo": "http://static.yummly.com/api-logo.png", 
+        "text": "Middle Eastern Spicy Ground Beef with Baharat Seasoning, Mint, and Cilantro recipes: information powered by Yummly", 
+        "url": "http://www.yummly.com/recipe/Middle-eastern-spicy-ground-beef-with-baharat-seasoning_-mint_-and-cilantro-309261"
+    }, 
+    "flavors": {}, 
+    "id": "Middle-eastern-spicy-ground-beef-with-baharat-seasoning_-mint_-and-cilantro-309261", 
+    "images": [
+        {
+            "hostedLargeUrl": "http://i.yummly.com/Middle-eastern-spicy-ground-beef-with-baharat-seasoning_-mint_-and-cilantro-309261-273714.l.jpg", 
+            "hostedSmallUrl": "http://i.yummly.com/Middle-eastern-spicy-ground-beef-with-baharat-seasoning_-mint_-and-cilantro-309261-273714.s.jpg"
+        }
+    ], 
+    "ingredientLines": [
+        "1 tsp. ground coriander", 
+        "1/2 tsp. ground cumin", 
+        "1/2 tsp. ground cardamom", 
+        "1/4 tsp. ground caraway", 
+        "1 tsp. ground turmeric", 
+        "1 T vegetable oil (I used Grapeseed Oil)", 
+        "1 cup finely minced onion", 
+        "2 tsp. minced garlic", 
+        "1 tsp. minced ginger root", 
+        "1 1/4 lb. extra lean ground beef (I used beef with 7% fat)", 
+        "1 can (14.5 oz.) petite dice tomatoes", 
+        "2 tsp. Baharat Seasoning (or to taste; some versions of this mixture are quite spicy so check your package)", 
+        "2-3 T chopped fresh cilantro", 
+        "2-3 T chopped fresh mint", 
+        "couscous, rice, or quinoa for serving (I served it over Whole Wheat Couscous.)", 
+        "couscous, rice, or quinoa for serving (I served it over Whole Wheat Couscous.)", 
+        "couscous, rice, or quinoa for serving (I served it over Whole Wheat Couscous.)", 
+        "couscous, rice, or quinoa for serving (I served it over Whole Wheat Couscous.)", 
+        "couscous, rice, or quinoa for serving (I served it over Whole Wheat Couscous.)", 
+        "fat-free Greek yogurt for serving, if desired", 
+        "fat-free Greek yogurt for serving, if desired"
+    ], 
+    "name": "Middle Eastern Spicy Ground Beef with Baharat Seasoning, Mint, and Cilantro", 
+    "numberOfServings": 5, 
+    "nutritionEstimates": [], 
+    "rating": 5, 
+    "source": {
+        "sourceDisplayName": "Kalyn's Kitchen", 
+        "sourceRecipeUrl": "http://www.kalynskitchen.com/2012/05/recipe-for-middle-eastern-spicy-ground.html", 
+        "sourceSiteUrl": "http://www.kalynskitchen.com/"
+    }, 
+    "totalTimeInSeconds": null, 
+    "yield": "makes 4-6 "
+}

@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block head %}
+
+<style type="text/css">
+  .btn-wide {
+    width:220px;
+  }
+</style>
+
+{% endblock %}
+
+
+{% block navbar_content %}
+
+{% if user.is_authenticated %}
+<a href="/logout/" class="btn btn-primary pull-right">Logout</a>
+<p class="navbar-text pull-right">Hey there, {{ user.username }}!</p>
+{% else %}
+<a href="/login/" class="btn btn-primary pull-right">Sign In</a>
+{% endif %}
+
+{% endblock %}
+
+
+{% block content %}
+
+<div class="container-fluid .content-box">
+  <form class="well form-search" action="setup/" method="post">{% csrf_token %}
+    <h3>Who are you shopping for?</h3>
+    <input type="text" class="input" name="who" value="TODO"/>
+    <h3>Nutritional Goals</h3>
+    <label class="checkbox">
+      <input type="checkbox" name="lowsodium"> Low Sodium
+    </label><br/>
+    <label class="checkbox">
+      <input type="checkbox" name="lowfat"> Low Saturated Fat
+    </label><br/>
+    <label class="checkbox">
+      <input type="checkbox" name="fiber"> High Fiber
+    </label><br/>
+
+    <h3>Budget</h3>
+    <input type="number" class="input" name="budget" placeholder="Weekly Budget" />
+
+    <h3>Location</h3>
+    <input type="number" class="input" name="zip" placeholder="Zip Code" />
+    
+    <br/><br/>
+    <button type="submit" class="btn btn-success btn-wide">Continue</button>
+  </form>
+</div>
+</div> <!-- /container -->
+
+{% endblock %}
