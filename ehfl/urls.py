@@ -8,6 +8,7 @@ urlpatterns = patterns('',
 	url(r'^$', views.index),
 	url(r'^home/$', views.home),
 	url(r'^setup/$', views.post_setup),
+    url(r'^results/$', views.results),
     # Examples:
     # url(r'^$', 'ehfl.views.home', name='home'),
     # url(r'^ehfl/', include('ehfl.foo.urls')),

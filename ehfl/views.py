@@ -1,5 +1,6 @@
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
+import json
 
 def index(request):
 	"""Home Page"""
@@ -16,9 +17,19 @@ def post_setup(request):
 
 def results(request):
 	"""Results Page"""
-	results = json.loads(test_res())
-	request['results_set'] = results
-	return render(request, 'results.html')
+	test_result = json.loads(test_res())
+	result_set = [test_result, test_result]
+	return_set = list()
+	for result in result_set:
+		res = dict()
+		res['name'] = result['name']
+		image_list = result['images']
+		res['img'] = image_list[0]['hostedSmallUrl']
+		res['url'] = result['attribution']['url']
+		print res
+		return_set.append(res)
+
+	return render(request, 'results.html',{'results_set':return_set})
 
 
 def test_res():
