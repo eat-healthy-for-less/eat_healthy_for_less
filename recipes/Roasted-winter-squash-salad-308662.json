@@ -1,236 +1,236 @@
 {
-   "attribution":{
-      "html":"<a href='http://www.yummly.com/recipe/Roasted-winter-squash-salad-308662'>Roasted Winter Squash Salad recipe</a> information powered by <img alt='Yummly' src='http://static.yummly.com/api-logo.png'/>",
-      "url":"http://www.yummly.com/recipe/Roasted-winter-squash-salad-308662",
-      "text":"Roasted Winter Squash Salad recipes: information powered by Yummly",
-      "logo":"http://static.yummly.com/api-logo.png"
-   },
-   "ingredientLines":[
-      "1 pound / 450 g roasted winter squash*, cut into 1-inch / 2.5-cm chunks, skin removed",
-      "4 celery stalks (with leaves if possible), diced",
-      "1/ 2 medium red onion, finely chopped",
-      "2 big handfuls toasted walnuts, chopped",
-      "1/4 cup dried currants / dried figs",
-      "2/3 cup / 160 ml beer (something along the lines of Anchor Steam)",
-      "2 teaspoons Dijon-style mustard",
-      "2 tablespoons cider vinegar",
-      "3 tablespoons olive oil",
-      "1 1/2 teaspoon honey or brown sugar",
-      "1/4 teaspoon fine grain sea salt"
-   ],
-   "flavors":{
-      "Sweet":8.26337723992765E-4,
-      "Salty":4.6958940220065415E-4,
-      "Bitter":0.0017854387406259775,
-      "Piquant":0.0,
-      "Sour":0.0028980192728340626,
-      "Meaty":1.7639357247389853E-4
-   },
-   "nutritionEstimates":[
-      {
-         "attribute":"ENERC_KCAL",
-         "description":"Energy",
-         "value":134.27,
-         "unit":{
-            "id":"fea252f8-9888-4365-b005-e2c63ed3a776",
-            "name":"calorie",
-            "abbreviation":"kcal",
-            "plural":"calories",
-            "pluralAbbreviation":"kcal"
-         }
-      },
-      {
-         "attribute":"FAT",
-         "description":"Total lipid (fat)",
-         "value":9.79,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"FATRN",
-         "description":"Fatty acids, total trans",
-         "value":0.00,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"FASAT",
-         "description":"Fatty acids, total saturated",
-         "value":1.23,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"CHOLE",
-         "description":"Cholesterol",
-         "value":0.00,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"NA",
-         "description":"Sodium, Na",
-         "value":0.07,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"K",
-         "description":"Potassium, K",
-         "value":0.28,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"CHOCDF",
-         "description":"Carbohydrate, by difference",
-         "value":9.83,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"FIBTG",
-         "description":"Fiber, total dietary",
-         "value":1.99,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"SUGAR",
-         "description":"Sugars, total",
-         "value":3.50,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"PROCNT",
-         "description":"Protein",
-         "value":1.50,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"VITA_IU",
-         "description":"Vitamin A, IU",
-         "value":792.22,
-         "unit":{
-            "id":"ed46fe0c-44fe-4c1f-b3a8-880f92e30930",
-            "name":"IU",
-            "abbreviation":"IU",
-            "plural":"IU",
-            "pluralAbbreviation":"IU"
-         }
-      },
-      {
-         "attribute":"VITC",
-         "description":"Vitamin C, total ascorbic acid",
-         "value":0.01,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"CA",
-         "description":"Calcium, Ca",
-         "value":0.03,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"FE",
-         "description":"Iron, Fe",
-         "value":0.00,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      }
-   ],
-   "images":[
-      {
-         "hostedLargeUrl":"http://i.yummly.com/Roasted-winter-squash-salad-308662-342764.l.jpg",
-         "hostedSmallUrl":"http://i.yummly.com/Roasted-winter-squash-salad-308662-342764.s.jpg"
-      }
-   ],
-   "name":"Roasted Winter Squash Salad",
-   "yield":"serves 6",
-   "attributes":{
-      "course":[
-         "Salads"
-      ],
-      "cuisine":[
-         "American"
-      ]
-   },
-   "totalTimeInSeconds":null,
-   "rating":5,
-   "numberOfServings":6,
-   "source":{
-      "sourceRecipeUrl":"http://www.101cookbooks.com/archives/roasted-winter-squash-salad-recipe.html",
-      "sourceSiteUrl":"http://www.101cookbooks.com/",
-      "sourceDisplayName":"101 Cookbooks"
-   },
-   "id":"Roasted-winter-squash-salad-308662"
+  "attribution":{
+    "html":"<a href='http://www.yummly.com/recipe/Roasted-winter-squash-salad-308662'>Roasted Winter Squash Salad recipe</a> information powered by <img alt='Yummly' src='http://static.yummly.com/api-logo.png'/>",
+    "url":"http://www.yummly.com/recipe/Roasted-winter-squash-salad-308662",
+    "text":"Roasted Winter Squash Salad recipes: information powered by Yummly",
+    "logo":"http://static.yummly.com/api-logo.png"
+  },
+  "ingredientLines":[
+    ["1", "pound", "/ 450 g roasted winter squash*, cut into 1-inch / 2.5-cm chunks, skin removed"],
+    ["4", "", "celery stalks (with leaves if possible), diced"],
+    ["1/ 2", "", "medium red onion, finely chopped"],
+    ["2", "", "big handfuls toasted walnuts, chopped"],
+    ["1/4", "cup", "dried currants / dried figs"],
+    ["2/3", "cup", "/ 160 ml beer (something along the lines of Anchor Steam)"],
+    ["2", "teaspoons", "Dijon-style mustard"],
+    ["2", "tablespoons", "cider vinegar"],
+    ["3", "tablespoons", "olive oil"],
+    ["1 1/2", "teaspoon", "honey or brown sugar"],
+    ["1/4", "teaspoon", "fine grain sea salt"]
+  ],
+  "flavors":{
+    "Sweet":8.26337723992765E-4,
+    "Salty":4.6958940220065415E-4,
+    "Bitter":0.0017854387406259775,
+    "Piquant":0.0,
+    "Sour":0.0028980192728340626,
+    "Meaty":1.7639357247389853E-4
+  },
+  "nutritionEstimates":[
+    {
+    "attribute":"ENERC_KCAL",
+    "description":"Energy",
+    "value":134.27,
+    "unit":{
+      "id":"fea252f8-9888-4365-b005-e2c63ed3a776",
+      "name":"calorie",
+      "abbreviation":"kcal",
+      "plural":"calories",
+      "pluralAbbreviation":"kcal"
+    }
+  },
+  {
+    "attribute":"FAT",
+    "description":"Total lipid (fat)",
+    "value":9.79,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"FATRN",
+    "description":"Fatty acids, total trans",
+    "value":0.00,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"FASAT",
+    "description":"Fatty acids, total saturated",
+    "value":1.23,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"CHOLE",
+    "description":"Cholesterol",
+    "value":0.00,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"NA",
+    "description":"Sodium, Na",
+    "value":0.07,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"K",
+    "description":"Potassium, K",
+    "value":0.28,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"CHOCDF",
+    "description":"Carbohydrate, by difference",
+    "value":9.83,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"FIBTG",
+    "description":"Fiber, total dietary",
+    "value":1.99,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"SUGAR",
+    "description":"Sugars, total",
+    "value":3.50,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"PROCNT",
+    "description":"Protein",
+    "value":1.50,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"VITA_IU",
+    "description":"Vitamin A, IU",
+    "value":792.22,
+    "unit":{
+      "id":"ed46fe0c-44fe-4c1f-b3a8-880f92e30930",
+      "name":"IU",
+      "abbreviation":"IU",
+      "plural":"IU",
+      "pluralAbbreviation":"IU"
+    }
+  },
+  {
+    "attribute":"VITC",
+    "description":"Vitamin C, total ascorbic acid",
+    "value":0.01,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"CA",
+    "description":"Calcium, Ca",
+    "value":0.03,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"FE",
+    "description":"Iron, Fe",
+    "value":0.00,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  }
+  ],
+  "images":[
+    {
+    "hostedLargeUrl":"http://i.yummly.com/Roasted-winter-squash-salad-308662-342764.l.jpg",
+    "hostedSmallUrl":"http://i.yummly.com/Roasted-winter-squash-salad-308662-342764.s.jpg"
+  }
+  ],
+  "name":"Roasted Winter Squash Salad",
+  "yield":"serves 6",
+  "attributes":{
+    "course":[
+      "Salads"
+    ],
+    "cuisine":[
+      "American"
+    ]
+  },
+  "totalTimeInSeconds":null,
+  "rating":5,
+  "numberOfServings":6,
+  "source":{
+    "sourceRecipeUrl":"http://www.101cookbooks.com/archives/roasted-winter-squash-salad-recipe.html",
+    "sourceSiteUrl":"http://www.101cookbooks.com/",
+    "sourceDisplayName":"101 Cookbooks"
+  },
+  "id":"Roasted-winter-squash-salad-308662"
 }
