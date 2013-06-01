@@ -1,4 +1,6 @@
-# Django settings for ehft project.
+import os
+
+# Django settings for ehfl project.
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -10,10 +12,12 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
+PARENT_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), '')
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '/tmp/ehft.sqlite',                      # Or path to database file if using sqlite3.
+        'NAME': PARENT_DIR + 'ehfl.sqlite',                      # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
         'USER': '',
         'PASSWORD': '',
@@ -104,10 +108,10 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'ehft.urls'
+ROOT_URLCONF = 'ehfl.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'ehft.wsgi.application'
+WSGI_APPLICATION = 'ehfl.wsgi.application'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
@@ -117,16 +121,16 @@ TEMPLATE_DIRS = (
 )
 
 INSTALLED_APPS = (
+    'ehfl',
+
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # Uncomment the next line to enable the admin:
-    # 'django.contrib.admin',
-    # Uncomment the next line to enable admin documentation:
-    # 'django.contrib.admindocs',
+    'django.contrib.admin',
+    'django.contrib.admindocs',
 )
 
 # A sample logging configuration. The only tangible logging
