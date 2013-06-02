@@ -5,6 +5,7 @@
 function repl(replaceId, newmeal) {
   console.log(replaceId + newmeal)
   $('#meal'+replaceId).html($('#meal-'+newmeal).html())
+  $('#changeMealModal').modal('hide')
 }
 
 $(document).ready(function() {
