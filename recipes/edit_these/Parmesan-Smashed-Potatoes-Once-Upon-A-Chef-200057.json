@@ -6,12 +6,12 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    ["2", "pounds", "baby red potatoes, sliced in half (make sure they’re all about the same size)"],
-    ["6", "tablespoons", "unsalted butter, cut into tablespoons"],
-    ["½", "cup", "freshly grated Parmigiano Reggiano"],
-    ["¾", "teaspoon", "salt"],
-    ["½", "teaspoon", "freshly ground black pepper"],
-    ["1", "teaspoon", "fresh chives, finely chopped (optional)"]
+    [2, "pounds", "baby red potatoes, sliced in half (make sure they’re all about the same size)"],
+    [6, "tablespoons", "unsalted butter, cut into tablespoons"],
+    [0.5, "cups", "freshly grated Parmigiano Reggiano"],
+    [0.75, "teaspoons", "salt"],
+    [0.5, "teaspoons", "freshly ground black pepper"],
+    [1, "teaspoons", "fresh chives, finely chopped (optional)"]
   ],
   "flavors":{
     "Bitter":0.004111938644200563,

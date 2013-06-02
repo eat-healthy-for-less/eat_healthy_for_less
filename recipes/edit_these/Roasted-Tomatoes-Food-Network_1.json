@@ -6,13 +6,13 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    ["12", "", "plum tomatoes, halved lengthwise, cores and seeds removed"],
-    ["4", "tablespoons", "good olive oil"],
-    ["1 1/2", "tablespoons", "balsamic vinegar"],
-    ["2", "", "large garlic cloves, minced"],
-    ["2", "teaspoons", "sugar"],
-    ["1 1/2", "teaspoons", "kosher salt"],
-    ["1/2", "teaspoon", "freshly ground black pepper"]
+    [12, "", "plum tomatoes"],
+    [4, "tablespoons", "olive oil"],
+    [1.5, "tablespoons", "balsamic vinegar"],
+    [2, "", "large garlic cloves"],
+    [2, "teaspoons", "sugar"],
+    [1.5, "teaspoons", "kosher salt"],
+    [0.5, "teaspoons", "ground black pepper"]
   ],
   "flavors":{
     "Sour":0.006490821484476328,

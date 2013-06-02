@@ -6,12 +6,12 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    ["1", "tablespoon", "oil, peanut or sesame"],
-    ["2", "cloves", "garlic, thinly sliced"],
-    ["1", "pound", "fresh green beans, trimmed"],
-    ["1", "tablespoon", "white sugar"],
-    ["2", "tablespoons", "oyster sauce"],
-    ["2", "teaspoons", "soy sauce"]
+    [1, "tablespoons", "oil, peanut or sesame"],
+    [2, "cloves", "garlic, thinly sliced"],
+    [1, "pounds", "fresh green beans, trimmed"],
+    [1, "tablespoons", "white sugar"],
+    [2, "tablespoons", "oyster sauce"],
+    [2, "teaspoons", "soy sauce"]
   ],
   "flavors":{
     "Piquant":0.0,

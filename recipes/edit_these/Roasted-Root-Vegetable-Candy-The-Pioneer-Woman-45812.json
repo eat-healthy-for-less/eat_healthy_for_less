@@ -6,12 +6,12 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    ["1", "", "whole celery root, peeled and diced"],
-    ["3", "", "whole parsnips, peeled and diced"],
-    ["6", "", "whole carrots (varied colors if you can find them), peeled and diced"],
-    ["", "", "other root vegetables, peeled and diced"],
-    ["", "", "olive oil, for drizzling"],
-    ["", "", "salt and pepper, to taste"]
+    [1, "", "whole celery root"],
+    [3, "", "whole parsnips"],
+    [6, "", "whole carrots"],
+    [2, "", "other root vegetables"],
+    [1, "tablespoons", "olive oil, for drizzling"],
+    [1, "teaspoons", "salt and pepper"]
   ],
   "flavors":{
     "Sweet":2.3837902E-5,

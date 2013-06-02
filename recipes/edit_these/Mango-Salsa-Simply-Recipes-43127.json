@@ -6,13 +6,13 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    ["1", "", "ripe mango, peeled, pitted, and diced (about 1 1/2 cup) (see: how to cut a mango)"],
-    ["1/2", "", "medium red onion, finely chopped"],
-    ["1", "", "jalapeno chile, minced (include ribs and seeds for a hotter taste if desired)"],
-    ["1", "", "small cucumber, peeled and diced (about 1 cup)"],
-    ["3", "tbsp", "fresh cilantro leaves, chopped"],
-    ["3", "tbsp", "fresh lime juice"],
-    ["", "", "salt and pepper to taste"]
+    [1, "", "ripe mango)"],
+    [0.5, "", "red onion"],
+    [1, "", "jalapeno chile"],
+    [1, "", "small cucumber, peeled and diced (about 1 cup)"],
+    [3, "tsblespoons", "chopped cilantro leaves"],
+    [3, "tablespoons", "fresh lime juice"],
+    [0.5, "teaspoons", "salt and pepper"]
   ],
   "flavors":{
     "Meaty":2.223691626568325E-5,

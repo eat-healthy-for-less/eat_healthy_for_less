@@ -30,17 +30,17 @@
   }
   ],
   "ingredientLines": [
-    ["12", "ounces", "white mushrooms, cleaned and stems removed"],
-    ["1", "pound", "lump crabmeat, picked over for shells and cartilage"],
-    ["1", "teaspoon", "chopped garlic"],
-    ["1/2", "cup", "chopped pickled jalapenos"],
-    ["1/4", "pound", "pepper jack cheese, grated"],
-    ["1", "teaspoon", "worcestershire sauce"],
-    ["1", "teaspoon", "hot sauce"],
-    ["1/2", "teaspoon", "salt"],
-    ["1/4", "cup", "mayonnaise"],
-    ["2", "ounces", "parmigiano-reggiano cheese, grated"],
-    ["2", "heads", "radicchio, cut in half and grilled"]
+    [12, "ounces", "white mushrooms"],
+    [1, "pounds", "lump crabmeat"],
+    [1, "teaspoons", "chopped garlic"],
+    [0.5, "cups", "chopped pickled jalapenos"],
+    [0.25, "pounds", "grated pepper jack cheese"],
+    [1, "teaspoons", "worcestershire sauce"],
+    [1, "teaspoons", "hot sauce"],
+    [0.5, "teaspoons", "salt"],
+    [0.25, "cups", "mayonnaise"],
+    [2, "ounces", "grated parmigiano-reggiano cheese"],
+    [2, "heads", "radicchio"]
   ],
   "name": "Spicy Crab Stuffed Mushrooms",
   "numberOfServings": 8,

@@ -6,19 +6,19 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    ["1", "", "large egg"],
-    ["3", "tablespoons", "fresh basil, finely chopped (plus more for serving)"],
-    ["3", "tablespoons", "fresh parsley, finely chopped"],
-    ["1", "teaspoon", "dried oregano"],
-    ["¼", "teaspoon", "salt"],
-    ["¼", "teaspoon", "pepper"],
-    ["2", "cloves", "garlic, minced"],
-    ["¼", "cup", "water"],
-    ["1 ½", "pounds", "ground meatloaf mix (approximately equal parts ground beef, pork and veal)"],
-    ["¾", "cup", "dried Italian Style bread crumbs (such as Progresso)"],
-    ["½", "cup", "freshly grated Parmigiano-Reggiano cheese (plus more for serving)"],
-    ["", "", "Large jar (32 oz) good quality Marinara sauce, such as Rao’s"],
-    ["1", "pound", "spaghetti"]
+    [1, "", "large egg"],
+    [3, "tablespoons", "chopped fresh basil"],
+    [3, "tablespoons", "chopped fresh parsley"],
+    [1, "teaspoons", "dried oregano"],
+    [0.25, "teaspoons", "salt"],
+    [0.25, "teaspoons", "pepper"],
+    [2, "cloves", "garlic"],
+    [0.25, "cups", "water"],
+    [1.5, "pounds", "ground meatloaf mix"],
+    [0.75, "cups", "dried bread crumbs"],
+    [0.5, "cups", "grated Parmigiano-Reggiano cheese"],
+    [32, "ounces", "Marinara sauce"],
+    [1, "pounds", "spaghetti"]
   ],
   "flavors":{
     "Piquant":0.0,

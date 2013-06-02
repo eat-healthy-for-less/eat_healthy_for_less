@@ -29,16 +29,16 @@
   }
   ],
   "ingredientLines": [
-    ["1", "lb", "green beans (trimmed)"],
-    ["1/3", "cup", "water"],
-    ["1", "teaspoon", "salt"],
-    ["2", "tablespoons", "ghee or 2 tablespoons butter"],
-    ["3 -4", "garlic cloves (minced)"],
-    ["1", "in", "knob ginger (minced)"],
-    ["2", "teaspoons", "turmeric"],
-    ["2", "teaspoons", "ground cumin"],
-    ["1/8", "teaspoon", "cayenne"],
-    ["3", "tablespoons", "sesame seeds"]
+    [1, "pounds", "green beans"],
+    [0.3, "cups", "water"],
+    [1, "teaspoons", "salt"],
+    [2, "tablespoons", "ghee"],
+    [4, "garlic cloves"],
+    [1, "inches", "minced knob ginger"],
+    [2, "teaspoons", "turmeric"],
+    [2, "teaspoons", "ground cumin"],
+    [0.25, "teaspoons", "cayenne"],
+    [3, "tablespoons", "sesame seeds"]
   ],
   "name": "Spicy Green Beans",
   "numberOfServings": 6,

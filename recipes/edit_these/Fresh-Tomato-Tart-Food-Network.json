@@ -6,14 +6,14 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    ["1", "", "store-bought or homemade dough for tart shell"],
-    ["8", "ounces", "mozzarella cheese, shredded"],
-    ["2", "tablespoons", "chopped fresh basil, plus extra for garnish"],
-    ["4", "", "to 6 plum tomatoes, sliced 1/4-inch"],
-    ["1/2", "teaspoon", "salt"],
-    ["1/4", "teaspoon", "black pepper"],
-    ["1/4", "cup", "extra virgin olive oil"],
-    ["", "", "basil, chopped for garnish"]
+    [0.5, "pounds", "dough"],
+    [8, "ounces", "shredded mozzarella cheese"],
+    [2, "tablespoons", "chopped fresh basil"],
+    [4, "", "sliced plum tomatoes"],
+    [0.5, "teaspoons", "salt"],
+    [0.25, "teaspoons", "black pepper"],
+    [0.25, "cups", "extra virgin olive oil"],
+    [0.5, "cups", "chopped basil"]
   ],
   "flavors":{
     "Sour":0.0016263992292806506,

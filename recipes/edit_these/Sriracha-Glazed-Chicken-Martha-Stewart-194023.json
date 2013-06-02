@@ -29,13 +29,13 @@
   }
   ],
   "ingredientLines": [
-    ["1/4", "cup", "soy sauce"],
-    ["2", "tablespoons", "plus 1 teaspoon white vinegar"],
-    ["1", "tablespoon", "sriracha sauce"],
-    ["1", "tablespoon", "sugar"],
-    ["1 1/2", "teaspoons", "grated peeled fresh ginger"],
-    ["1 1/2", "teaspoons", "toasted sesame oil"],
-    ["1 1/2", "pounds", "chicken wings, cut in half at joint (wing tips removed), or drumsticks"]
+    [0.25, "cups", "soy sauce"],
+    [2, "tablespoons", "white vinegar"],
+    [1, "tablespoon", "sriracha sauce"],
+    [1, "tablespoons", "sugar"],
+    [1.5, "teaspoons", "grated fresh ginger"],
+    [1.5, "teaspoons", "toasted sesame oil"],
+    [1.5, "pounds", "chicken wings"]
   ],
   "name": "Sriracha-Glazed Chicken",
   "numberOfServings": 4,

@@ -6,13 +6,13 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    ["1", "", "head garlic"],
-    ["1", "teaspoon", "olive oil"],
-    ["4", "", "medium russet potatoes, skin-on scrubbed (for creamy mashed potatoes, peel the potatoes)"],
-    ["3", "tablespoons", "butter"],
-    ["1/4", "cup", "milk or heavy cream (or more)"],
-    ["1 1/2", "teaspoons", "kosher salt (or 3/4 teaspoon table salt)"],
-    ["1", "teaspoon", "minced fresh chives"]
+    [1, "", "garlic head"],
+    [1, "teaspoons", "olive oil"],
+    [4, "", "russet potatoes"],
+    [3, "tablespoons", "butter"],
+    [0.25, "cups", "milk"],
+    [1.5, "teaspoons", "table salt"],
+    [1, "teaspoons", "minced fresh chives"]
   ],
   "flavors":{
     "Piquant":0.0,
