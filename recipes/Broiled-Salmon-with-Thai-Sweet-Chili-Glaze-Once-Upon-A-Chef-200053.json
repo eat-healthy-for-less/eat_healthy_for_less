@@ -29,11 +29,11 @@
   }
   ],
   "ingredientLines": [
-    ["1-1/2", "pounds", "salmon, skin on or off"],
-    ["6", "tablespoons", "Thai Sweet Chili Sauce (best quality, such as Mae Ploy or Thai Kitchen)"],
-    ["3", "tablespoons", "soy sauce"],
-    ["1", "tablespoon", "peeled and finely grated fresh ginger"],
-    ["1-2", "", "scallions, green parts only, finely sliced"]
+    [0.5, "pounds", "salmon"],
+    [6, "tablespoons", "Thai sweet chili sauce"],
+    [3, "tablespoons", "soy sauce"],
+    [1, "tablespoons", "fresh ginger"],
+    [1, "", "scallions"]
   ],
   "name": "Broiled Salmon with Thai Sweet Chili Glaze",
   "numberOfServings": 4,
