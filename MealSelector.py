@@ -14,13 +14,13 @@ class Meal:
     a class representing a single meal.
     ingrediants is either a dictionary or an a-list associating ingrediants to
     amounts, where amount is the actual amount divided by the smallest amount one can buy
-    nutrition and convinience go on an arbitrary scale.  
+    nutrition and convenience go on an arbitrary scale.  
     """
 
-    def __init__(self, ingrediants, nutrition, convinience,tags=[]):
+    def __init__(self, ingrediants, nutrition, convenience,tags=[]):
         self.ingrediants = ingrediants 
         self.nutrition = nutrition
-        self.convinience = convinience
+        self.convenience = convenience
         
 
 ##### type Menu = [Meal] ##### (I can't write this in Python, but the spirit is still there)
@@ -41,9 +41,9 @@ def menu_price(price_per,menu):
                 result[ing] = val
     return sum(map(lambda p: price_per(p[0],p[1]),result.items()))
 
-#simple sums of conviniences and nutritions
+#simple sums of conveniences and nutritions
 menu_nutrition = lambda menu : sum(map(lambda m: m.nutition,menu))
-menu_convinience = lambda menu : sum(map(lambda m: m.convinience,menu))
+menu_convenience = lambda menu : sum(map(lambda m: m.convenience,menu))
 
 # an implementation of Trey's pricing algorithm, where price_fun(ing) returns the price-per-unit of an infinite amount of ing
 # perhaps a good default base_prices_fun
@@ -56,20 +56,20 @@ def logarithmic_pricing(price_fun,ing,amt):
 class MealPenalizer:
     """ 
     A class for computing the penalty of a Menu.
-    requires a budget and coefficients of each part of the penalty (b_pen,c_pen,n_pen), so one can choose to prioritze health, convinience or cost.
+    requires a budget and coefficients of each part of the penalty (b_pen,c_pen,n_pen), so one can choose to prioritze health, convenience or cost.
     The attribute base_prices_fun :: (Ingrediant,Amount) -> Price
     """
     def __init__(self,budget,b_pen,c_pen,n_pen,base_prices_fun):
         self.budget = budget
         self.budget_penalty=b_pen
         self.nutrition_penalty=n_pen
-        self.convinience_penalty=c_pen
+        self.convenience_penalty=c_pen
         self.base_prices_fun = base_prices_fun
     tag_reqs=[]
     def penalty(self,menu):
         b_pen = self.budget_penalty*max(0,menu_price(menu,self.base_prices_fun))-self.budget)
         n_pen = self.nutrition_penalty*menu_nutrition(menu)
-        c_pen = self.convinience_penalty*menu_convinience(menu)
+        c_pen = self.convenience_penalty*menu_convenience(menu)
         return b_pen-n_pen+c_pen
             
 class SelectionDriver:
