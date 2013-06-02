@@ -8,6 +8,7 @@ from django.shortcuts import render
 from ehfl.forms import MenuPreferencesForm
 from ehfl.MealResult import MealResult, FakeResult
 from ehfl import MealSelector
+from ehfl import recipe
 
 
 def index(request):
@@ -32,16 +33,28 @@ def menu(request, form):
     budget = form.cleaned_data['budget']
     address = form.cleaned_data['address']
 
-    constraints = []
+    constraint_names = []
     for constraint_name in ('low_sugar', 'high_fiber', 'low_sodium'):
         if form.cleaned_data[constraint_name]:
-            constraints.append(constraint_name)
+            constraint_names.append(constraint_name)
+
+    # choose recipes that match constraints
+    recipes = recipe.read_recipes()
+    recipes = [r for r in recipes
+               if r.satisfies_constraints(constraint_names)]
 
     calories_per_meal = calories_per_day * 0.75
-    menu = MealSelector.select_optimal_menu(budget, calories_per_meal, constraints)
+    menu = MealSelector.select_optimal_menu(recipes, budget, calories_per_meal)
     for m in menu:
-      m['est_price'] = m.get_display_price(calories_per_meal)
+        m.est_price = m.get_display_price(calories_per_meal)
+
+    alternate_meals = [r for r in recipes if r not in menu]
+    for m in alternate_meals:
+        m.est_price = m.get_display_price(calories_per_meal)
+
+    # debug
     print >> sys.stderr, 'menu:', [r.name for r in menu]
+
     return render(request, 'results.html')
 
 
