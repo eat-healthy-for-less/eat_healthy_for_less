@@ -6,7 +6,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 
 from ehfl.forms import MenuPreferencesForm
-from ehfl.MealResult import MealResult, FakeResult
+from ehfl.recipe import read_recipes, ingredientRetailPrice, INGREDIENTS, convertToKilos
 from ehfl import MealSelector
 from ehfl import recipe
 
@@ -45,68 +45,50 @@ def menu(request, form):
 
     calories_per_meal = calories_per_day * 0.75
     menu = MealSelector.select_optimal_menu(recipes, budget, calories_per_meal)
-    for m in menu:
-        m.est_price = str(m.get_display_price(calories_per_meal))[:4]
-        m.cook_time = m.convenience/60
-        m.img = m.images[0]['hostedSmallUrl']
     alternate_meals = [r for r in recipes if r not in menu]
     for m in alternate_meals:
         m.est_price = m.get_display_price(calories_per_meal)
+        m.est_price = str(m.get_display_price(calories_per_meal))[:5]
+        m.cook_time = m.convenience/60
+        m.img = m.images[0]['hostedSmallUrl']
+    for m in menu:
+        m.est_price = str(m.get_display_price(calories_per_meal))[:5]
+        m.cook_time = m.convenience/60
+        m.img = m.images[0]['hostedSmallUrl']
+        m.alterns = alternate_meals
     # debug
     print >> sys.stderr, 'menu:', [r.name for r in menu]
-    return render(request, 'results.html', {'results_set':menu})
+    return render(request, 'results.html', {'results_set':menu, 'cals':calories_per_meal})
 
-def results(request):
-   """Results Page"""
-   # test_result = json.loads(test_res())
-   # result_set = [test_result]*7
-   # return_set = list()
-   # for result in result_set:
-   #    res = dict()
-   #    res['id'] = 1
-   #    res['name'] = result['name']
-   #    image_list = result['images']
-   #    res['img'] = image_list[0]['hostedSmallUrl']
-   #    res['url'] = result['attribution']['url']
-   #    res['est_price'] = "100"
-   #    res['cook_time'] = "100"
-   #    print res
-   #    return_set.append(res)
-   x = MealResult()
-   return_set = [x]*7
-   return render(request, 'results.html',{'results_set':return_set})
+def get_menu_price(recipes, calories_per_meal):
+    ing_qty_kg = {}
+    for r in recipes:
+        scaling_factor = calories_per_meal / r.calories
+        for qty, unit, ing_name in r.ingredientLines:
+            ing = INGREDIENTS[ing_name]
+            qty_kg = scaling_factor * convertToKilos(qty, unit, ing.density)
+            old_qty = ing_qty_kg.get(ing_name, 0.0)
+            ing_qty_kg[ing_name] = old_qty + qty_kg
+
+    price = 0.0
+    res_list = list()
+    for ing_name, qty_kg in ing_qty_kg.iteritems():
+        res_list.append([ing_name, str(qty_kg)[:5], str(ingredientRetailPrice(qty_kg, 'kilograms', ing_name))[:7]])
+        price += ingredientRetailPrice(qty_kg, 'kilograms', ing_name)
+
+    return res_list, str(price)[:6]
+
 
 def savemenu(request):
   meal_set = [request.GET.get('meal-1'), request.GET.get('meal-2'),
   request.GET.get('meal-3'),request.GET.get('meal-4'),request.GET.get('meal-5'),
   request.GET.get('meal-6'),request.GET.get('meal-7')]
-  res_set = list()
+  cals = float(request.GET.get('cals'))
+  recipe_set = list()
+  recipes = dict(((i.name, i) for i in read_recipes()))
+  # print recipes.keys()
   for id in meal_set:
-    pass
-    #TODO: get python mealresults from id's
-    # combine with shopping list
-
-def shoppinglist(request):
-    """
-    Presents the shoppinglist page for user input
-    """
-    test_result = json.loads(test_res())
-    result_set = [test_result]*14
-    return_set = list()
-    for result in result_set:
-       res = dict()
-       res['name'] = result['name']
-       image_list = result['images']
-       res['img'] = image_list[0]['hostedSmallUrl']
-       res['url'] = result['attribution']['url']
-       res['est_price'] = "200"
-       res['cook_time'] = "100"
-       res['ingredient'] = result['ingredientLines']
-
-
-       print res
-       return_set.append(res)
-
-    return render(request, 'shoppinglist.html', {'results_set':return_set})
-
-    """return render(request, 'shoppinglist.html')"""
+    recipe_set.append(recipes[id])
+  res_set, price = get_menu_price(recipe_set, cals)
+  print res_set, price
+  return render(request, 'shoppinglist.html', {'results_set':res_set, 'total':price})
