@@ -25,8 +25,8 @@
 
 {% block content %}
 
-<div class="container-fluid .content-box">
-  <form class="well form-search" action="setup/" method="post">{% csrf_token %}
+<div class="container-fluid content-box">
+  <form action="setup/" method="post">{% csrf_token %}
     <h3>Who are you shopping for?</h3>
     <input type="text" class="input" name="who" value="TODO"/>
     <h3>Nutritional Goals</h3>

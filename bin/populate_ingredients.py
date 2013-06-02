@@ -11,8 +11,10 @@ sys.path.insert(0, PARENT_DIR)
 
 from glob import glob
 
-from ehfl import models
+from ehfl.models import Ingredient
 from ehfl.recipe import read_recipes
 
 recipes = read_recipes()
-print json.dumps(recipes, sort_keys=True, indent=4)
+for r in recipes:
+    for qty, unit, name in r.ingredientLines:
+        Ingredient.objects.get_or_create(name=name)

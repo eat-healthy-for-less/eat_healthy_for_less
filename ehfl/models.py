@@ -6,10 +6,13 @@ class QuantityUnit(models.Model):
     """
     Example: cups, tablespoons, pounds
 
-    There is a special QuantityUnit (id 1) to use if there is no natural unit (like "2 onions").
-    Its name is the empty string.
+    There is a special QuantityUnit (id 1) to use if there is no natural
+    unit (like "2 onions").  Its name is the empty string.
     """
-    name = models.CharField(max_length=160)
+    name = models.CharField(max_length=160, blank=True)
+
+    def __unicode__(self):
+        return '%s: %s' % (self.id, self.name)
 
 
 class QuantityUnitConversion(models.Model):
@@ -20,5 +23,16 @@ class QuantityUnitConversion(models.Model):
 
 class Ingredient(models.Model):
     name = models.CharField(max_length=160)
-    quantity_unit = models.ForeignKey('QuantityUnit')
-    price = models.FloatField()
+    quantity_unit = models.ForeignKey('QuantityUnit', null=True, blank=True)
+    price = models.FloatField(null=True, blank=True)
+
+    def __unicode__(self):
+        if self.quantity_unit is None:
+            qname = None
+        else:
+            qname = self.quantity_unit.name
+        return (u'%s Ingredient(%s, %s, %s)'
+                % (self.id,
+                   self.name,
+                   qname,
+                   self.price))

@@ -1,0 +1,44 @@
+[
+    {
+        "pk": 1, 
+        "model": "ehfl.quantityunit", 
+        "fields": {
+            "name": ""
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "ehfl.quantityunit", 
+        "fields": {
+            "name": "tablespoons"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "ehfl.quantityunit", 
+        "fields": {
+            "name": "pounds"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "ehfl.quantityunit", 
+        "fields": {
+            "name": "teaspoons"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "ehfl.quantityunit", 
+        "fields": {
+            "name": "ounces"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "ehfl.quantityunit", 
+        "fields": {
+            "name": "cups"
+        }
+    }
+]

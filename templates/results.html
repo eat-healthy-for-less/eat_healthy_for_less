@@ -1,40 +1,58 @@
 {% extends "base.html" %}
+{% block head %}
+
+{% endblock %}
+
 
 {% block content %}
-<div class="container-fluid">
+<!-- Modal for login/not_login -->
+<div id="changeMealModal" class="modal hide fade" tabindex="-1"
+     role="dialog" aria-labelledby="changeMealModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal"
+            aria-hidden="true">x</button>
+    <h3 id="changeMealModalLabel">Change this meal</h3>
+  </div>
+  <div class="modal-body">
+    Replace...<br/>
+    
+  </div>
+  <div class="modal-footer">
+    <a href="/login/" class="btn">Log in</a>
+    <a href="/signup/" class="btn btn-primary">Sign up</a>
+  </div>
+</div>
+
+<div class="container-fluid" style="margin-bottom:150px;">
     <!-- Search results section -->
+<form class="" action="setup/" method="post">
 
 {% for result in results_set %}
 {% ifequal forloop.counter 1 %}
   <h2>Monday</h2>
 {% endifequal %}
-{% ifequal forloop.counter 3 %}
+{% ifequal forloop.counter 2 %}
   <h2>Tuesday</h2>
 {% endifequal %}
-{% ifequal forloop.counter 5 %}
+{% ifequal forloop.counter 3 %}
   <h2>Wednesday</h2>
 {% endifequal %}
-{% ifequal forloop.counter 7 %}
+{% ifequal forloop.counter 4 %}
   <h2>Thursday</h2>
 {% endifequal %}
-{% ifequal forloop.counter 9 %}
+{% ifequal forloop.counter 5 %}
   <h2>Friday</h2>
 {% endifequal %}
-{% ifequal forloop.counter 11 %}
+{% ifequal forloop.counter 6 %}
   <h2>Saturday</h2>
 {% endifequal %}
-{% ifequal forloop.counter 13 %}
+{% ifequal forloop.counter 7 %}
   <h2>Sunday</h2>
 {% endifequal %}
-
-    <div class="span8">
+     <div class="span8">
       <div class="content-box">
-        <div class="span1 hidden-phone hidden-tablet">
-          <img src='{{ result.img }}' />
-        </div>
-
         <!-- Result link and text -->
-        <div class="span11 span12-tablet span12-phone" style="margin-bottom:55px;">
+        <div class="span1" style="margin-bottom:55px;">
           <h4>
             <a href="{{ result.url }}">
           {% autoescape off %} {# This is for showing raw html symbols #}
@@ -42,19 +60,24 @@
           {% endautoescape %}
         </a>
           </h4>
-              <div class='hidden-desktop' style="float:left; margin-right:10px">
+              <div class='hidden-desktop' style="float:left; margin-right:10px;">
                 <img src='{{ result.img }}' />
               </div>
               ~${{ result.est_price }}, {{ result.cook_time }} minutes
+              <a href="#" class="btn" style="float:right;">Change Meal</a>
             </div>
         </div> <!-- /span -->
       </div> <!-- /row -->
 {% endfor %}
 
+  
+  <button type="submit" class="btn btn-success btn-large pull-right">Looks good!</button>
+  <button type="submit" style="margin-right:5px;" class="btn btn-large pull-right">Go back</button>
+</form>
 {% if results.size == 0 %}
 <p>Sorry, we couldn't find any results matching your budget.</p>
 {% endif %}
 
-    </div> <!-- /span Search Results section END -->
+</div> <!-- /span Search Results section END -->
 
 {% endblock %}
