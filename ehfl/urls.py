@@ -8,6 +8,7 @@ urlpatterns = patterns('',
     url(r'^$', views.index),
     url(r'^setup/$', views.setup),
     url(r'^results/$', views.results),
+    url(r'^savemeals/$', views.savemenu),
     url(r'^shoppinglist/$', views.shoppinglist),
 
     # Examples:

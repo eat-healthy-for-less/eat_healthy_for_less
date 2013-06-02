@@ -39,6 +39,8 @@ def menu(request, form):
 
     calories_per_meal = calories_per_day * 0.75
     menu = MealSelector.select_optimal_menu(budget, calories_per_meal, constraints)
+    for m in menu:
+      m['est_price'] = m.get_display_price(calories_per_meal)
     print >> sys.stderr, 'menu:', [r.name for r in menu]
     return render(request, 'results.html')
 
@@ -63,6 +65,15 @@ def results(request):
    return_set = [x]*7
    return render(request, 'results.html',{'results_set':return_set})
 
+def savemenu(request):
+  meal_set = [request.GET.get('meal-1'), request.GET.get('meal-2'),
+  request.GET.get('meal-3'),request.GET.get('meal-4'),request.GET.get('meal-5'),
+  request.GET.get('meal-6'),request.GET.get('meal-7')]
+  res_set = list()
+  for id in meal_set:
+    pass
+    #TODO: get python mealresults from id's
+    # combine with shopping list
 
 def shoppinglist(request):
     """
