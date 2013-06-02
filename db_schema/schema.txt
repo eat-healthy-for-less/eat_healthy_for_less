@@ -1,0 +1,43 @@
+
+DB Schema
+
+CREATE TABLE food (
+
+    uuid        char(64),
+
+    name        varchar(64),
+
+    category    integer,       ##major category are from: http://www.bls.gov/ro3/apmw.htm#ro3xg01apmw.f.1
+
+       subcategory var char(64),    
+
+    price_uuid    char(64)
+
+);
+
+
+CREATE TABLE price (
+
+    uuid                        char(64),
+
+    food_uuid                   char(64),
+
+       price_per_unit                 decimal,
+
+       unit_id,                     integer,
+
+       location                    varchar(10), ###zipcode
+
+       last_update_time                timestamp with time zone
+
+);
+
+CREATE TABLE unit(
+
+       unit_name                    varchar(10), # lb, gal, count, and so on
+
+       unit_id                    integer
+
+);
+
+

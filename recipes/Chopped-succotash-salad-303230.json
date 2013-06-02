@@ -1,222 +1,222 @@
 {
-   "attribution":{
-      "html":"<a href='http://www.yummly.com/recipe/Chopped-succotash-salad-303230'>Chopped Succotash Salad recipe</a> information powered by <img alt='Yummly' src='http://static.yummly.com/api-logo.png'/>",
-      "url":"http://www.yummly.com/recipe/Chopped-succotash-salad-303230",
-      "text":"Chopped Succotash Salad recipes: information powered by Yummly",
-      "logo":"http://static.yummly.com/api-logo.png"
-   },
-   "ingredientLines":[
-      "8 cups chopped romaine lettuce leaves",
-      "1 lb. cut-up cooked chicken",
-      "2 ears corn-on-the-cob, kernels removed (about 2 cups) or 2 cups frozen corn kernels, thawed",
-      "1 large red bell pepper, chopped",
-      "1/2 cup chopped red onion",
-      "1 box (10 oz.) frozen lima beans, cooked, drained and rinsed with cold water",
-      "3/4 cup Wish-Bone Light® Ranch Dressing",
-      "2 slices bacon, crisp-cooked and crumbled (optional)"
-   ],
-   "flavors":{
-      "Bitter":0.0,
-      "Salty":7.709322744631208E-6,
-      "Sour":0.002687409520149231,
-      "Meaty":1.1300145160930697E-5,
-      "Piquant":0.25879967212677,
-      "Sweet":4.522924136836082E-4
-   },
-   "nutritionEstimates":[
-      {
-         "attribute":"ENERC_KCAL",
-         "description":"Energy",
-         "value":320.00,
-         "unit":{
-            "id":"fea252f8-9888-4365-b005-e2c63ed3a776",
-            "name":"calorie",
-            "abbreviation":"kcal",
-            "plural":"calories",
-            "pluralAbbreviation":"kcal"
-         }
-      },
-      {
-         "attribute":"FAT",
-         "description":"Total lipid (fat)",
-         "value":6.00,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"FATRN",
-         "description":"Fatty acids, total trans",
-         "value":0.00,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"FASAT",
-         "description":"Fatty acids, total saturated",
-         "value":1.50,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"CHOLE",
-         "description":"Cholesterol",
-         "value":0.07,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"NA",
-         "description":"Sodium, Na",
-         "value":0.55,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"CHOCDF",
-         "description":"Carbohydrate, by difference",
-         "value":35.00,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"FIBTG",
-         "description":"Fiber, total dietary",
-         "value":7.00,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"SUGAR",
-         "description":"Sugars, total",
-         "value":4.00,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"PROCNT",
-         "description":"Protein",
-         "value":31.00,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"VITA_IU",
-         "description":"Vitamin A, IU",
-         "value":6500.00,
-         "unit":{
-            "id":"ed46fe0c-44fe-4c1f-b3a8-880f92e30930",
-            "name":"IU",
-            "abbreviation":"IU",
-            "plural":"IU",
-            "pluralAbbreviation":"IU"
-         }
-      },
-      {
-         "attribute":"VITC",
-         "description":"Vitamin C, total ascorbic acid",
-         "value":0.05,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"CA",
-         "description":"Calcium, Ca",
-         "value":0.08,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      },
-      {
-         "attribute":"FE",
-         "description":"Iron, Fe",
-         "value":0.00,
-         "unit":{
-            "id":"12485d26-6e69-102c-9a8a-0030485841f8",
-            "name":"gram",
-            "abbreviation":"g",
-            "plural":"grams",
-            "pluralAbbreviation":"grams"
-         }
-      }
-   ],
-   "images":[
-      {
-         "hostedLargeUrl":"http://i.yummly.com/Chopped-succotash-salad-303230-266173.l.jpg",
-         "hostedSmallUrl":"http://i.yummly.com/Chopped-succotash-salad-303230-266173.s.jpg"
-      }
-   ],
-   "name":"Chopped Succotash Salad",
-   "yield":"6",
-   "totalTime":"20 Min",
-   "attributes":{
-      "cuisine":[
-         "American"
-      ],
-      "course":[
-         "Salads"
-      ]
-   },
-   "totalTimeInSeconds":1200,
-   "rating":4,
-   "numberOfServings":6,
-   "source":{
-      "sourceRecipeUrl":"http://www.yummly.com/recipe/Chopped-succotash-salad-303230",
-      "sourceSiteUrl":"http://www.wish-bone.com",
-      "sourceDisplayName":"Wish-Bone"
-   },
-   "id":"Chopped-succotash-salad-303230"
+  "attribution":{
+    "html":"<a href='http://www.yummly.com/recipe/Chopped-succotash-salad-303230'>Chopped Succotash Salad recipe</a> information powered by <img alt='Yummly' src='http://static.yummly.com/api-logo.png'/>",
+    "url":"http://www.yummly.com/recipe/Chopped-succotash-salad-303230",
+    "text":"Chopped Succotash Salad recipes: information powered by Yummly",
+    "logo":"http://static.yummly.com/api-logo.png"
+  },
+  "ingredientLines":[
+    ["8", "cups", "chopped romaine lettuce leaves"],
+    ["1", "lb.", "cut-up cooked chicken"],
+    ["2", "ears", "corn-on-the-cob, kernels removed (about 2 cups) or 2 cups frozen corn kernels, thawed"],
+    ["1", "", "large red bell pepper, chopped"],
+    ["1/2", "cup", "chopped red onion"],
+    ["1", "box", "frozen lima beans, cooked, drained and rinsed with cold water"],
+    ["3/4", "cup", "Wish-Bone Light® Ranch Dressing"],
+    ["2", "", "slices bacon, crisp-cooked and crumbled (optional)"]
+  ],
+  "flavors":{
+    "Bitter":0.0,
+    "Salty":7.709322744631208E-6,
+    "Sour":0.002687409520149231,
+    "Meaty":1.1300145160930697E-5,
+    "Piquant":0.25879967212677,
+    "Sweet":4.522924136836082E-4
+  },
+  "nutritionEstimates":[
+    {
+    "attribute":"ENERC_KCAL",
+    "description":"Energy",
+    "value":320.00,
+    "unit":{
+      "id":"fea252f8-9888-4365-b005-e2c63ed3a776",
+      "name":"calorie",
+      "abbreviation":"kcal",
+      "plural":"calories",
+      "pluralAbbreviation":"kcal"
+    }
+  },
+  {
+    "attribute":"FAT",
+    "description":"Total lipid (fat)",
+    "value":6.00,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"FATRN",
+    "description":"Fatty acids, total trans",
+    "value":0.00,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"FASAT",
+    "description":"Fatty acids, total saturated",
+    "value":1.50,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"CHOLE",
+    "description":"Cholesterol",
+    "value":0.07,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"NA",
+    "description":"Sodium, Na",
+    "value":0.55,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"CHOCDF",
+    "description":"Carbohydrate, by difference",
+    "value":35.00,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"FIBTG",
+    "description":"Fiber, total dietary",
+    "value":7.00,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"SUGAR",
+    "description":"Sugars, total",
+    "value":4.00,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"PROCNT",
+    "description":"Protein",
+    "value":31.00,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"VITA_IU",
+    "description":"Vitamin A, IU",
+    "value":6500.00,
+    "unit":{
+      "id":"ed46fe0c-44fe-4c1f-b3a8-880f92e30930",
+      "name":"IU",
+      "abbreviation":"IU",
+      "plural":"IU",
+      "pluralAbbreviation":"IU"
+    }
+  },
+  {
+    "attribute":"VITC",
+    "description":"Vitamin C, total ascorbic acid",
+    "value":0.05,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"CA",
+    "description":"Calcium, Ca",
+    "value":0.08,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"FE",
+    "description":"Iron, Fe",
+    "value":0.00,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  }
+  ],
+  "images":[
+    {
+    "hostedLargeUrl":"http://i.yummly.com/Chopped-succotash-salad-303230-266173.l.jpg",
+    "hostedSmallUrl":"http://i.yummly.com/Chopped-succotash-salad-303230-266173.s.jpg"
+  }
+  ],
+  "name":"Chopped Succotash Salad",
+  "yield":"6",
+  "totalTime":"20 Min",
+  "attributes":{
+    "cuisine":[
+      "American"
+    ],
+    "course":[
+      "Salads"
+    ]
+  },
+  "totalTimeInSeconds":1200,
+  "rating":4,
+  "numberOfServings":6,
+  "source":{
+    "sourceRecipeUrl":"http://www.yummly.com/recipe/Chopped-succotash-salad-303230",
+    "sourceSiteUrl":"http://www.wish-bone.com",
+    "sourceDisplayName":"Wish-Bone"
+  },
+  "id":"Chopped-succotash-salad-303230"
 }

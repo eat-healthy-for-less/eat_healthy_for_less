@@ -1,222 +1,222 @@
 {
-    "attributes": {}, 
-    "attribution": {
-        "html": "<a href='http://www.yummly.com/recipe/Recipe-for-savory-marinade-for-grilled-chicken_-pork_-or-beef-_low-carb_-sugar-free_-gluten-free_-309427'>Recipe for Savory Marinade for Grilled Chicken, Pork, or Beef (Low Carb, Sugar-Free, Gluten-Free) recipe</a> information powered by <img alt='Yummly' src='http://static.yummly.com/api-logo.png'/>", 
-        "logo": "http://static.yummly.com/api-logo.png", 
-        "text": "Recipe for Savory Marinade for Grilled Chicken, Pork, or Beef (Low Carb, Sugar-Free, Gluten-Free) recipes: information powered by Yummly", 
-        "url": "http://www.yummly.com/recipe/Recipe-for-savory-marinade-for-grilled-chicken_-pork_-or-beef-_low-carb_-sugar-free_-gluten-free_-309427"
-    }, 
-    "flavors": {}, 
-    "id": "Recipe-for-savory-marinade-for-grilled-chicken_-pork_-or-beef-_low-carb_-sugar-free_-gluten-free_-309427", 
-    "images": [
-        {
-            "hostedLargeUrl": "http://i.yummly.com/Recipe-for-savory-marinade-for-grilled-chicken_-pork_-or-beef-_low-carb_-sugar-free_-gluten-free_-309427-273880.l.jpg", 
-            "hostedSmallUrl": "http://i.yummly.com/Recipe-for-savory-marinade-for-grilled-chicken_-pork_-or-beef-_low-carb_-sugar-free_-gluten-free_-309427-273880.s.jpg"
-        }
-    ], 
-    "ingredientLines": [
-        "1/2 cup olive oil", 
-        "1/4 cup white wine vinegar", 
-        "3 T full fat mayo (do not use Miracle Whip, it has added sugar)", 
-        "1-2 T Worcestershire sauce (I used 1 T Worcestershire sauce for chicken but when I used it on pork or beef I increased it to 2 T.)", 
-        "1 T lemon juice, preferably fresh squeezed", 
-        "1 tsp. Veg-Sal or salt", 
-        "1 tsp. fresh ground black pepper", 
-        "1 T Poultry Seasoning", 
-        "1 T garlic puree or garlic powder", 
-        "1 T sweet paprika, preferably Hungarian paprika (It comes in a tin instead of a jar)", 
-        "1/2 T onion powder", 
-        "1 tsp. thyme (optional)"
-    ], 
-    "name": "Recipe for Savory Marinade for Grilled Chicken, Pork, or Beef (Low Carb, Sugar-Free, Gluten-Free)", 
-    "numberOfServings": 4, 
-    "nutritionEstimates": [
-        {
-            "attribute": "ENERC_KCAL", 
-            "description": "Energy", 
-            "unit": {
-                "abbreviation": "kcal", 
-                "id": "fea252f8-9888-4365-b005-e2c63ed3a776", 
-                "name": "calorie", 
-                "plural": "calories", 
-                "pluralAbbreviation": "kcal"
-            }, 
-            "value": 261.42
-        }, 
-        {
-            "attribute": "FAT", 
-            "description": "Total lipid (fat)", 
-            "unit": {
-                "abbreviation": "g", 
-                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
-                "name": "gram", 
-                "plural": "grams", 
-                "pluralAbbreviation": "grams"
-            }, 
-            "value": 27.32
-        }, 
-        {
-            "attribute": "FATRN", 
-            "description": "Fatty acids, total trans", 
-            "unit": {
-                "abbreviation": "g", 
-                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
-                "name": "gram", 
-                "plural": "grams", 
-                "pluralAbbreviation": "grams"
-            }, 
-            "value": 0.0
-        }, 
-        {
-            "attribute": "FASAT", 
-            "description": "Fatty acids, total saturated", 
-            "unit": {
-                "abbreviation": "g", 
-                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
-                "name": "gram", 
-                "plural": "grams", 
-                "pluralAbbreviation": "grams"
-            }, 
-            "value": 3.85
-        }, 
-        {
-            "attribute": "CHOLE", 
-            "description": "Cholesterol", 
-            "unit": {
-                "abbreviation": "g", 
-                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
-                "name": "gram", 
-                "plural": "grams", 
-                "pluralAbbreviation": "grams"
-            }, 
-            "value": 0.0
-        }, 
-        {
-            "attribute": "NA", 
-            "description": "Sodium, Na", 
-            "unit": {
-                "abbreviation": "g", 
-                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
-                "name": "gram", 
-                "plural": "grams", 
-                "pluralAbbreviation": "grams"
-            }, 
-            "value": 0.66
-        }, 
-        {
-            "attribute": "K", 
-            "description": "Potassium, K", 
-            "unit": {
-                "abbreviation": "g", 
-                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
-                "name": "gram", 
-                "plural": "grams", 
-                "pluralAbbreviation": "grams"
-            }, 
-            "value": 0.14
-        }, 
-        {
-            "attribute": "CHOCDF", 
-            "description": "Carbohydrate, by difference", 
-            "unit": {
-                "abbreviation": "g", 
-                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
-                "name": "gram", 
-                "plural": "grams", 
-                "pluralAbbreviation": "grams"
-            }, 
-            "value": 4.6
-        }, 
-        {
-            "attribute": "FIBTG", 
-            "description": "Fiber, total dietary", 
-            "unit": {
-                "abbreviation": "g", 
-                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
-                "name": "gram", 
-                "plural": "grams", 
-                "pluralAbbreviation": "grams"
-            }, 
-            "value": 1.06
-        }, 
-        {
-            "attribute": "SUGAR", 
-            "description": "Sugars, total", 
-            "unit": {
-                "abbreviation": "g", 
-                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
-                "name": "gram", 
-                "plural": "grams", 
-                "pluralAbbreviation": "grams"
-            }, 
-            "value": 1.18
-        }, 
-        {
-            "attribute": "PROCNT", 
-            "description": "Protein", 
-            "unit": {
-                "abbreviation": "g", 
-                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
-                "name": "gram", 
-                "plural": "grams", 
-                "pluralAbbreviation": "grams"
-            }, 
-            "value": 0.58
-        }, 
-        {
-            "attribute": "VITA_IU", 
-            "description": "Vitamin A, IU", 
-            "unit": {
-                "abbreviation": "IU", 
-                "id": "ed46fe0c-44fe-4c1f-b3a8-880f92e30930", 
-                "name": "IU", 
-                "plural": "IU", 
-                "pluralAbbreviation": "IU"
-            }, 
-            "value": 887.56
-        }, 
-        {
-            "attribute": "VITC", 
-            "description": "Vitamin C, total ascorbic acid", 
-            "unit": {
-                "abbreviation": "g", 
-                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
-                "name": "gram", 
-                "plural": "grams", 
-                "pluralAbbreviation": "grams"
-            }, 
-            "value": 0.0
-        }, 
-        {
-            "attribute": "CA", 
-            "description": "Calcium, Ca", 
-            "unit": {
-                "abbreviation": "g", 
-                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
-                "name": "gram", 
-                "plural": "grams", 
-                "pluralAbbreviation": "grams"
-            }, 
-            "value": 0.03
-        }, 
-        {
-            "attribute": "FE", 
-            "description": "Iron, Fe", 
-            "unit": {
-                "abbreviation": "g", 
-                "id": "12485d26-6e69-102c-9a8a-0030485841f8", 
-                "name": "gram", 
-                "plural": "grams", 
-                "pluralAbbreviation": "grams"
-            }, 
-            "value": 0.0
-        }
-    ], 
-    "rating": 5, 
-    "source": {
-        "sourceDisplayName": "Kalyn's Kitchen", 
-        "sourceRecipeUrl": "http://www.kalynskitchen.com/2005/06/savory-low-carb-marinade-for-chicken.html", 
-        "sourceSiteUrl": "http://www.kalynskitchen.com/"
-    }, 
-    "totalTimeInSeconds": null
+  "attributes": {},
+  "attribution": {
+    "html": "<a href='http://www.yummly.com/recipe/Recipe-for-savory-marinade-for-grilled-chicken_-pork_-or-beef-_low-carb_-sugar-free_-gluten-free_-309427'>Recipe for Savory Marinade for Grilled Chicken, Pork, or Beef (Low Carb, Sugar-Free, Gluten-Free) recipe</a> information powered by <img alt='Yummly' src='http://static.yummly.com/api-logo.png'/>",
+    "logo": "http://static.yummly.com/api-logo.png",
+    "text": "Recipe for Savory Marinade for Grilled Chicken, Pork, or Beef (Low Carb, Sugar-Free, Gluten-Free) recipes: information powered by Yummly",
+    "url": "http://www.yummly.com/recipe/Recipe-for-savory-marinade-for-grilled-chicken_-pork_-or-beef-_low-carb_-sugar-free_-gluten-free_-309427"
+  },
+  "flavors": {},
+  "id": "Recipe-for-savory-marinade-for-grilled-chicken_-pork_-or-beef-_low-carb_-sugar-free_-gluten-free_-309427",
+  "images": [
+    {
+    "hostedLargeUrl": "http://i.yummly.com/Recipe-for-savory-marinade-for-grilled-chicken_-pork_-or-beef-_low-carb_-sugar-free_-gluten-free_-309427-273880.l.jpg",
+    "hostedSmallUrl": "http://i.yummly.com/Recipe-for-savory-marinade-for-grilled-chicken_-pork_-or-beef-_low-carb_-sugar-free_-gluten-free_-309427-273880.s.jpg"
+  }
+  ],
+  "ingredientLines": [
+    ["1/2", "cup", "olive oil"],
+    ["1/4", "cup", "white wine vinegar"],
+    ["3", "T", "full fat mayo (do not use Miracle Whip, it has added sugar)"],
+    ["1-2", "T", "Worcestershire sauce (I used 1 T Worcestershire sauce for chicken but when I used it on pork or beef I increased it to 2 T.)"],
+    ["1", "T", "lemon juice, preferably fresh squeezed"],
+    ["1", "tsp.", "Veg-Sal or salt"],
+    ["1", "tsp.", "fresh ground black pepper"],
+    ["1", "T", "Poultry Seasoning"],
+    ["1", "T", "garlic puree or garlic powder"],
+    ["1", "T", "sweet paprika, preferably Hungarian paprika (It comes in a tin instead of a jar)"],
+    ["1/2", "T", "onion powder"],
+    ["1", "tsp.", "thyme (optional)"]
+  ],
+  "name": "Recipe for Savory Marinade for Grilled Chicken, Pork, or Beef (Low Carb, Sugar-Free, Gluten-Free)",
+  "numberOfServings": 4,
+  "nutritionEstimates": [
+    {
+    "attribute": "ENERC_KCAL",
+    "description": "Energy",
+    "unit": {
+      "abbreviation": "kcal",
+      "id": "fea252f8-9888-4365-b005-e2c63ed3a776",
+      "name": "calorie",
+      "plural": "calories",
+      "pluralAbbreviation": "kcal"
+    },
+    "value": 261.42
+  },
+  {
+    "attribute": "FAT",
+    "description": "Total lipid (fat)",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 27.32
+  },
+  {
+    "attribute": "FATRN",
+    "description": "Fatty acids, total trans",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.0
+  },
+  {
+    "attribute": "FASAT",
+    "description": "Fatty acids, total saturated",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 3.85
+  },
+  {
+    "attribute": "CHOLE",
+    "description": "Cholesterol",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.0
+  },
+  {
+    "attribute": "NA",
+    "description": "Sodium, Na",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.66
+  },
+  {
+    "attribute": "K",
+    "description": "Potassium, K",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.14
+  },
+  {
+    "attribute": "CHOCDF",
+    "description": "Carbohydrate, by difference",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 4.6
+  },
+  {
+    "attribute": "FIBTG",
+    "description": "Fiber, total dietary",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 1.06
+  },
+  {
+    "attribute": "SUGAR",
+    "description": "Sugars, total",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 1.18
+  },
+  {
+    "attribute": "PROCNT",
+    "description": "Protein",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.58
+  },
+  {
+    "attribute": "VITA_IU",
+    "description": "Vitamin A, IU",
+    "unit": {
+      "abbreviation": "IU",
+      "id": "ed46fe0c-44fe-4c1f-b3a8-880f92e30930",
+      "name": "IU",
+      "plural": "IU",
+      "pluralAbbreviation": "IU"
+    },
+    "value": 887.56
+  },
+  {
+    "attribute": "VITC",
+    "description": "Vitamin C, total ascorbic acid",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.0
+  },
+  {
+    "attribute": "CA",
+    "description": "Calcium, Ca",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.03
+  },
+  {
+    "attribute": "FE",
+    "description": "Iron, Fe",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.0
+  }
+  ],
+  "rating": 5,
+  "source": {
+    "sourceDisplayName": "Kalyn's Kitchen",
+    "sourceRecipeUrl": "http://www.kalynskitchen.com/2005/06/savory-low-carb-marinade-for-chicken.html",
+    "sourceSiteUrl": "http://www.kalynskitchen.com/"
+  },
+  "totalTimeInSeconds": null
 }
