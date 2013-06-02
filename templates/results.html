@@ -168,7 +168,7 @@ $(document).ready(function() {
         <!-- Result link and text -->
         <div class="span1" style="margin-bottom:55px;">
           <h4>
-            <a href="{{ result.url }}">
+            <a href="{{ result.attribution.url }}">
           {% autoescape off %} {# This is for showing raw html symbols #}
           {{ result.name }}
           {% endautoescape %}
