@@ -1,6 +1,28 @@
 {% extends "base.html" %}
+{% block head %}
+
+{% endblock %}
+
 
 {% block content %}
+<!-- Modal for login/not_login -->
+<div id="changeMealModal" class="modal hide fade" tabindex="-1"
+     role="dialog" aria-labelledby="changeMealModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal"
+            aria-hidden="true">x</button>
+    <h3 id="changeMealModalLabel">Change this meal</h3>
+  </div>
+  <div class="modal-body">
+    Replace...<br/>
+    
+  </div>
+  <div class="modal-footer">
+    <a href="/login/" class="btn">Log in</a>
+    <a href="/signup/" class="btn btn-primary">Sign up</a>
+  </div>
+</div>
+
 <div class="container-fluid" style="margin-bottom:150px;">
     <!-- Search results section -->
 <form class="" action="setup/" method="post">
