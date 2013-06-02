@@ -40,5 +40,19 @@
         "fields": {
             "name": "cups"
         }
+    },
+    {
+        "pk": 7, 
+        "model": "ehfl.quantityunit", 
+        "fields": {
+            "name": "liters"
+        }
+    },
+    {
+        "pk": 8, 
+        "model": "ehfl.quantityunit", 
+        "fields": {
+            "name": "kilograms"
+        }
     }
 ]

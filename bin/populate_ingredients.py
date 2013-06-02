@@ -21,8 +21,8 @@ for r in recipes:
     for qty, unit, name in r.ingredientLines:
         all_ingredients[name] = True
         all_units[unit] = True
-        Unit.objects.get_or_create(name=unit)
-        #Ingredient.objects.get_or_create(name=name)
+        Ingredient.objects.get_or_create(name=name,
+                                         defaults={'price_per_kg': 2.00})
 
 ingredients = list(sorted(all_ingredients.keys()))
 print
