@@ -7,8 +7,8 @@
   },
   "ingredientLines":[
     [2, "tablespoons", "extra virgin olive oil"],
-    [2, "", "medium yellow onions"],
-    [4, "", "large garlic cloves"],
+    [2, "", "yellow onions"],
+    [4, "", "garlic cloves"],
     [2, "", "carrots"],
     [30, "ounces", "black beans"],
     [5, "cups", "low sodium chicken broth"],
@@ -17,9 +17,9 @@
     [1, "teaspoons", "ground cumin"],
     [0.125, "teaspoons", "cayenne pepper"],
     [0.5, "teaspoons", "salt"],
-    [1, "tablespoons", "fresh lime juice"],
+    [1, "tablespoons", "lime juice"],
     [0.3333, "cups", "sour cream"],
-    [1, "tablespoons", "fresh cilantro"]
+    [1, "tablespoons", "cilantro"]
   ],
   "flavors":{
     "Salty":7.688264595344663E-4,

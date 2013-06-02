@@ -6,14 +6,14 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    [10, "ounces", "fresh spinach"],
+    [10, "ounces", "spinach"],
     [0.5, "cups", "balsamic vinaigrette dressing"],
     [1, "cups", "white mushrooms"],
     [1, "", "tomato"],
     [0.33, "cups", "seasoned croutons"],
     [0.25, "cups", "red onion"],
     [4, "", "bacon slices"],
-    [1, "", "egg"]
+    [1, "", "eggs"]
   ],
   "flavors":{
     "Bitter":9.95578826405108E-4,
