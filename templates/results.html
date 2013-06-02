@@ -1,8 +1,9 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="container-fluid">
+<div class="container-fluid" style="margin-bottom:150px;">
     <!-- Search results section -->
+<form class="" action="setup/" method="post">
 
 {% for result in results_set %}
 {% ifequal forloop.counter 1 %}
@@ -47,6 +48,10 @@
       </div> <!-- /row -->
 {% endfor %}
 
+  
+  <button type="submit" class="btn btn-success btn-large pull-right">Looks good!</button>
+  <button type="submit" style="margin-right:5px;" class="btn btn-large pull-right">Go back</button>
+</form>
 {% if results.size == 0 %}
 <p>Sorry, we couldn't find any results matching your budget.</p>
 {% endif %}
