@@ -23,16 +23,12 @@ class QuantityUnitConversion(models.Model):
 
 class Ingredient(models.Model):
     name = models.CharField(max_length=160)
-    quantity_unit = models.ForeignKey('QuantityUnit', null=True, blank=True)
-    price = models.FloatField(null=True, blank=True)
+    price_per_kg = models.FloatField(null=True, blank=True)
+    density = models.FloatField(default=1.0)
 
     def __unicode__(self):
-        if self.quantity_unit is None:
-            qname = None
-        else:
-            qname = self.quantity_unit.name
-        return (u'%s Ingredient(%s, %s, %s)'
+        return (u'%s: Ingredient(%s, price_per_kg=%s, density=%s)'
                 % (self.id,
                    self.name,
-                   qname,
-                   self.price))
+                   self.price_per_kg,
+                   self.density))

@@ -15,6 +15,25 @@ from ehfl.models import Ingredient
 from ehfl.recipe import read_recipes
 
 recipes = read_recipes()
+all_ingredients = {}
+all_units = {}
 for r in recipes:
     for qty, unit, name in r.ingredientLines:
-        Ingredient.objects.get_or_create(name=name)
+        all_ingredients[name] = True
+        all_units[unit] = True
+        Unit.objects.get_or_create(name=unit)
+        #Ingredient.objects.get_or_create(name=name)
+
+ingredients = list(sorted(all_ingredients.keys()))
+print
+print 'ALL INGREDIENTS'
+print
+for ing in ingredients:
+    print ing
+
+print
+print 'ALL UNITS'
+print
+units = list(sorted(all_units.keys()))
+for unit in units:
+    print unit

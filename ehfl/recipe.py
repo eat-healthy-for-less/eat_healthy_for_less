@@ -48,8 +48,12 @@ class Recipe(object):
         for k, v in stuff.iteritems():
             setattr(self, k, v)
 
+    def get_price(self):
+        pass
+
 
 def read_recipe(path):
+    print path
     return Recipe(convertToDotDictRecurse(json.loads(open(path, 'r').read())))
 
 
