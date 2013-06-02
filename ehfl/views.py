@@ -31,6 +31,9 @@ def results(request):
 
 	return render(request, 'results.html',{'results_set':return_set})
 
+def shoppinglist(request):
+    """Presents the shoppinglist page for user input"""
+    return render(request, 'shoppinglist.html')
 
 def test_res():
 	return """{
