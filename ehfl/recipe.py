@@ -167,7 +167,11 @@ class Recipe(object):
 
 
 def read_recipe(path):
-    return Recipe(convertToDotDictRecurse(json.loads(open(path, 'r').read())))
+    try:
+        return Recipe(convertToDotDictRecurse(json.loads(open(path, 'r').read())))
+    except Exception, e:
+        print >> sys.stderr, 'error in:', path
+        raise e
 
 
 def read_recipes():
