@@ -33,8 +33,29 @@ def results(request):
    return render(request, 'results.html',{'results_set':return_set})
 
 def shoppinglist(request):
-    """Presents the shoppinglist page for user input"""
-    return render(request, 'shoppinglist.html')
+    """
+    Presents the shoppinglist page for user input
+    """
+    test_result = json.loads(test_res())
+    result_set = [test_result]*14
+    return_set = list()
+    for result in result_set:
+       res = dict()
+       res['name'] = result['name']
+       image_list = result['images']
+       res['img'] = image_list[0]['hostedSmallUrl']
+       res['url'] = result['attribution']['url']
+       res['est_price'] = "200"
+       res['cook_time'] = "100"
+       res['ingredient'] = result['ingredientLines']
+
+
+       print res
+       return_set.append(res)
+
+    return render(request, 'shoppinglist.html', {'results_set':return_set})
+
+    """return render(request, 'shoppinglist.html')"""
 
 def test_res():
 	return """{
