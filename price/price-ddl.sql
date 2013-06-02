@@ -12,16 +12,21 @@ CREATE TABLE Ingredient(
 	Category VARCHAR(50)
 );
 
-INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('floz','volume');
-INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('cup','volume');
-INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('Tbs','volume');
-INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('tsb','volume');
-INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('lb','weight');
-INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('OZ','weight');
+INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('fluid oz','volume');
+INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('cups','volume');
+INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('tablespoons','volume');
+INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('teaspoons','volume');
+INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('pounds','weight');
+INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('ounces','weight');
 INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('gram','weight');
-INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('count','count');
-INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('bundle','count');
-INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('ear','count');
+INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('','count');
+INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('bundles','count');
+INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('ears','count');
+INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('cloves','count');
+INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('packages','count');
+INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('galon','volume');
+INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('liter','volume');
+INSERT INTO Measurement(VARCHAR,UnitOf)VALUES ('envelope','count');
 
 
 
@@ -34,7 +39,7 @@ INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Cookies, chocolate chip',
 
 INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Ground chuck, 100% beef',3.479,5,'Meats, poultry, fish and eggs');
 INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Ground beef, 100% beef',3.268,5,'Meats, poultry, fish and eggs');
-INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Ground beef, lean and extra lean',4.811,5,'Meats, poultry, fish and eggs');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Ground beef, lean',4.811,5,'Meats, poultry, fish and eggs');
 INSERT INTO Ingredient(name,Price,Measurement)VALUES ('All uncooked ground beef',3.823,5,'Meats, poultry, fish and eggs');
 INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Chuck roast, excluding U/P/C',4.125,5,'Meats, poultry, fish and eggs');
 INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Ground beef, lean and extra lean',4.811,5,'Meats, poultry, fish and eggs');
@@ -61,7 +66,54 @@ INSERT INTO Ingredient(name,Price,Measurement)VALUES ('All Other Pork',2.496,5,'
 INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Bologna, all beef or mixed',3.053,5,'Meats, poultry, fish and eggs');
 INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Eggs, grade A, large',1.918,8,'Meats, poultry, fish and eggs');
 
-INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Chicken, fresh, whole',3.053,5,'Meats, poultry, fish and eggs');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Chicken, fresh, whole',1.473,5,'Meats, poultry, fish and eggs');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Chicken breast, bone-in,',2.996,5,'Meats, poultry, fish and eggs');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Chicken breast, boneless,',4.266,5,'Meats, poultry, fish and eggs');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Chicken legs, bone-in',1.538,5,'Meats, poultry, fish and eggs');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Chicken wings, bone-in',1.138,5,'Meats, poultry, fish and eggs');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('salmon, farmed raised,',3.999,5,'Meats, poultry, fish and eggs');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('tilapia fillets, fresh',2.599,5,'Meats, poultry, fish and eggs');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('shrimp, medium, fresh',7.555,5,'Meats, poultry, fish and eggs');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('crabmeat, medium, fresh',9.555,5,'Meats, poultry, fish and eggs');
+
+
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Butter, salted, grade AA',3.180,5,'Dairy products');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('American processed cheese',4.131,5,'Dairy products');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Cheddar cheese, natural',5.635,5,'Dairy products');
+
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Apples, Red Delicious',1.330,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Bananas',0.597,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Oranges, Navel',0.981,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Oranges, Valencia',0.781,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Cherries',2.992,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Grapefruit',0.953,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Grapes, Thompson Seedless',2.452,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Lemons',1.416,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Peaches',1.566,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Pears, Anjou',1.187,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Strawberries',1.784,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Potatoes',0.619,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Lettuce, iceberg',0.972,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Lettuce, romaine',1.727,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Tomatoes',1.460,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Yellow Onion , medium',1.160,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Red Onion, medium',1.460,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Broccoli florets',1.742,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Cabbage',0.641,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Carrots',0.788,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Celery',0.806,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Green bell pepper',2.191,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Red bell pepper',3.267,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('White Mushroom',2.999,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Brown Mushroom',2.999,5,'Fruits and vegetables');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Ginger',4.139,5,'Fruits and vegetables');
+
+
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Beans, dried, any type',1.391,5,'Other foods at home');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Sugar, white',0.656,5,'Other foods at home');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Margarine, stick',1.195,5,'Other foods at home');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Peanut butter, creamy',2.698,5,'Other foods at home');
+INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Coffee, ground roast',5.674,5,'Other foods at home');
 
 
 
@@ -70,12 +122,3 @@ INSERT INTO Ingredient(name,Price,Measurement)VALUES ('Chicken, fresh, whole',3.
 
 
 
-
-
-
-
-INSERT INTO inventory(StockNumber,Descrip,OnHandQuan,PackQty,PackCost)VALUES (43512,'10W-30 Motor Oil, Quart',36,12,18.20);
-INSERT INTO inventory(StockNumber,Descrip,OnHandQuan,PackQty,PackCost)VALUES (51013,'D Dry Cells 8 Pack',19,12,90.20);
-INSERT INTO inventory(StockNumber,Descrip,OnHandQuan,PackQty,PackCost)VALUES (23155,'Shovel Pointed Long Handle',1500,1,9.82);
-INSERT INTO inventory(StockNumber,Descrip,OnHandQuan,PackQty,PackCost)VALUES (51001,'AAA Dry Cells 4 Pack ',92,12,9.00);
-INSERT INTO inventory(StockNumber,Descrip,OnHandQuan,PackQty,PackCost)VALUES (43111,'White Gas Gallon Can',14,4,14.75); 

@@ -45,6 +45,7 @@ Turkey, frozen, whole, per lb. (453.6 gm) 			1.649
 Butter, salted, grade AA, stick, per lb. (453.6 gm); 		3.180         
 American processed cheese, per lb. (453.6 gm); 	4.131 
 Cheddar cheese, natural, per lb. (453.6 gm); 		5.635 
+
 Apples, Red Delicious, per lb. (453.6 gm); 		1.330 
 Bananas, per lb. (453.6 gm); 				0.597 
 Oranges, Navel, per lb. (453.6 gm); 			0.981 
@@ -60,31 +61,168 @@ Potatoes, white, per lb. (453.6 gm); 			0.619		3/lb
 Lettuce, iceberg, per lb. (453.6 gm); 			0.972 		
 Lettuce, romaine, per lb. (453.6 gm); 			1.727 
 Tomatoes, field grown, per lb. (453.6 gm); 		1.460 		3/lb
-Onion, field grown, per lb. (453.6 gm); 		1.160 		4/lb
+Onion, yellow, medium, field grown, per lb. (453.6 gm); 		1.160 		4/lb
+Onion, red, medium, field grown, per lb. (453.6 gm); 		1.460 		4/lb
 Broccoli, per lb. (453.6 gm); 				1.742 
 Cabbage, per lb. (453.6 gm); 				0.641         
 Carrots, short trimmed and topped, per lb. (453.6 gm); 0.788    3/lb      
 Celery, per lb. (453.6 gm); 				0.806         
 Peppers, sweet, per lb. (453.6 gm); 			2.191 
-Herbs, Any per bunch;							1.466
-Spice, Any per pinch;							0.122
-
+mushrooms, per lb. (453.6 gm); 			2.999
 
 Beans, dried, any type, all sizes, per lb. (453.6 gm); 	1.391 
 Sugar, white, all sizes, per lb. (453.6 gm); 		0.656  
 Margarine, stick, per lb. (453.6 gm); 			1.195         
 Peanut butter, creamy, all sizes, per lb. (453.6 gm); 	2.698  
-Coffee, 100%, ground roast, per lb. (453.6 gm); 	5.674 
+Coffee, ground roast, per lb. (453.6 gm); 	5.674 
 
-Malt beverages, all types, all sizes, per 16 oz. (473.2 ml);	1.317
+
+========================================================================
+Peanut butter, creamy, all sizes, per lb. (453.6 gm); 	2.698  
+kosher salt, all sizes, per lb. (453.6 gm); 		2.333 
+kosher salt, all sizes, per lb. (453.6 gm); 		1.933 
+garlic salt, all sizes, per lb. (453.6 gm); 		3.333 
+
+
+salmon, farmed raised, per lb. (453.6 gm);		3.999
+tilapia fillets, fresh, per lb. (453.6 gm);		2.599
+shrimp, medium, fresh, per lb. (453.6 gm);		7.555
+crabmeat, medium, fresh, per lb. (453.6 gm);	9.555
+
+Beer, all types, all sizes, per 16 oz. (473.2 ml);	1.317
 Wine, red and white table, all sizes, per 1 liter (33.8 oz);	11.624   
-Soy Sauce, all sizes, per 12 oz;	6.624   
+Dry sherry, all sizes, per 1 liter (33.8 oz);	8.624   
+Soy Sauce, all sizes, per 10 oz;	9.842   
+Oyster Sauce, all sizes, per 18 oz;	7.997 
+hoisin sauce, all sizes, per 18 oz;	5.997 
+fermented black bean sauce, per 18 oz;	5.997 
+hot sauce, all sizes, per 18 oz;	2.845 
+sriracha sauce, all sizes, per 18 oz;	6.845 
+rice vinegar, all sizes, per 12 oz;	3.888 
+vinegar, all sizes, per 12 oz;		2.888
+cider vinegar, all sizes, per 12 oz; 2.888
+white wine vinegar, per 12 oz;		5.888
+Worcestershire sauce, per 12 oz;	7.888
+
+Lime juice, fresh, per 16 oz;		7.990
+Orange juice, frozen concentrate, 12 oz. can (473.2 ml);	2.555
 Olive oil, Virgin all sizes, per 1 liter (33.8 oz);		12.745   
 Olive oil, Extra Virgin, all sizes, per 1 liter (33.8 oz);		16.745   
-Vegtable oil, all sizes, per 1 liter (33.8 oz);		5.321
+Vegtable oil, all sizes, per 1 liter (24 oz);		7.995
+Peanut oil, all sizes, per 1 liter (12 oz);		4.055
+sesame oil, all sizes, per 1 liter (11 oz);		10.055
+chicken broth, low sodium (32 oz);		4.055
+water (32 oz);		3.055
 
 Milk, fresh, whole, fortified, per gal. (3.8 lit);			3.428 
-Orange juice, frozen concentrate, 12 oz. can (473.2 ml);	2.555
 Ice cream, prepackaged, bulk, regular, per 1/2 gal. (1.9 lit);	5.093 
+Sour cream, 8 oz.;	1.494 
+Butter, unsalted, grade AA, stick, per lb. (453.6 gm); 		3.180         
+
 Eggs, grade A, large, per doz.	;				1.918 
 Potato chips, per 16 oz.;					4.811 
+
+mustard, per 20 oz.;					5.990 
+dijon mustard, per 20 oz.;				12.990 
+mayonnaise, per 16 oz.;					5.211 
+Dressing, Balsamic, per 12 oz.;			3.196 
+Dressing, Ranch, per 12 oz.;			3.196 
+
+Cajun Sides, Red Beans & Rice, per 12 oz.;				0.999
+green peas, frozen, per 16 oz.;				1.999
+lima beans, frozen, per 16 oz.;				1.999
+Lipton® Recipe Secrets® Onion Mushroom Soup Mix, per envelope; 		1.666
+Flour tortillas, per package; 		2.016
+
+
+Black Pepper, 4 oz;						6.455
+cajun seasoning, ground, 4 oz;					
+paprika powder
+red chilli powder
+turmeric powder
+cumin powder
+cayenne powder
+Caraway powder
+coriander powder
+cumin powder
+cardamom powder
+Poultry Seasoning
+Baharat Seasoning
+sesame seeds
+onion powder
+thyme, dried
+oregano, dried
+yellow mustard seeds
+granulated sugar
+panko
+bread crumbs
+dried red chiles
+sichuan peppercorns
+sea salt
+cornstarch
+white rice
+brown rice
+natural cane sugar
+croutons,seasoned
+porcini mushrooms, dried
+curry leaves
+
+
+ginger root, fresh, per lb. (453.6 gm); 		4.139
+Garlic, each;							0.933
+shallots
+small potatoes
+spinach leaves
+scallions, fresh
+basil, fresh
+rosemary, fresh
+chives, fresh
+parsley, fresh
+cilantro, fresh
+tarragon, fresh
+mint, fresh
+dill, fresh
+leek
+green beans
+bok choy
+bean sprouts
+radicchio
+jalapeno chile
+mango
+asparagus
+pineapple
+cucumber
+cherry tomatoes
+parsnips
+zucchini
+celery root
+
+green chillies
+plum tomatoes
+unsalted peanuts
+cashews, roasted, unsalted
+
+
+crème fraîche, per 7 oz.;				7.000
+Gruyère Cheese, per lb. (453.6 gm); 		11.139
+mozzarella cheese
+grated Parmesan chees
+grated Parmigiano Reggiano cheese
+grated pepper jack cheese
+cottage cheese
+ghee
+Greek yogurt, plain
+
+
+ginger-garlic paste
+tomato puree
+Marinara sauce
+petite dice tomatoes
+couscous
+ginger-garlic paste
+chow fun noodles
+black olives
+white meat tuna
+pickled jalapenos
+honey
+
