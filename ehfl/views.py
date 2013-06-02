@@ -15,7 +15,6 @@ def index(request):
 
 def setup(request):
     if request.method == 'POST':
-        print >> sys.stderr, 'hi'
         form = MenuPreferencesForm(request.POST)
         if form.is_valid():
             return menu(request, form)
@@ -29,13 +28,17 @@ def setup(request):
 
 def menu(request, form):
     calories_per_day = form.cleaned_data['calories_per_day']
-    low_sodium = form.cleaned_data['low_sodium']
-    low_sugar = form.cleaned_data['low_sugar']
-    high_fiber = form.cleaned_data['high_fiber']
     budget = form.cleaned_data['budget']
+    address = form.cleaned_data['address']
 
-    penalizer = MealSelector.MealPenalizer(budget)
-    return render(request, 'results.html', {'form': form})
+    constraints = []
+    for constraint_name in ('low_sugar', 'high_fiber', 'low_sodium'):
+        if form.cleaned_data[constraint_name]:
+            constraints.append(constraint_name)
+
+    calories_per_meal = calories_per_day * 0.75
+    menu = MealSelector.select_optimal_menu(budget, calories_per_meal, constraints)
+    return render(request, 'results.html')
 
 
 def results(request):

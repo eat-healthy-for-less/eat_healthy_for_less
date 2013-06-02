@@ -2,6 +2,7 @@
 import os
 import json
 import sys
+import math
 
 from glob import glob
 
@@ -97,12 +98,13 @@ def ingredientRetailPrice(qty, unit, name):
     return bulk_price * (1.0 + retail_markup) * retail_size
 
 
-def get_menu_price(recipes):
+def get_menu_price(recipes, calories_per_meal):
     ing_qty_kg = {}
     for r in recipes:
-        for qty, unit, ing_name in self.ingredientLines:
+        scaling_factor = calories_per_meal / r.calories
+        for qty, unit, ing_name in r.ingredientLines:
             ing = INGREDIENTS[ing_name]
-            qty_kg = convertToKilos(qty, unit, ing.density)
+            qty_kg = scaling_factor * convertToKilos(qty, unit, ing.density)
             old_qty = ing_qty_kg.get(ing_name, 0.0)
             ing_qty_kg[ing_name] = old_qty + qty_kg
 
@@ -110,6 +112,14 @@ def get_menu_price(recipes):
     for ing_name, qty_kg in ing_qty_kg.iteritems():
         price += ingredientRetailPrice(qty_kg, 'kilograms', ing_name)
 
+    return price
+
+MIN_SATURATED_FAT_PER_CALORIE = 0.00358961974181
+MAX_SATURATED_FAT_PER_CALORIE = 0.042421544625
+
+MAX_SODIUM_PER_CALORIE = 0.00166074486301
+MAX_SUGAR_PER_CALORIE = 0.0101351028251
+MIN_FIBER_PER_CALORIE = 0.00753173084391
 
 class Recipe(object):
     def __init__(self, stuff):
@@ -118,6 +128,17 @@ class Recipe(object):
         self.nutritionEstimates = dict([(rec['attribute'], rec)
                                         for rec in self.nutritionEstimates])
         self.calories = self.nutritionEstimates['ENERC_KCAL'].value
+        self.sodium_per_calorie = float(self.nutritionEstimates['NA'].value) / self.calories
+        self.sugar_per_calorie = float(self.nutritionEstimates['SUGAR'].value) / self.calories
+        self.fiber_per_calorie = float(self.nutritionEstimates['FIBTG'].value) / self.calories
+        self.saturated_fat_per_calorie = float(self.nutritionEstimates['FASAT'].value) / self.calories
+        indicator = (float(MAX_SATURATED_FAT_PER_CALORIE - self.saturated_fat_per_calorie)
+                     / (MAX_SATURATED_FAT_PER_CALORIE - MIN_SATURATED_FAT_PER_CALORIE))
+        self.nutrition = 2 * indicator - 1.0
+
+        self.convenience = getattr(self, 'totalTimeInSeconds')
+        if self.convenience is None:
+            self.convenience = 1800
 
     def get_bulk_price_per_calorie(self):
         """
@@ -129,6 +150,21 @@ class Recipe(object):
         price = sum((ingredientBulkPrice(qty, unit, name)
                      for qty, unit, name in self.ingredientLines))
         return price / self.calories
+
+
+    def get_display_price(self, calories_per_meal):
+        return self.get_bulk_price_per_calorie() * calories_per_meal
+
+    def satisfies_constraint(self, constraint_name):
+        if constraint_name == 'low_sodium':
+            return self.sodium_per_calorie < MAX_SODIUM_PER_CALORIE
+        elif constraint_name == 'low_sugar':
+            return self.sugar_per_calorie < MAX_SUGAR_PER_CALORIE
+        elif constraint_name == 'high_fiber':
+            return self.fiber_per_calorie > MIN_FIBER_PER_CALORIE
+
+    def satisfies_constraints(self, constraint_names):
+        return all((self.satisfies_constraint(n) for n in constraint_names))
 
 
 def read_recipe(path):
