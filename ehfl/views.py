@@ -1,6 +1,7 @@
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 import json
+from ehfl.MealResult import MealResult
 
 def index(request):
 	"""Home Page"""
@@ -17,19 +18,22 @@ def post_setup(request):
 
 def results(request):
    """Results Page"""
-   test_result = json.loads(test_res())
-   result_set = [test_result]*7
-   return_set = list()
-   for result in result_set:
-      res = dict()
-      res['name'] = result['name']
-      image_list = result['images']
-      res['img'] = image_list[0]['hostedSmallUrl']
-      res['url'] = result['attribution']['url']
-      res['est_price'] = "100"
-      res['cook_time'] = "100"
-      print res
-      return_set.append(res)
+   # test_result = json.loads(test_res())
+   # result_set = [test_result]*7
+   # return_set = list()
+   # for result in result_set:
+   #    res = dict()
+   #    res['id'] = 1
+   #    res['name'] = result['name']
+   #    image_list = result['images']
+   #    res['img'] = image_list[0]['hostedSmallUrl']
+   #    res['url'] = result['attribution']['url']
+   #    res['est_price'] = "100"
+   #    res['cook_time'] = "100"
+   #    print res
+   #    return_set.append(res)
+   x = MealResult()
+   return_set = [x]*7
    return render(request, 'results.html',{'results_set':return_set})
 
 def shoppinglist(request):
