@@ -64,6 +64,10 @@ MASS_UNITS = {
 }
 
 
+ALL_INGREDIENTS = Ingredient.objects.all()
+INGREDIENTS = dict(((i.name, i) for i in ALL_INGREDIENTS))
+MIN_RETAIL_SIZE_KG = 0.1
+
 def convertToKilos(qty, unit, density):
     if unit in MASS_UNITS:
         return qty * MASS_UNITS[unit]
@@ -76,8 +80,35 @@ def convertToKilos(qty, unit, density):
 
 
 def ingredientBulkPrice(qty, unit, name):
-    ingredient = Ingredient.objects.get(name=name)
+    ingredient = INGREDIENTS[name]
     return convertToKilos(qty, unit, ingredient.density) * ingredient.price_per_kg
+
+
+def nextPowerOf2(val):
+    return math.pow(2, math.ceil(math.log(val, 2)))
+
+
+def ingredientRetailPrice(qty, unit, name):
+    ingredient = INGREDIENTS[name]
+    qty_kg = convertToKilos(qty, unit, ingredient.density)
+    retail_size = MIN_RETAIL_SIZE_KG * nextPowerOf2(float(qty_kg) / MIN_RETAIL_SIZE_KG)
+    retail_markup = MIN_RETAIL_SIZE_KG / retail_size
+    bulk_price = ingredient.price_per_kg
+    return bulk_price * (1.0 + retail_markup) * retail_size
+
+
+def get_menu_price(recipes):
+    ing_qty_kg = {}
+    for r in recipes:
+        for qty, unit, ing_name in self.ingredientLines:
+            ing = INGREDIENTS[ing_name]
+            qty_kg = convertToKilos(qty, unit, ing.density)
+            old_qty = ing_qty_kg.get(ing_name, 0.0)
+            ing_qty_kg[ing_name] = old_qty + qty_kg
+
+    price = 0.0
+    for ing_name, qty_kg in ing_qty_kg.iteritems():
+        price += ingredientRetailPrice(qty_kg, 'kilograms', ing_name)
 
 
 class Recipe(object):
