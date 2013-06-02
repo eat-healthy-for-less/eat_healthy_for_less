@@ -73,10 +73,10 @@ def get_menu_price(recipes, calories_per_meal):
     price = 0.0
     res_list = list()
     for ing_name, qty_kg in ing_qty_kg.iteritems():
-        res_list.append([ing_name, str(qty_kg)[:5], str(ingredientRetailPrice(qty_kg, 'kilograms', ing_name))[:5]])
+        res_list.append([ing_name, str(qty_kg)[:5], str(ingredientRetailPrice(qty_kg, 'kilograms', ing_name))[:7]])
         price += ingredientRetailPrice(qty_kg, 'kilograms', ing_name)
 
-    return res_list, price
+    return res_list, str(price)[:6]
 
 
 def savemenu(request):

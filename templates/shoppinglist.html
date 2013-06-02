@@ -4,15 +4,14 @@
 
 <div>
 
-    <div class="span8">
-      <div class="content-box">
+    <div class="span8" style="margin-bottom:80%;">
+      <div class="content-box" >
         <div class="span11 span12-tablet span12-phone" style="margin-bottom:55px;">
-          <h4>Ingredients</h4>
-              <ul>
+          <h2>Ingredients</h2>
                 {% for ing in results_set %}
-                <li>{{ ing.1 }} KG of {{ing.0}}</li> -- est. ${{ing.2}}</li>
+                <h6>{{ ing.1 }} KG of {{ing.0}}</li> -- est. ${{ing.2}}</h6>
               {% endfor %}
-            </ul>
+              <hr/>
             <h5>Total Est. Price: ${{ total }}</h5>
             </div>
         </div> <!-- /span -->
