@@ -43,15 +43,17 @@ class MealPenalizer:
     can choose to prioritze health, convenience or cost.  The attribute
     base_prices_fun :: (Ingredient,Amount) -> Price
     """
-    def __init__(self, budget, calories_per_meal, b_pen=10000, c_pen=1, n_pen=1800):
+    def __init__(self, budget, calories_per_meal, b_pen=10000, c_pen=1, n_pen=1800, s_pen=1e+9):
         # b_pen: penalty per dollar over budget
         # c_pen: penalty per second of cooking time
         # n_pen: penalty for going from best healthy recipe to median
+        # s_pen: penalty for having the same meal twice
         self.budget = budget
         self.calories_per_meal = calories_per_meal
         self.budget_penalty = b_pen
         self.nutrition_penalty = n_pen
         self.convenience_penalty = c_pen
+        self.same_penalty = s_pen
 
     def penalty(self, menu):
         b_pen = (self.budget_penalty
@@ -60,7 +62,8 @@ class MealPenalizer:
                        - self.budget))
         n_pen = self.nutrition_penalty * menu_nutrition(menu)
         c_pen = self.convenience_penalty * menu_convenience(menu)
-        return b_pen - n_pen + c_pen
+        s_pen = 0  # FIX ME
+        return b_pen - n_pen + c_pen + s_pen
 
 
 class SelectionDriver:
@@ -106,12 +109,7 @@ class SelectionDriver:
         return min(episodes, key=self.penalty)
 
 
-def select_optimal_menu(budget, calories_per_meal, constraint_names):
-    # choose recipes that match constraints
-    recipes = recipe.read_recipes()
-    recipes = [r for r in recipes
-               if r.satisfies_constraints(constraint_names)]
-
+def select_optimal_menu(recipes, budget, calories_per_meal):
     penalizer = MealPenalizer(budget, calories_per_meal)
     driver = SelectionDriver(penalizer.penalty)
     menu = driver.pick_menu(recipes)
