@@ -1,0 +1,233 @@
+{
+  "attributes": {},
+  "attribution": {
+    "html": "<a href='http://www.yummly.com/recipe/Prawn-patia-_indian-sweet-and-spicy-shrimp_-304850'>Prawn Patia (Indian Sweet and Spicy Shrimp) recipe</a> information powered by <img alt='Yummly' src='http://static.yummly.com/api-logo.png'/>",
+    "logo": "http://static.yummly.com/api-logo.png",
+    "text": "Prawn Patia (Indian Sweet and Spicy Shrimp) recipes: information powered by Yummly",
+    "url": "http://www.yummly.com/recipe/Prawn-patia-_indian-sweet-and-spicy-shrimp_-304850"
+  },
+  "flavors": {
+    "Bitter": 0.0016164437402039766,
+    "Meaty": 0.0002358056663069874,
+    "Piquant": 0.6516305804252625,
+    "Salty": 0.0005069735343568027,
+    "Sour": 0.0373917855322361,
+    "Sweet": 0.0011266631772741675
+  },
+  "id": "Prawn-patia-_indian-sweet-and-spicy-shrimp_-304850",
+  "images": [
+    {
+    "hostedLargeUrl": "http://i.yummly.com/Prawn-patia-_indian-sweet-and-spicy-shrimp_-304850-268492.l.jpg",
+    "hostedSmallUrl": "http://i.yummly.com/Prawn-patia-_indian-sweet-and-spicy-shrimp_-304850-268492.s.jpg"
+  }
+  ],
+  "ingredientLines": [
+    [2, "tablespoons", "vegetable oil"],
+    [10, "", "curry leaves"],
+    [1, "", "Yellow Onion"],
+    [2, "", "green chillies"],
+    [0.5, "cups", "tomato puree"],
+    [1, "tablespoons", "ginger-garlic paste"],
+    [1.5, "teaspoons", "red chilli powder"],
+    [0.5, "teaspoons", "turmeric powder"],
+    [1, "teaspoons", "cumin powder"],
+    [0.5, "teaspoons", "granulated sugar"],
+    [1.5, "tablespoons", "vinegar"],
+    [2, "tablespoons", "water"],
+    [1, "teaspoons", "Kosher salt"],
+    [1, "cups", "shrimp"],
+    [1, "tablespoons", "cilantro, fresh"]
+  ],
+  "name": "Prawn Patia (Indian Sweet and Spicy Shrimp)",
+  "numberOfServings": 2,
+  "nutritionEstimates": [
+    {
+    "attribute": "ENERC_KCAL",
+    "description": "Energy",
+    "unit": {
+      "abbreviation": "kcal",
+      "id": "fea252f8-9888-4365-b005-e2c63ed3a776",
+      "name": "calorie",
+      "plural": "calories",
+      "pluralAbbreviation": "kcal"
+    },
+    "value": 195.76
+  },
+  {
+    "attribute": "FAT",
+    "description": "Total lipid (fat)",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 14.26
+  },
+  {
+    "attribute": "FATRN",
+    "description": "Fatty acids, total trans",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.41
+  },
+  {
+    "attribute": "FASAT",
+    "description": "Fatty acids, total saturated",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 1.05
+  },
+  {
+    "attribute": "CHOLE",
+    "description": "Cholesterol",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.0
+  },
+  {
+    "attribute": "NA",
+    "description": "Sodium, Na",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 2.24
+  },
+  {
+    "attribute": "K",
+    "description": "Potassium, K",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.53
+  },
+  {
+    "attribute": "CHOCDF",
+    "description": "Carbohydrate, by difference",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 16.06
+  },
+  {
+    "attribute": "FIBTG",
+    "description": "Fiber, total dietary",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 3.8
+  },
+  {
+    "attribute": "SUGAR",
+    "description": "Sugars, total",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 7.97
+  },
+  {
+    "attribute": "PROCNT",
+    "description": "Protein",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 2.91
+  },
+  {
+    "attribute": "VITA_IU",
+    "description": "Vitamin A, IU",
+    "unit": {
+      "abbreviation": "IU",
+      "id": "ed46fe0c-44fe-4c1f-b3a8-880f92e30930",
+      "name": "IU",
+      "plural": "IU",
+      "pluralAbbreviation": "IU"
+    },
+    "value": 1281.28
+  },
+  {
+    "attribute": "VITC",
+    "description": "Vitamin C, total ascorbic acid",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.09
+  },
+  {
+    "attribute": "CA",
+    "description": "Calcium, Ca",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.05
+  },
+  {
+    "attribute": "FE",
+    "description": "Iron, Fe",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.0
+  }
+  ],
+  "rating": 5,
+  "source": {
+    "sourceDisplayName": "Serious Eats",
+    "sourceRecipeUrl": "http://www.seriouseats.com/recipes/2012/10/beyond-curry-prawn-patia-sweet-and-spicy-shrimp-recipe.html",
+    "sourceSiteUrl": "http://www.seriouseats.com/recipes/"
+  },
+  "totalTimeInSeconds": null,
+  "yield": "Serves 2"
+}

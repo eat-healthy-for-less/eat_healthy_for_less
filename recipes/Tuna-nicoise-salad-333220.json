@@ -1,0 +1,59 @@
+{
+  "attribution":{
+    "html":"<a href='http://www.yummly.com/recipe/Tuna-nicoise-salad-333220'>Tuna Ni&ccedil;oise Salad recipe</a> information powered by <img alt='Yummly' src='http://static.yummly.com/api-logo.png'/>",
+    "url":"http://www.yummly.com/recipe/Tuna-nicoise-salad-333220",
+    "text":"Tuna Ni&ccedil;oise Salad recipes: information powered by Yummly",
+    "logo":"http://static.yummly.com/api-logo.png"
+  },
+  "ingredientLines":[
+    [2, "tablespoons", "fresh lemon juice"],
+    [1, "tablespoons", "lemon zest"],
+    [1, "tablespoons", "white wine vinegar"],
+    [0.5, "tablespoons", "dijon mustard"],
+    [1, "cloves", "garlic"],
+    [0.25, "cups", "olive oil"],
+    [0.5, "pounds", "small white potatoes"],
+    [0.25, "pounds", "green beans"],
+    [1, "teaspoons", "salt"],
+    [1, "teaspoons", "ground black pepper"],
+    [12, "cups", "dried arugula"],
+    [0.5, "pounds", "cherry tomatoes"],
+    [0.33, "cups", "black olives"],
+    [4, "", "eggs"],
+    [2, "cans", "white meat tuna"],
+    [0.5, "cups", "parsley, fresh"]
+  ],
+  "flavors":{
+
+  },
+  "nutritionEstimates":[
+
+  ],
+  "images":[
+    {
+    "hostedLargeUrl":"http://i.yummly.com/Tuna-nicoise-salad-333220-295140.l.jpg",
+    "hostedSmallUrl":"http://i.yummly.com/Tuna-nicoise-salad-333220-295140.s.jpg"
+  }
+  ],
+  "name":"Tuna Niçoise Salad",
+  "yield":" 1 serving ",
+  "attributes":{
+    "cuisine":[
+      "French",
+      "American"
+    ],
+    "course":[
+      "Main Dishes",
+      "Salads"
+    ]
+  },
+  "totalTimeInSeconds":null,
+  "rating":0,
+  "numberOfServings":1,
+  "source":{
+    "sourceRecipeUrl":"http://camillestyles.com/uncategorized/tuesday-tastings-voila-nicoise/",
+    "sourceSiteUrl":"http://camillestyles.com",
+    "sourceDisplayName":"Camille Styles"
+  },
+  "id":"Tuna-nicoise-salad-333220"
+}

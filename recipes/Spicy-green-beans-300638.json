@@ -1,0 +1,224 @@
+{
+  "attributes": {
+    "course": [
+      "Side Dishes"
+    ],
+    "holiday": [
+      "Thanksgiving"
+    ]
+  },
+  "attribution": {
+    "html": "<a href='http://www.yummly.com/recipe/Spicy-green-beans-300638'>Spicy Green Beans recipe</a> information powered by <img alt='Yummly' src='http://static.yummly.com/api-logo.png'/>",
+    "logo": "http://static.yummly.com/api-logo.png",
+    "text": "Spicy Green Beans recipes: information powered by Yummly",
+    "url": "http://www.yummly.com/recipe/Spicy-green-beans-300638"
+  },
+  "flavors": {
+    "Bitter": 0.010061513632535934,
+    "Meaty": 0.00041442751535214484,
+    "Piquant": 0.3659224808216095,
+    "Salty": 0.0015523304464295506,
+    "Sour": 0.00870040524750948,
+    "Sweet": 0.0006866622134111822
+  },
+  "id": "Spicy-green-beans-300638",
+  "images": [
+    {
+    "hostedLargeUrl": "http://i.yummly.com/Spicy-green-beans-300638-158718.l.jpg",
+    "hostedSmallUrl": "http://i.yummly.com/Spicy-green-beans-300638-158718.s.jpg"
+  }
+  ],
+  "ingredientLines": [
+    [1, "pounds", "green beans"],
+    [0.3, "cups", "water"],
+    [1, "teaspoons", "salt"],
+    [2, "tablespoons", "ghee"],
+    [4, "cloves", "garlic"],
+    [1, "inches", "ginger root"],
+    [2, "teaspoons", "turmeric powder"],
+    [2, "teaspoons", "cumin powder"],
+    [0.25, "teaspoons", "cayenne powder"],
+    [3, "tablespoons", "sesame seeds"]
+  ],
+  "name": "Spicy Green Beans",
+  "numberOfServings": 6,
+  "nutritionEstimates": [
+    {
+    "attribute": "ENERC_KCAL",
+    "description": "Energy",
+    "unit": {
+      "abbreviation": "kcal",
+      "id": "fea252f8-9888-4365-b005-e2c63ed3a776",
+      "name": "calorie",
+      "plural": "calories",
+      "pluralAbbreviation": "kcal"
+    },
+    "value": 95.92
+  },
+  {
+    "attribute": "FAT",
+    "description": "Total lipid (fat)",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 5.98
+  },
+  {
+    "attribute": "FASAT",
+    "description": "Fatty acids, total saturated",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.35
+  },
+  {
+    "attribute": "CHOLE",
+    "description": "Cholesterol",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.0
+  },
+  {
+    "attribute": "NA",
+    "description": "Sodium, Na",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.22
+  },
+  {
+    "attribute": "K",
+    "description": "Potassium, K",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.26
+  },
+  {
+    "attribute": "CHOCDF",
+    "description": "Carbohydrate, by difference",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 9.68
+  },
+  {
+    "attribute": "FIBTG",
+    "description": "Fiber, total dietary",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 3.1
+  },
+  {
+    "attribute": "SUGAR",
+    "description": "Sugars, total",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 2.35
+  },
+  {
+    "attribute": "PROCNT",
+    "description": "Protein",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 2.72
+  },
+  {
+    "attribute": "VITA_IU",
+    "description": "Vitamin A, IU",
+    "unit": {
+      "abbreviation": "IU",
+      "id": "ed46fe0c-44fe-4c1f-b3a8-880f92e30930",
+      "name": "IU",
+      "plural": "IU",
+      "pluralAbbreviation": "IU"
+    },
+    "value": 484.07
+  },
+  {
+    "attribute": "VITC",
+    "description": "Vitamin C, total ascorbic acid",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.01
+  },
+  {
+    "attribute": "CA",
+    "description": "Calcium, Ca",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.08
+  },
+  {
+    "attribute": "FE",
+    "description": "Iron, Fe",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.0
+  }
+  ],
+  "rating": 0,
+  "source": {
+    "sourceDisplayName": "Food.com",
+    "sourceRecipeUrl": "http://www.food.com/recipe/spicy-green-beans-468301",
+    "sourceSiteUrl": "http://www.food.com"
+  },
+  "totalTime": "25 Min",
+  "totalTimeInSeconds": 1500,
+  "yield": "5-7"
+}

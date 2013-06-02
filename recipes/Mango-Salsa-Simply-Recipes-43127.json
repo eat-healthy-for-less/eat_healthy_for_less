@@ -1,0 +1,226 @@
+{
+  "attribution":{
+    "html":"<a href='http://www.yummly.com/recipe/Mango-Salsa-Simply-Recipes-43127'>Mango Salsa recipe</a> information powered by <img alt='Yummly' src='http://static.yummly.com/api-logo.png'/>",
+    "url":"http://www.yummly.com/recipe/Mango-Salsa-Simply-Recipes-43127",
+    "text":"Mango Salsa recipes: information powered by Yummly",
+    "logo":"http://static.yummly.com/api-logo.png"
+  },
+  "ingredientLines":[
+    [1, "", "mango)"],
+    [0.5, "", "red onion"],
+    [1, "", "jalapeno chile"],
+    [1, "cups", "cucumber"],
+    [3, "tsblespoons", "cilantro"],
+    [3, "tablespoons", "fresh lime juice"],
+    [0.25, "teaspoons", "kosher salt"],
+	[0.25, "teaspoons", "pepper, ground"]
+  ],
+  "flavors":{
+    "Meaty":2.223691626568325E-5,
+    "Piquant":0.0,
+    "Sour":0.002721542026847601,
+    "Bitter":2.2551392612513155E-4,
+    "Sweet":9.325257269665599E-4,
+    "Salty":1.0046796887763776E-5
+  },
+  "nutritionEstimates":[
+    {
+    "attribute":"ENERC_KCAL",
+    "description":"Energy",
+    "value":49.29,
+    "unit":{
+      "id":"fea252f8-9888-4365-b005-e2c63ed3a776",
+      "name":"calorie",
+      "abbreviation":"kcal",
+      "plural":"calories",
+      "pluralAbbreviation":"kcal"
+    }
+  },
+  {
+    "attribute":"FAT",
+    "description":"Total lipid (fat)",
+    "value":0.11,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"FASAT",
+    "description":"Fatty acids, total saturated",
+    "value":0.03,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"CHOLE",
+    "description":"Cholesterol",
+    "value":0.00,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"NA",
+    "description":"Sodium, Na",
+    "value":0.97,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"K",
+    "description":"Potassium, K",
+    "value":0.23,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"CHOCDF",
+    "description":"Carbohydrate, by difference",
+    "value":12.83,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"FIBTG",
+    "description":"Fiber, total dietary",
+    "value":2.46,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"SUGAR",
+    "description":"Sugars, total",
+    "value":7.66,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"PROCNT",
+    "description":"Protein",
+    "value":1.52,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"VITA_IU",
+    "description":"Vitamin A, IU",
+    "value":391.62,
+    "unit":{
+      "id":"ed46fe0c-44fe-4c1f-b3a8-880f92e30930",
+      "name":"IU",
+      "abbreviation":"IU",
+      "plural":"IU",
+      "pluralAbbreviation":"IU"
+    }
+  },
+  {
+    "attribute":"VITC",
+    "description":"Vitamin C, total ascorbic acid",
+    "value":0.02,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"CA",
+    "description":"Calcium, Ca",
+    "value":0.03,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"FE",
+    "description":"Iron, Fe",
+    "value":0.00,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  }
+  ],
+  "images":[
+    {
+    "hostedLargeUrl":"http://i.yummly.com/Mango-Salsa-Simply-Recipes-43127-136208.l.png",
+    "hostedSmallUrl":"http://i.yummly.com/Mango-Salsa-Simply-Recipes-43127-136208.s.png"
+  }
+  ],
+  "name":"Mango Salsa",
+  "attributes":{
+    "course":[
+      "Appetizers",
+      "Side Dishes",
+      "Condiments and Sauces",
+      "Lunch and Snacks"
+    ],
+    "cuisine":[
+      "Mediterranean",
+      "Southwestern",
+      "Mexican",
+      "American"
+    ]
+  },
+  "totalTimeInSeconds":null,
+  "rating":5,
+  "numberOfServings":4,
+  "source":{
+    "sourceRecipeUrl":"http://simplyrecipes.com/recipes/mango_salsa/",
+    "sourceSiteUrl":"http://simplyrecipes.com",
+    "sourceDisplayName":"Simply Recipes"
+  },
+  "id":"Mango-Salsa-Simply-Recipes-43127"
+}

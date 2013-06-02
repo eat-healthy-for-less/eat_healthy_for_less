@@ -1,0 +1,216 @@
+{
+  "attribution":{
+    "html":"<a href='http://www.yummly.com/recipe/Porcini-mushroom-soup-308781'>Porcini Mushroom Soup recipe</a> information powered by <img alt='Yummly' src='http://static.yummly.com/api-logo.png'/>",
+    "url":"http://www.yummly.com/recipe/Porcini-mushroom-soup-308781",
+    "text":"Porcini Mushroom Soup recipes: information powered by Yummly",
+    "logo":"http://static.yummly.com/api-logo.png"
+  },
+  "ingredientLines":[
+    [2, "ounces", "porcini mushrooms, dried"],
+    [0.33, "cups", "Olive oil, Extra Virgin"],
+    [3, "", "shallots"],
+    [1, "tablespoons", "rosemary, fresh],
+    [1.5, "pounds", "small potatoes"],
+    [3, "cloves", "garlic],
+    [4, "cups", "water"],
+    [1.5, "teaspoons", "kosher salt"]
+  ],
+  "flavors":{
+
+  },
+  "nutritionEstimates":[
+    {
+    "attribute":"ENERC_KCAL",
+    "description":"Energy",
+    "value":1148.38,
+    "unit":{
+      "id":"fea252f8-9888-4365-b005-e2c63ed3a776",
+      "name":"calorie",
+      "abbreviation":"kcal",
+      "plural":"calories",
+      "pluralAbbreviation":"kcal"
+    }
+  },
+  {
+    "attribute":"FAT",
+    "description":"Total lipid (fat)",
+    "value":64.75,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"FASAT",
+    "description":"Fatty acids, total saturated",
+    "value":30.58,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"CHOLE",
+    "description":"Cholesterol",
+    "value":0.15,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"NA",
+    "description":"Sodium, Na",
+    "value":4.03,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"K",
+    "description":"Potassium, K",
+    "value":2.80,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"CHOCDF",
+    "description":"Carbohydrate, by difference",
+    "value":74.49,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"FIBTG",
+    "description":"Fiber, total dietary",
+    "value":10.03,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"SUGAR",
+    "description":"Sugars, total",
+    "value":21.60,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"PROCNT",
+    "description":"Protein",
+    "value":76.38,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"VITA_IU",
+    "description":"Vitamin A, IU",
+    "value":2757.00,
+    "unit":{
+      "id":"ed46fe0c-44fe-4c1f-b3a8-880f92e30930",
+      "name":"IU",
+      "abbreviation":"IU",
+      "plural":"IU",
+      "pluralAbbreviation":"IU"
+    }
+  },
+  {
+    "attribute":"VITC",
+    "description":"Vitamin C, total ascorbic acid",
+    "value":0.05,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"CA",
+    "description":"Calcium, Ca",
+    "value":1.96,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"FE",
+    "description":"Iron, Fe",
+    "value":0.01,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  }
+  ],
+  "images":[
+    {
+    "hostedLargeUrl":"http://i.yummly.com/Porcini-mushroom-soup-308781-272955.l.jpg",
+    "hostedSmallUrl":"http://i.yummly.com/Porcini-mushroom-soup-308781-272955.s.jpg"
+  }
+  ],
+  "name":"Porcini Mushroom Soup",
+  "yield":"serves 4-6",
+  "attributes":{
+    "course":[
+      "Soups"
+    ],
+    "cuisine":[
+      "American"
+    ]
+  },
+  "totalTimeInSeconds":null,
+  "rating":5,
+  "numberOfServings":5,
+  "source":{
+    "sourceRecipeUrl":"http://www.101cookbooks.com/archives/porcini-mushroom-soup-recipe.html",
+    "sourceSiteUrl":"http://www.101cookbooks.com/",
+    "sourceDisplayName":"101 Cookbooks"
+  },
+  "id":"Porcini-mushroom-soup-308781"
+}

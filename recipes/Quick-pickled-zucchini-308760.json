@@ -1,0 +1,232 @@
+{
+  "attribution":{
+    "html":"<a href='http://www.yummly.com/recipe/Quick-pickled-zucchini-308760'>Quick Pickled Zucchini recipe</a> information powered by <img alt='Yummly' src='http://static.yummly.com/api-logo.png'/>",
+    "url":"http://www.yummly.com/recipe/Quick-pickled-zucchini-308760",
+    "text":"Quick Pickled Zucchini recipes: information powered by Yummly",
+    "logo":"http://static.yummly.com/api-logo.png"
+  },
+  "ingredientLines":[
+    [1, "pounds", "zucchini"],
+    [1, "", "white onion"],
+    [3, "", "shallots"],
+    [1.5, "tablespoons", "sea salt"],
+    [0.25, "cups", "dill, fresh"],
+    [1, "", "red chile pepper"],
+    [0.5, "tablespoons", "yellow mustard seeds"],
+    [0.75, "cups", "cider vinegar"],
+    [0.75, "cups", "white wine vinegar"],
+    [0.33, "cups", "natural cane sugar"]
+  ],
+  "flavors":{
+    "Sour":0.002028971677646041,
+    "Salty":0.00803963653743267,
+    "Piquant":0.0,
+    "Meaty":1.640080299694091E-4,
+    "Sweet":0.0024451466742902994,
+    "Bitter":0.009053773246705532
+  },
+  "nutritionEstimates":[
+    {
+    "attribute":"ENERC_KCAL",
+    "description":"Energy",
+    "value":631.24,
+    "unit":{
+      "id":"fea252f8-9888-4365-b005-e2c63ed3a776",
+      "name":"calorie",
+      "abbreviation":"kcal",
+      "plural":"calories",
+      "pluralAbbreviation":"kcal"
+    }
+  },
+  {
+    "attribute":"FAT",
+    "description":"Total lipid (fat)",
+    "value":1.28,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"FATRN",
+    "description":"Fatty acids, total trans",
+    "value":0.00,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"FASAT",
+    "description":"Fatty acids, total saturated",
+    "value":0.06,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"CHOLE",
+    "description":"Cholesterol",
+    "value":0.00,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"NA",
+    "description":"Sodium, Na",
+    "value":5.70,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"K",
+    "description":"Potassium, K",
+    "value":2.91,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"CHOCDF",
+    "description":"Carbohydrate, by difference",
+    "value":128.79,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"FIBTG",
+    "description":"Fiber, total dietary",
+    "value":8.26,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"SUGAR",
+    "description":"Sugars, total",
+    "value":70.94,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"PROCNT",
+    "description":"Protein",
+    "value":16.55,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"VITA_IU",
+    "description":"Vitamin A, IU",
+    "value":5691.85,
+    "unit":{
+      "id":"ed46fe0c-44fe-4c1f-b3a8-880f92e30930",
+      "name":"IU",
+      "abbreviation":"IU",
+      "plural":"IU",
+      "pluralAbbreviation":"IU"
+    }
+  },
+  {
+    "attribute":"VITC",
+    "description":"Vitamin C, total ascorbic acid",
+    "value":0.15,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"CA",
+    "description":"Calcium, Ca",
+    "value":0.29,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"FE",
+    "description":"Iron, Fe",
+    "value":0.00,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  }
+  ],
+  "images":[
+    {
+    "hostedLargeUrl":"http://i.yummly.com/Quick-pickled-zucchini-308760-272934.l.jpg",
+    "hostedSmallUrl":"http://i.yummly.com/Quick-pickled-zucchini-308760-272934.s.jpg"
+  }
+  ],
+  "name":"Quick Pickled Zucchini",
+  "yield":"makes one",
+  "attributes":{
+    "cuisine":[
+      "American"
+    ]
+  },
+  "totalTimeInSeconds":null,
+  "rating":5,
+  "numberOfServings":1,
+  "source":{
+    "sourceRecipeUrl":"http://www.101cookbooks.com/archives/quick-pickled-zucchini-recipe.html",
+    "sourceSiteUrl":"http://www.101cookbooks.com/",
+    "sourceDisplayName":"101 Cookbooks"
+  },
+  "id":"Quick-pickled-zucchini-308760"
+}

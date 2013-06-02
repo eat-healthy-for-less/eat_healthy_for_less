@@ -1,0 +1,57 @@
+{
+  "attribution":{
+    "html":"<a href='http://www.yummly.com/recipe/Roasted-Root-Vegetable-Candy-The-Pioneer-Woman-45812'>Roasted Root Vegetable Candy recipe</a> information powered by <img alt='Yummly' src='http://static.yummly.com/api-logo.png'/>",
+    "url":"http://www.yummly.com/recipe/Roasted-Root-Vegetable-Candy-The-Pioneer-Woman-45812",
+    "text":"Roasted Root Vegetable Candy recipes: information powered by Yummly",
+    "logo":"http://static.yummly.com/api-logo.png"
+  },
+  "ingredientLines":[
+    [1, "", "celery root"],
+    [3, "", "parsnips"],
+    [6, "", "carrots"],
+    [2, "", "potato"],
+    [1, "tablespoons", "olive oil"],
+    [1, "teaspoons", "salt"]
+	[1, "teaspoons", "pepper"]
+  ],
+  "flavors":{
+    "Sweet":2.3837902E-5,
+    "Piquant":0.0,
+    "Meaty":1.1911399E-6,
+    "Sour":4.1567946E-5,
+    "Bitter":7.874016E-5,
+    "Salty":1.6252678E-5
+  },
+  "nutritionEstimates":[
+
+  ],
+  "images":[
+    {
+    "hostedLargeUrl":"http://i.yummly.com/Roasted-Root-Vegetable-Candy-The-Pioneer-Woman-45812-6703.l.jpg",
+    "hostedSmallUrl":"http://i.yummly.com/Roasted-Root-Vegetable-Candy-The-Pioneer-Woman-45812-6703.s.jpg"
+  }
+  ],
+  "name":"Roasted Root Vegetable Candy",
+  "yield":"8",
+  "attributes":{
+    "cuisine":[
+      "American"
+    ],
+    "course":[
+      "Side Dishes"
+    ],
+    "holiday":[
+      "Christmas",
+      "Thanksgiving"
+    ]
+  },
+  "totalTimeInSeconds":null,
+  "rating":5,
+  "numberOfServings":8,
+  "source":{
+    "sourceRecipeUrl":"http://thepioneerwoman.com/cooking/2011/09/roasted-root-vegetable-candy/",
+    "sourceSiteUrl":"http://thepioneerwoman.com/cooking",
+    "sourceDisplayName":"The Pioneer Woman"
+  },
+  "id":"Roasted-Root-Vegetable-Candy-The-Pioneer-Woman-45812"
+}

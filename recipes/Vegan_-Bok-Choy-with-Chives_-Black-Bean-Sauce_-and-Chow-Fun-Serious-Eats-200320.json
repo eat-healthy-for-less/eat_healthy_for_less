@@ -1,0 +1,235 @@
+{
+  "attribution":{
+    "html":"<a href='http://www.yummly.com/recipe/Vegan_-Bok-Choy-with-Chives_-Black-Bean-Sauce_-and-Chow-Fun-Serious-Eats-200320'>Vegan: Bok Choy with Chives, Black Bean Sauce, and Chow Fun recipe</a> information powered by <img alt='Yummly' src='http://static.yummly.com/api-logo.png'/>",
+    "url":"http://www.yummly.com/recipe/Vegan_-Bok-Choy-with-Chives_-Black-Bean-Sauce_-and-Chow-Fun-Serious-Eats-200320",
+    "text":"Vegan: Bok Choy with Chives, Black Bean Sauce, and Chow Fun recipes: information powered by Yummly",
+    "logo":"http://static.yummly.com/api-logo.png"
+  },
+  "ingredientLines":[
+    [0.5, "cups", "dry sherry"],
+    [3, "tablespoons", "soy sauce"],
+    [2, "tablespoons", "fermented black bean sauce"],
+    [0.5, "pounds", "chow fun noodles"],
+    [2, "tablespoons", "vegetable oil"],
+    [1.5, "pounds", "bok choy"],
+    [0.25, "pounds", "scallions"],
+    [1, "", "leek"],
+    [2, "cups", "bean sprouts"]
+  ],
+  "flavors":{
+    "Sour":0.006458975,
+    "Sweet":6.9108215E-4,
+    "Meaty":3.311715E-4,
+    "Bitter":0.0032847936,
+    "Salty":0.0027663265,
+    "Piquant":0.0
+  },
+  "nutritionEstimates":[
+    {
+    "attribute":"ENERC_KCAL",
+    "description":"Energy",
+    "value":350.85,
+    "unit":{
+      "id":"fea252f8-9888-4365-b005-e2c63ed3a776",
+      "name":"calorie",
+      "abbreviation":"kcal",
+      "plural":"calories",
+      "pluralAbbreviation":"kcal"
+    }
+  },
+  {
+    "attribute":"FAT",
+    "description":"Total lipid (fat)",
+    "value":9.54,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"FATRN",
+    "description":"Fatty acids, total trans",
+    "value":0.20,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"FASAT",
+    "description":"Fatty acids, total saturated",
+    "value":1.12,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"CHOLE",
+    "description":"Cholesterol",
+    "value":0.05,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"NA",
+    "description":"Sodium, Na",
+    "value":0.92,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"K",
+    "description":"Potassium, K",
+    "value":0.73,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"CHOCDF",
+    "description":"Carbohydrate, by difference",
+    "value":53.35,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"FIBTG",
+    "description":"Fiber, total dietary",
+    "value":5.64,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"SUGAR",
+    "description":"Sugars, total",
+    "value":8.07,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"PROCNT",
+    "description":"Protein",
+    "value":14.49,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"VITA_IU",
+    "description":"Vitamin A, IU",
+    "value":8131.75,
+    "unit":{
+      "id":"ed46fe0c-44fe-4c1f-b3a8-880f92e30930",
+      "name":"IU",
+      "abbreviation":"IU",
+      "plural":"IU",
+      "pluralAbbreviation":"IU"
+    }
+  },
+  {
+    "attribute":"VITC",
+    "description":"Vitamin C, total ascorbic acid",
+    "value":0.09,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"CA",
+    "description":"Calcium, Ca",
+    "value":0.22,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  },
+  {
+    "attribute":"FE",
+    "description":"Iron, Fe",
+    "value":0.01,
+    "unit":{
+      "id":"12485d26-6e69-102c-9a8a-0030485841f8",
+      "name":"gram",
+      "abbreviation":"g",
+      "plural":"grams",
+      "pluralAbbreviation":"grams"
+    }
+  }
+  ],
+  "images":[
+    {
+    "hostedLargeUrl":"http://i.yummly.com/Vegan_-Bok-Choy-with-Chives_-Black-Bean-Sauce_-and-Chow-Fun-Serious-Eats-200320-40112.l.png",
+    "hostedSmallUrl":"http://i.yummly.com/Vegan_-Bok-Choy-with-Chives_-Black-Bean-Sauce_-and-Chow-Fun-Serious-Eats-200320-40112.s.png"
+  }
+  ],
+  "name":"Vegan: Bok Choy with Chives, Black Bean Sauce, and Chow Fun",
+  "yield":"4",
+  "attributes":{
+    "course":[
+      "Main Dishes",
+      "Side Dishes"
+    ],
+    "cuisine":[
+      "Chinese"
+    ]
+  },
+  "totalTimeInSeconds":null,
+  "rating":5,
+  "numberOfServings":4,
+  "source":{
+    "sourceRecipeUrl":"http://www.seriouseats.com/recipes/2012/01/vegan-bok-choy-with-chives-black-bean-sauce-chow-fun.html",
+    "sourceSiteUrl":"http://www.seriouseats.com/recipes/",
+    "sourceDisplayName":"Serious Eats"
+  },
+  "id":"Vegan_-Bok-Choy-with-Chives_-Black-Bean-Sauce_-and-Chow-Fun-Serious-Eats-200320"
+}

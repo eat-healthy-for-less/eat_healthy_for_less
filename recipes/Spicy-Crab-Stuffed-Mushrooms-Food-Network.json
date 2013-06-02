@@ -1,0 +1,226 @@
+{
+  "attributes": {
+    "course": [
+      "Appetizers"
+    ],
+    "cuisine": [
+      "Southern & Soul Food",
+      "American"
+    ]
+  },
+  "attribution": {
+    "html": "<a href='http://www.yummly.com/recipe/Spicy-Crab-Stuffed-Mushrooms-Food-Network'>Spicy Crab Stuffed Mushrooms recipe</a> information powered by <img alt='Yummly' src='http://static.yummly.com/api-logo.png'/>",
+    "logo": "http://static.yummly.com/api-logo.png",
+    "text": "Spicy Crab Stuffed Mushrooms recipes: information powered by Yummly",
+    "url": "http://www.yummly.com/recipe/Spicy-Crab-Stuffed-Mushrooms-Food-Network"
+  },
+  "flavors": {
+    "Bitter": 0.0014375740429386497,
+    "Meaty": 5.881441029487178e-05,
+    "Piquant": 0.5261785387992859,
+    "Salty": 0.00018603645730763674,
+    "Sour": 0.000766456127166748,
+    "Sweet": 0.0004110813606530428
+  },
+  "id": "Spicy-Crab-Stuffed-Mushrooms-Food-Network",
+  "images": [
+    {
+    "hostedLargeUrl": "http://i.yummly.com/Spicy-Crab-Stuffed-Mushrooms-Food-Network-147615.l.jpg",
+    "hostedSmallUrl": "http://i.yummly.com/Spicy-Crab-Stuffed-Mushrooms-Food-Network-147615.s.jpg"
+  }
+  ],
+  "ingredientLines": [
+    [12, "ounces", "white mushrooms"],
+    [1, "pounds", "crabmeat"],
+    [1, "teaspoons", "garlic"],
+    [0.5, "cups", "pickled jalapenos"],
+    [0.25, "pounds", "grated pepper jack cheese"],
+    [1, "teaspoons", "worcestershire sauce"],
+    [1, "teaspoons", "hot sauce"],
+    [0.5, "teaspoons", "salt"],
+    [0.25, "cups", "mayonnaise"],
+    [2, "ounces", "grated parmigiano-reggiano cheese"],
+    [2, "heads", "radicchio"]
+  ],
+  "name": "Spicy Crab Stuffed Mushrooms",
+  "numberOfServings": 8,
+  "nutritionEstimates": [
+    {
+    "attribute": "ENERC_KCAL",
+    "description": "Energy",
+    "unit": {
+      "abbreviation": "kcal",
+      "id": "fea252f8-9888-4365-b005-e2c63ed3a776",
+      "name": "calorie",
+      "plural": "calories",
+      "pluralAbbreviation": "kcal"
+    },
+    "value": 181.91
+  },
+  {
+    "attribute": "FAT",
+    "description": "Total lipid (fat)",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 9.09
+  },
+  {
+    "attribute": "FASAT",
+    "description": "Fatty acids, total saturated",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 4.19
+  },
+  {
+    "attribute": "CHOLE",
+    "description": "Cholesterol",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.06
+  },
+  {
+    "attribute": "NA",
+    "description": "Sodium, Na",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.59
+  },
+  {
+    "attribute": "K",
+    "description": "Potassium, K",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.51
+  },
+  {
+    "attribute": "CHOCDF",
+    "description": "Carbohydrate, by difference",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 6.0
+  },
+  {
+    "attribute": "FIBTG",
+    "description": "Fiber, total dietary",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 1.02
+  },
+  {
+    "attribute": "SUGAR",
+    "description": "Sugars, total",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 2.24
+  },
+  {
+    "attribute": "PROCNT",
+    "description": "Protein",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 18.09
+  },
+  {
+    "attribute": "VITA_IU",
+    "description": "Vitamin A, IU",
+    "unit": {
+      "abbreviation": "IU",
+      "id": "ed46fe0c-44fe-4c1f-b3a8-880f92e30930",
+      "name": "IU",
+      "plural": "IU",
+      "pluralAbbreviation": "IU"
+    },
+    "value": 198.86
+  },
+  {
+    "attribute": "VITC",
+    "description": "Vitamin C, total ascorbic acid",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.01
+  },
+  {
+    "attribute": "CA",
+    "description": "Calcium, Ca",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.25
+  },
+  {
+    "attribute": "FE",
+    "description": "Iron, Fe",
+    "unit": {
+      "abbreviation": "g",
+      "id": "12485d26-6e69-102c-9a8a-0030485841f8",
+      "name": "gram",
+      "plural": "grams",
+      "pluralAbbreviation": "grams"
+    },
+    "value": 0.0
+  }
+  ],
+  "rating": 5,
+  "source": {
+    "sourceDisplayName": "Food Network",
+    "sourceRecipeUrl": "http://www.foodnetwork.com/recipes/emeril-lagasse/spicy-crab-stuffed-mushrooms-recipe/index.html",
+    "sourceSiteUrl": "http://www.foodnetwork.com"
+  },
+  "totalTime": "45 Min",
+  "totalTimeInSeconds": 2700,
+  "yield": "8 appetizer servings"
+}
