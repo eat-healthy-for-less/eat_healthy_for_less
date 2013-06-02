@@ -19,7 +19,7 @@
     [0.5, "teaspoons", "salt"],
     [1, "tablespoons", "fresh lime juice"],
     [0.3333, "cups", "sour cream"],
-    [1, "", "chopped fresh cilantro"]
+    [1, "tablespoons", "fresh cilantro"]
   ],
   "flavors":{
     "Salty":7.688264595344663E-4,
