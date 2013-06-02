@@ -1,7 +1,7 @@
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 import json
-from ehfl.MealResult import MealResult
+from ehfl.MealResult import MealResult, FakeResult
 
 def index(request):
 	"""Home Page"""

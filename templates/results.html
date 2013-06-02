@@ -7,10 +7,10 @@ $(document).ready(function() {
     replaced_meal = replaced_meal.replace('<a href="javascript:void(0)" class="btn" id="btn-modal1" style="float:right;">Change Meal</a>', '')
     $('.modal-replaced-meal').html(replaced_meal)
     // option meals have meal-# as id
-    var options = "<a href='javascript:void(0);' id='meal-0'><div class='content-box'><h4>I have other plans</h4></div></a>"
+    var options = "<div class='span8'><div class='content-box' id='meal-{{forloop.counter}}'><!-- Result link and text --><div class='span1' style='margin-bottom:55px;'><h4>I have other plans.</h4><a href='javascript:void(0)' class='btn' id='btn-modal-0' style='float:right;'>Choose Meal</a></div></div> <!-- /span --></div> <!-- /row -->"
     console.log(options)
-    {% for result in results_set.1.get_alterns %}
-    options = options +"<div class='span8'><div class='content-box' id='meal-{{forloop.counter}}'><!-- Result link and text --><div class='span1' style='margin-bottom:55px;'><h4><a href='{{ result.url }}'>{% autoescape off %} {# This is for showing raw html symbols #}{{ result.name }}{% endautoescape %}</a></h4><div class='hidden-desktop' style='float:left; margin-right:10px;'><img src='{{ result.img }}' /></div>~${{ result.est_price }}, {{ result.cook_time }} minutes<a href='javascript:void(0)' class='btn' id='btn-modal{{forloop.counter}}' style='float:right;'>Change Meal</a></div></div> <!-- /span --></div> <!-- /row -->"
+    {% for result in results_set.1.alterns %}
+    options = options +"<div class='span8'><div class='content-box' id='meal-{{forloop.counter}}'><!-- Result link and text --><div class='span1' style='margin-bottom:55px;'><h4><a href='{{ result.url }}'>{% autoescape off %} {# This is for showing raw html symbols #}{{ result.name }}{% endautoescape %}</a></h4><div class='hidden-desktop' style='float:left; margin-right:10px;'><img src='{{ result.img }}' /></div>~${{ result.est_price }}, {{ result.cook_time }} minutes<a href='javascript:void(0)' class='btn' id='btn-modal-{{forloop.counter}}' style='float:right;'>Choose Meal</a></div></div> <!-- /span --></div> <!-- /row -->"
     console.log(options)
     {% endfor %}
     console.log(options)
@@ -26,8 +26,8 @@ $(document).ready(function() {
     // option meals have meal-# as id
     var options = "<a href='javascript:void(0);' id='meal-0'><div class='content-box'><h4>I have other plans</h4></div></a>"
     console.log(options)
-    {% for result in results_set.2.get_alterns %}
-    options = options +"<div class='span8'><div class='content-box' id='meal-{{forloop.counter}}'><!-- Result link and text --><div class='span1' style='margin-bottom:55px;'><h4><a href='{{ result.url }}'>{% autoescape off %} {# This is for showing raw html symbols #}{{ result.name }}{% endautoescape %}</a></h4><div class='hidden-desktop' style='float:left; margin-right:10px;'><img src='{{ result.img }}' /></div>~${{ result.est_price }}, {{ result.cook_time }} minutes<a href='javascript:void(0)' class='btn' id='btn-modal{{forloop.counter}}' style='float:right;'>Change Meal</a></div></div> <!-- /span --></div> <!-- /row -->"
+    {% for result in results_set.2.alterns %}
+    options = options +"<div class='span8'><div class='content-box' id='meal-{{forloop.counter}}'><!-- Result link and text --><div class='span1' style='margin-bottom:55px;'><h4><a href='{{ result.url }}'>{% autoescape off %} {# This is for showing raw html symbols #}{{ result.name }}{% endautoescape %}</a></h4><div class='hidden-desktop' style='float:left; margin-right:10px;'><img src='{{ result.img }}' /></div>~${{ result.est_price }}, {{ result.cook_time }} minutes<a href='javascript:void(0)' class='btn' id='btn-modal-{{forloop.counter}}' style='float:right;'>Choose Meal</a></div></div> <!-- /span --></div> <!-- /row -->"
     console.log(options)
     {% endfor %}
     console.log(options)
@@ -43,8 +43,8 @@ $(document).ready(function() {
     // option meals have meal-# as id
     var options = "<a href='javascript:void(0);' id='meal-0'><div class='content-box'><h4>I have other plans</h4></div></a>"
     console.log(options)
-    {% for result in results_set.3.get_alterns %}
-    options = options +"<div class='span8'><div class='content-box' id='meal-{{forloop.counter}}'><!-- Result link and text --><div class='span1' style='margin-bottom:55px;'><h4><a href='{{ result.url }}'>{% autoescape off %} {# This is for showing raw html symbols #}{{ result.name }}{% endautoescape %}</a></h4><div class='hidden-desktop' style='float:left; margin-right:10px;'><img src='{{ result.img }}' /></div>~${{ result.est_price }}, {{ result.cook_time }} minutes<a href='javascript:void(0)' class='btn' id='btn-modal{{forloop.counter}}' style='float:right;'>Change Meal</a></div></div> <!-- /span --></div> <!-- /row -->"
+    {% for result in results_set.3.alterns %}
+    options = options +"<div class='span8'><div class='content-box' id='meal-{{forloop.counter}}'><!-- Result link and text --><div class='span1' style='margin-bottom:55px;'><h4><a href='{{ result.url }}'>{% autoescape off %} {# This is for showing raw html symbols #}{{ result.name }}{% endautoescape %}</a></h4><div class='hidden-desktop' style='float:left; margin-right:10px;'><img src='{{ result.img }}' /></div>~${{ result.est_price }}, {{ result.cook_time }} minutes<a href='javascript:void(0)' class='btn' id='btn-modal-{{forloop.counter}}' style='float:right;'>Choose Meal</a></div></div> <!-- /span --></div> <!-- /row -->"
     console.log(options)
     {% endfor %}
     console.log(options)
@@ -60,8 +60,8 @@ $(document).ready(function() {
     // option meals have meal-# as id
     var options = "<a href='javascript:void(0);' id='meal-0'><div class='content-box'><h4>I have other plans</h4></div></a>"
     console.log(options)
-    {% for result in results_set.4.get_alterns %}
-    options = options +"<div class='span8'><div class='content-box' id='meal-{{forloop.counter}}'><!-- Result link and text --><div class='span1' style='margin-bottom:55px;'><h4><a href='{{ result.url }}'>{% autoescape off %} {# This is for showing raw html symbols #}{{ result.name }}{% endautoescape %}</a></h4><div class='hidden-desktop' style='float:left; margin-right:10px;'><img src='{{ result.img }}' /></div>~${{ result.est_price }}, {{ result.cook_time }} minutes<a href='javascript:void(0)' class='btn' id='btn-modal{{forloop.counter}}' style='float:right;'>Change Meal</a></div></div> <!-- /span --></div> <!-- /row -->"
+    {% for result in results_set.4.alterns %}
+    options = options +"<div class='span8'><div class='content-box' id='meal-{{forloop.counter}}'><!-- Result link and text --><div class='span1' style='margin-bottom:55px;'><h4><a href='{{ result.url }}'>{% autoescape off %} {# This is for showing raw html symbols #}{{ result.name }}{% endautoescape %}</a></h4><div class='hidden-desktop' style='float:left; margin-right:10px;'><img src='{{ result.img }}' /></div>~${{ result.est_price }}, {{ result.cook_time }} minutes<a href='javascript:void(0)' class='btn' id='btn-modal-{{forloop.counter}}' style='float:right;'>Choose Meal</a></div></div> <!-- /span --></div> <!-- /row -->"
     console.log(options)
     {% endfor %}
     console.log(options)
@@ -77,8 +77,8 @@ $(document).ready(function() {
     // option meals have meal-# as id
     var options = "<a href='javascript:void(0);' id='meal-0'><div class='content-box'><h4>I have other plans</h4></div></a>"
     console.log(options)
-    {% for result in results_set.5.get_alterns %}
-    options = options +"<div class='span8'><div class='content-box' id='meal-{{forloop.counter}}'><!-- Result link and text --><div class='span1' style='margin-bottom:55px;'><h4><a href='{{ result.url }}'>{% autoescape off %} {# This is for showing raw html symbols #}{{ result.name }}{% endautoescape %}</a></h4><div class='hidden-desktop' style='float:left; margin-right:10px;'><img src='{{ result.img }}' /></div>~${{ result.est_price }}, {{ result.cook_time }} minutes<a href='javascript:void(0)' class='btn' id='btn-modal{{forloop.counter}}' style='float:right;'>Change Meal</a></div></div> <!-- /span --></div> <!-- /row -->"
+    {% for result in results_set.5.alterns %}
+    options = options +"<div class='span8'><div class='content-box' id='meal-{{forloop.counter}}'><!-- Result link and text --><div class='span1' style='margin-bottom:55px;'><h4><a href='{{ result.url }}'>{% autoescape off %} {# This is for showing raw html symbols #}{{ result.name }}{% endautoescape %}</a></h4><div class='hidden-desktop' style='float:left; margin-right:10px;'><img src='{{ result.img }}' /></div>~${{ result.est_price }}, {{ result.cook_time }} minutes<a href='javascript:void(0)' class='btn' id='btn-modal-{{forloop.counter}}' style='float:right;'>Choose Meal</a></div></div> <!-- /span --></div> <!-- /row -->"
     console.log(options)
     {% endfor %}
     console.log(options)
@@ -94,8 +94,8 @@ $(document).ready(function() {
     // option meals have meal-# as id
     var options = "<a href='javascript:void(0);' id='meal-0'><div class='content-box'><h4>I have other plans</h4></div></a>"
     console.log(options)
-    {% for result in results_set.6.get_alterns %}
-    options = options +"<div class='span8'><div class='content-box' id='meal-{{forloop.counter}}'><!-- Result link and text --><div class='span1' style='margin-bottom:55px;'><h4><a href='{{ result.url }}'>{% autoescape off %} {# This is for showing raw html symbols #}{{ result.name }}{% endautoescape %}</a></h4><div class='hidden-desktop' style='float:left; margin-right:10px;'><img src='{{ result.img }}' /></div>~${{ result.est_price }}, {{ result.cook_time }} minutes<a href='javascript:void(0)' class='btn' id='btn-modal{{forloop.counter}}' style='float:right;'>Change Meal</a></div></div> <!-- /span --></div> <!-- /row -->"
+    {% for result in results_set.6.alterns %}
+    options = options +"<div class='span8'><div class='content-box' id='meal-{{forloop.counter}}'><!-- Result link and text --><div class='span1' style='margin-bottom:55px;'><h4><a href='{{ result.url }}'>{% autoescape off %} {# This is for showing raw html symbols #}{{ result.name }}{% endautoescape %}</a></h4><div class='hidden-desktop' style='float:left; margin-right:10px;'><img src='{{ result.img }}' /></div>~${{ result.est_price }}, {{ result.cook_time }} minutes<a href='javascript:void(0)' class='btn' id='btn-modal-{{forloop.counter}}' style='float:right;'>Choose Meal</a></div></div> <!-- /span --></div> <!-- /row -->"
     console.log(options)
     {% endfor %}
     console.log(options)
@@ -111,8 +111,8 @@ $(document).ready(function() {
     // option meals have meal-# as id
     var options = "<a href='javascript:void(0);' id='meal-0'><div class='content-box'><h4>I have other plans</h4></div></a>"
     console.log(options)
-    {% for result in results_set.7.get_alterns %}
-    options = options +"<div class='span8'><div class='content-box' id='meal-{{forloop.counter}}'><!-- Result link and text --><div class='span1' style='margin-bottom:55px;'><h4><a href='{{ result.url }}'>{% autoescape off %} {# This is for showing raw html symbols #}{{ result.name }}{% endautoescape %}</a></h4><div class='hidden-desktop' style='float:left; margin-right:10px;'><img src='{{ result.img }}' /></div>~${{ result.est_price }}, {{ result.cook_time }} minutes<a href='javascript:void(0)' class='btn' id='btn-modal{{forloop.counter}}' style='float:right;'>Change Meal</a></div></div> <!-- /span --></div> <!-- /row -->"
+    {% for result in results_set.7.alterns %}
+    options = options +"<div class='span8'><div class='content-box' id='meal-{{forloop.counter}}'><!-- Result link and text --><div class='span1' style='margin-bottom:55px;'><h4><a href='{{ result.url }}'>{% autoescape off %} {# This is for showing raw html symbols #}{{ result.name }}{% endautoescape %}</a></h4><div class='hidden-desktop' style='float:left; margin-right:10px;'><img src='{{ result.img }}' /></div>~${{ result.est_price }}, {{ result.cook_time }} minutes<a href='javascript:void(0)' class='btn' id='btn-modal-{{forloop.counter}}' style='float:right;'>Choose Meal</a></div></div> <!-- /span --></div> <!-- /row -->"
     console.log(options)
     {% endfor %}
     console.log(options)
@@ -146,7 +146,7 @@ $(document).ready(function() {
   </div>
   <div class="modal-footer">
     <a href="javascript:void(0)" onclick="$('#changeMealModal').modal('hide')" class="btn">Cancel</a>
-    <a href="javascript:void(0)" id="confirmModalChange" class="btn btn-primary">Confirm Change</a>
+    <!-- <a href="javascript:void(0)" id="confirmModalChange" class="btn btn-primary">Confirm Change</a> -->
   </div>
 </div>
 
