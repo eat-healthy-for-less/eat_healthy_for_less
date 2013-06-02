@@ -18,7 +18,7 @@ def post_setup(request):
 def results(request):
    """Results Page"""
    test_result = json.loads(test_res())
-   result_set = [test_result]*14
+   result_set = [test_result]*7
    return_set = list()
    for result in result_set:
       res = dict()

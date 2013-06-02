@@ -8,33 +8,28 @@
 {% ifequal forloop.counter 1 %}
   <h2>Monday</h2>
 {% endifequal %}
-{% ifequal forloop.counter 3 %}
+{% ifequal forloop.counter 2 %}
   <h2>Tuesday</h2>
 {% endifequal %}
-{% ifequal forloop.counter 5 %}
+{% ifequal forloop.counter 3 %}
   <h2>Wednesday</h2>
 {% endifequal %}
-{% ifequal forloop.counter 7 %}
+{% ifequal forloop.counter 4 %}
   <h2>Thursday</h2>
 {% endifequal %}
-{% ifequal forloop.counter 9 %}
+{% ifequal forloop.counter 5 %}
   <h2>Friday</h2>
 {% endifequal %}
-{% ifequal forloop.counter 11 %}
+{% ifequal forloop.counter 6 %}
   <h2>Saturday</h2>
 {% endifequal %}
-{% ifequal forloop.counter 13 %}
+{% ifequal forloop.counter 7 %}
   <h2>Sunday</h2>
 {% endifequal %}
-
-    <div class="span8">
+     <div class="span8">
       <div class="content-box">
-        <div class="span1 hidden-phone hidden-tablet">
-          <img src='{{ result.img }}' />
-        </div>
-
         <!-- Result link and text -->
-        <div class="span11 span12-tablet span12-phone" style="margin-bottom:55px;">
+        <div class="span1" style="margin-bottom:55px;">
           <h4>
             <a href="{{ result.url }}">
           {% autoescape off %} {# This is for showing raw html symbols #}
@@ -42,10 +37,11 @@
           {% endautoescape %}
         </a>
           </h4>
-              <div class='hidden-desktop' style="float:left; margin-right:10px">
+              <div class='hidden-desktop' style="float:left; margin-right:10px;">
                 <img src='{{ result.img }}' />
               </div>
               ~${{ result.est_price }}, {{ result.cook_time }} minutes
+              <a href="#" class="btn" style="float:right;">Change Meal</a>
             </div>
         </div> <!-- /span -->
       </div> <!-- /row -->
@@ -55,6 +51,6 @@
 <p>Sorry, we couldn't find any results matching your budget.</p>
 {% endif %}
 
-    </div> <!-- /span Search Results section END -->
+</div> <!-- /span Search Results section END -->
 
 {% endblock %}
