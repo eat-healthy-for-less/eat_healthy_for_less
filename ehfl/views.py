@@ -76,6 +76,7 @@ def results(request):
    return_set = [x]*7
    return render(request, 'results.html',{'results_set':return_set})
 
+
 def savemenu(request):
   meal_set = [request.GET.get('meal-1'), request.GET.get('meal-2'),
   request.GET.get('meal-3'),request.GET.get('meal-4'),request.GET.get('meal-5'),
@@ -85,6 +86,7 @@ def savemenu(request):
     pass
     #TODO: get python mealresults from id's
     # combine with shopping list
+
 
 def shoppinglist(request):
     """

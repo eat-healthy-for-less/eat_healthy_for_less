@@ -36,6 +36,16 @@ def menu_convenience(menu):
     return sum((m.convenience for m in menu))
 
 
+def counts(vals):
+    cnt = {}
+    for val in vals:
+        if val in cnt:
+            cnt[val] += 1
+        else:
+            cnt[val] = 1
+    return cnt
+
+
 class MealPenalizer:
     """
     A class for computing the penalty of a Menu.  requires a budget and
@@ -62,7 +72,12 @@ class MealPenalizer:
                        - self.budget))
         n_pen = self.nutrition_penalty * menu_nutrition(menu)
         c_pen = self.convenience_penalty * menu_convenience(menu)
-        s_pen = 0  # FIX ME
+
+        # calculate same-recipe penalty
+        recipe_names = [r.name for r in menu]
+        max_count = max(counts(recipe_names).itervalues())
+        s_pen = self.same_penalty * (max_count - 1)
+
         return b_pen - n_pen + c_pen + s_pen
 
 
