@@ -7,13 +7,13 @@
   },
   "ingredientLines":[
     [8, "cups", "romaine lettuce"],
-    [1, "pounds", "chicken"],
-    [8, "ounces", "corn"],
+    [1, "pounds", "chicken breasts, boneless"],
+    [2, "ears", "corn"],
     [1, "", "red bell pepper"],
     [0.5, "cups", "red onion"],
-    [1, "pounds", "frozen lima beans"],
-    [0.75, "cups", "ranch dressing"],
-    [2, "", "bacon slices"]
+    [1, "boxes", "lima beans, frozen"],
+    [0.75, "cups", "Dressing, Ranch"],
+    [0.25, "cups", "bacon"]
   ],
   "flavors":{
     "Bitter":0.0,

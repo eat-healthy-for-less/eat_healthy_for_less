@@ -6,20 +6,20 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    [2, "tablespoons", "extra virgin olive oil"],
-    [2, "", "yellow onions"],
-    [4, "", "garlic cloves"],
+    [2, "tablespoons", "olive oil, extra virgin"],
+    [2, "", "onions, yellow, medium "],
+    [4, "cloves", "garlic "],
     [2, "", "carrots"],
     [30, "ounces", "black beans"],
-    [5, "cups", "low sodium chicken broth"],
+    [5, "cups", "chicken broth, low sodium"],
     [0.75, "teaspoons", "oregano"],
     [1, "teaspoons", "ground coriander"],
     [1, "teaspoons", "ground cumin"],
     [0.125, "teaspoons", "cayenne pepper"],
     [0.5, "teaspoons", "salt"],
-    [1, "tablespoons", "lime juice"],
+    [1, "tablespoons", "fresh lime juice"],
     [0.3333, "cups", "sour cream"],
-    [1, "tablespoons", "cilantro"]
+    [1, "tablespoons", "fresh cilantro"]
   ],
   "flavors":{
     "Salty":7.688264595344663E-4,

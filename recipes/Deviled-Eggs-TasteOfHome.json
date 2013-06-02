@@ -8,11 +8,11 @@
   "ingredientLines":[
     [6, "", "eggs"],
     [2, "tablespoons", "mayonnaise"],
-    [1, "teaspoons", "sugar"],
-    [1, "teaspoons", "white vinegar"],
-    [1, "teaspoons", "prepared mustard"],
-    [0.5, "teaspoons", "salt"],
-    [0.5, "teaspoons", "paprika"]
+    [1, "teaspoons", "sugar, white"],
+    [1, "teaspoons", "vinegar, white"],
+    [1, "teaspoons", "mustard"],
+    [0.5, "teaspoons", "kosher salt"],
+    [1, "pinch", "paprika"]
   ],
   "flavors":{
     "Sweet":1.9411193E-5,

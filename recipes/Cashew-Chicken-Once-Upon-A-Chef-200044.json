@@ -6,17 +6,18 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    [0.75, "cups", "unsalted cashews"],
-    [1.5, "pounds", "boneless chicken breasts"],
-    [0.5, "teaspoons", "salt"],
-    [0.25, "teaspoons", "black pepper"],
+    [0.75, "cups", "cashews, roasted, unsalted"],
+    [1.5, "pounds", "chicken breast, boneless"],
+    [0.5, "teaspoons", "kosher salt"],
+    [0.25, "teaspoons", "black pepper, ground"],
     [2, "tablespoons", "vegetable oil"],
-    [6, "", "garlic cloves"],
-    [8, "", "scallions"],
+    [6, "cloves", "garlic"],
+    [1, "bunch", "scallions"],
     [2, "tablespoons", "rice vinegar"],
     [4, "tablespoons", "hoisin sauce"],
     [1, "tablespoons", "soy sauce"],
-    [0.25, "teaspoons", "Asian sesame oil"]
+    [0.25, "cups", "water"],
+    [0.25, "teaspoons", "sesame oil"]
   ],
   "flavors":{
     "Bitter":0.008489580824971199,

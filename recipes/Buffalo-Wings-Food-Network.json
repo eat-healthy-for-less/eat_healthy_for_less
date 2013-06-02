@@ -6,11 +6,11 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    [12, "", "whole chicken wings"],
-    [3, "ounces", "unsalted butter"],
-    [1, "", "garlic cloves"],
+    [12, "", "chicken wings, whole"],
+    [3, "ounces", "butter, unsalted"],
+    [1, "cloves", "garlic"],
     [0.25, "cups", "hot sauce"],
-    [0.5, "teaspoons", "salt"]
+    [0.5, "teaspoons", "kosher salt"]
   ],
   "flavors":{
     "Sour":0.0049838596023619175,

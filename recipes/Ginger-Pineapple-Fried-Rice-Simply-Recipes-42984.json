@@ -7,12 +7,12 @@
   },
   "ingredientLines":[
     [2, "cups", "white rice"],
-    [3, "tablespoons", "vegetable oil"],
-    [3, "tablespoons", "ginger"],
-    [5, "", "scallions"],
-    [0.5, "teaspoons", "salt"],
+    [3, "tablespoons", "vegitable oil"],
+    [3, "tablespoons", "ginger root"],
+    [0.5, "tablespoons", "callions"],
+    [0.5, "teaspoons", "kosher salt"],
     [0.75, "cups", "pineapple"],
-    [1, "teaspoons", "Asian sesame oil"]
+    [1, "teaspoons", "sesame oil"]
   ],
   "flavors":{
     "Meaty":3.9255043E-5,

@@ -7,13 +7,13 @@
   },
   "ingredientLines":[
     [1, "pounds", "elbow macaroni"],
-    [0.25, "cups", "extra virgin olive oil"],
+    [0.25, "cups", "olive oil, extra virgin "],
     [4, "cups", "green onions"],
-    [3, "", "garlic cloves"],
-    [0.25, "teaspoons", "salt"],
+    [3, "cloves", "garlic"],
+    [0.25, "teaspoons", "sea salt],
     [0.5, "tablespoons", "black pepper"],
-    [1, "", "lemon"],
-    [0.33, "cups", "grated Parmesan"],
+    [1, "tablespoons", "one lemon"],
+    [0.33, "cups", "grated Parmesan chees"],
     [4, "", "arugula"],
     [1, "", "apple"]
   ],

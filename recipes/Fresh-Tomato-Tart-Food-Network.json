@@ -7,13 +7,12 @@
   },
   "ingredientLines":[
     [0.5, "pounds", "dough"],
-    [8, "ounces", "shredded mozzarella cheese"],
-    [2, "tablespoons", "basil"],
+    [8, "ounces", "mozzarella cheese"],
+    [2, "tablespoons", "basil, fresh"],
     [4, "", "plum tomatoes"],
-    [0.5, "teaspoons", "salt"],
+    [0.5, "teaspoons", "kosher salt"],
     [0.25, "teaspoons", "black pepper"],
-    [0.25, "cups", "extra virgin olive oil"],
-    [0.5, "cups", "basil"]
+    [0.25, "cups", "olive oil, extra virgin"]
   ],
   "flavors":{
     "Sour":0.0016263992292806506,
