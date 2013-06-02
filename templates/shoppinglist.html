@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block head %}
+
+<style type="text/css">
+  .btn-wide {
+    width:220px;
+  }
+</style>
+
+{% endblock %}
+
+
+{% block navbar_content %}
+
+{% if user.is_authenticated %}
+<a href="/logout/" class="btn btn-primary pull-right">Logout</a>
+<p class="navbar-text pull-right">Hey there, {{ user.username }}!</p>
+{% else %}
+<a href="/login/" class="btn btn-primary pull-right">Sign In</a>
+{% endif %}
+
+{% endblock %}
+
+
+{% block content %}
+
+
+
+
+</div> <!-- /container -->
+
+{% endblock %}

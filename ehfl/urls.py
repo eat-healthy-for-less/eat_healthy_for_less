@@ -9,6 +9,8 @@ urlpatterns = patterns('',
 	url(r'^home/$', views.home),
 	url(r'^setup/$', views.post_setup),
     url(r'^results/$', views.results),
+    url(r'^shoppinglist/$', views.shoppinglist),
+    
     # Examples:
     # url(r'^$', 'ehfl.views.home', name='home'),
     # url(r'^ehfl/', include('ehfl.foo.urls')),
