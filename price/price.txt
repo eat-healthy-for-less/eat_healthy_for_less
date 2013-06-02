@@ -1,0 +1,90 @@
+Flour, white, all purpose, per lb. (453.6 gm); 		0.522 
+Rice, white, long grain, uncooked, per lb. (453.6 gm); 0.724 
+Spaghetti and macaroni, per lb. (453.6 gm); 		1.286 
+Bread, white, pan, per lb. (453.6 gm); 			11.409 
+Bread, whole wheat, pan, per lb. (453.6 gm); 		2.046 
+Cookies, chocolate chip, per lb. (453.6 gm); 			3.729  
+
+Ground chuck, 100% beef, per lb. (453.6 gm); 		3.479 
+Ground beef, 100% beef, per lb. (453.6 gm); 		3.268 
+Ground beef, lean and extra lean, per lb. (453.6 gm); 	4.811 
+All uncooked ground beef, per lb. (453.6 gm); 	3.823
+Chuck roast, excluding U/P/C , per lb. (453.6 gm); 		4.125 
+Chuck roast, USDA Choice, boneless, per lb. (453.6 gm); 4.633
+Round roast, USDA Choice, boneless, per lb. (453.6 gm); 4.551
+Round roast, excluding U/P/C, per lb. (453.6 gm); 4.101  
+
+All Uncooked Beef Roasts, per lb. (453.6 gm); 	4.689 
+Steak, round, USDA Choice, boneless, per lb. (453.6 gm); 4.818  
+Steak, round, excluding U/P/C, per lb. (453.6 gm); 	5.036 
+Steak, sirloin, excluding U/P/C, per lb. (453.6 gm); 	5.527 
+
+Steak, sirloin, USDA Choice, boneless, per lb. (453.6 gm); 6.864 
+Beef for stew, boneless, per lb. (453.6 gm); 		4.655
+All Uncooked Beef Steaks, per lb. (453.6 gm); 	6.232
+All Uncooked Other Beef , per lb. (453.6 gm); 	3.920 
+
+Bacon, sliced, per lb. (453.6 gm); 			4.573 
+Chops, center cut, bone-in, per lb. (453.6 gm); 	3.655 
+Chops, boneless, per lb. (453.6 gm); 			3.900 
+All Pork Chops, per lb. (453.6 gm); 			3.489
+Ham, half, bone-in, smoked, per lb. (453.6 gm); 	2.085 
+Ham, boneless, excluding canned, per lb. (453.6 gm); 3.800
+All Ham , per lb. (453.6 gm); 				2.690 
+All Other Pork , per lb. (453.6 gm); 			2.496 
+
+Bologna, all beef or mixed, per lb. (453.6 gm); 	3.053
+
+Chicken, fresh, whole, per lb. (453.6 gm); 		1.473
+Chicken breast, bone-in, per lb. (453.6 gm); 		2.996
+Chicken breast, boneless, per lb. (453.6 gm); 		4.266
+Chicken legs, bone-in, per lb. (453.6 gm); 		1.538 
+Chicken wings, bone-in, per lb. (453.6 gm); 		1.138 
+Turkey, frozen, whole, per lb. (453.6 gm) 			1.649
+
+Butter, salted, grade AA, stick, per lb. (453.6 gm); 		3.180         
+American processed cheese, per lb. (453.6 gm); 	4.131 
+Cheddar cheese, natural, per lb. (453.6 gm); 		5.635 
+Apples, Red Delicious, per lb. (453.6 gm); 		1.330 
+Bananas, per lb. (453.6 gm); 				0.597 
+Oranges, Navel, per lb. (453.6 gm); 			0.981 
+Oranges, Valencia, per lb. (453.6 gm); 		0.781
+Cherries, per lb. (453.6 gm); 				2.992
+Grapefruit, per lb. (453.6 gm); 				0.953  
+Grapes, Thompson Seedless, per lb. (453.6 gm); 	2.452 
+Lemons, per lb. (453.6 gm); 				1.416 		3/lb
+Peaches, per lb. (453.6 gm); 				1.566		3/lb
+Pears, Anjou, per lb. (453.6 gm); 			1.187         
+Strawberries, dry pint, per 12 oz. (340.2 gm); 		1.784 
+Potatoes, white, per lb. (453.6 gm); 			0.619		3/lb
+Lettuce, iceberg, per lb. (453.6 gm); 			0.972 		
+Lettuce, romaine, per lb. (453.6 gm); 			1.727 
+Tomatoes, field grown, per lb. (453.6 gm); 		1.460 		3/lb
+Onion, field grown, per lb. (453.6 gm); 		1.160 		4/lb
+Broccoli, per lb. (453.6 gm); 				1.742 
+Cabbage, per lb. (453.6 gm); 				0.641         
+Carrots, short trimmed and topped, per lb. (453.6 gm); 0.788    3/lb      
+Celery, per lb. (453.6 gm); 				0.806         
+Peppers, sweet, per lb. (453.6 gm); 			2.191 
+Herbs, Any per bunch;							1.466
+Spice, Any per pinch;							0.122
+
+
+Beans, dried, any type, all sizes, per lb. (453.6 gm); 	1.391 
+Sugar, white, all sizes, per lb. (453.6 gm); 		0.656  
+Margarine, stick, per lb. (453.6 gm); 			1.195         
+Peanut butter, creamy, all sizes, per lb. (453.6 gm); 	2.698  
+Coffee, 100%, ground roast, per lb. (453.6 gm); 	5.674 
+
+Malt beverages, all types, all sizes, per 16 oz. (473.2 ml);	1.317
+Wine, red and white table, all sizes, per 1 liter (33.8 oz);	11.624   
+Soy Sauce, all sizes, per 12 oz;	6.624   
+Olive oil, Virgin all sizes, per 1 liter (33.8 oz);		12.745   
+Olive oil, Extra Virgin, all sizes, per 1 liter (33.8 oz);		16.745   
+Vegtable oil, all sizes, per 1 liter (33.8 oz);		5.321
+
+Milk, fresh, whole, fortified, per gal. (3.8 lit);			3.428 
+Orange juice, frozen concentrate, 12 oz. can (473.2 ml);	2.555
+Ice cream, prepackaged, bulk, regular, per 1/2 gal. (1.9 lit);	5.093 
+Eggs, grade A, large, per doz.	;				1.918 
+Potato chips, per 16 oz.;					4.811 
