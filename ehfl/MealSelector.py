@@ -7,8 +7,8 @@ from ehfl import recipe
 
 #### WARNING: I've not really written python, so please yell at me about style!! -Joseph
 
-DEFAULT_NUM_ITERS = 100
-DEFAULT_NUM_EPISODES = 100
+DEFAULT_NUM_ITERS = 200
+DEFAULT_NUM_EPISODES = 10
 DEFAULT_DAYS_PER_WEEK = 7
 DEFAULT_NUM_RANDOM_MEALS = 100
 

@@ -9,6 +9,7 @@ from ehfl.forms import MenuPreferencesForm
 from ehfl.MealResult import MealResult, FakeResult
 from ehfl import MealSelector
 
+
 def index(request):
     return HttpResponseRedirect('/setup/')
 
@@ -38,6 +39,7 @@ def menu(request, form):
 
     calories_per_meal = calories_per_day * 0.75
     menu = MealSelector.select_optimal_menu(budget, calories_per_meal, constraints)
+    print >> sys.stderr, 'menu:', [r.name for r in menu]
     return render(request, 'results.html')
 
 

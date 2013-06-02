@@ -76,7 +76,7 @@ def convertToKilos(qty, unit, density):
         return qty * VOLUME_UNITS[unit] * density
     else:
         # FIXME: this assumes the units are pounds if we don't recognize them, totally invalid
-        print >> sys.stderr, 'warning: unknown unit "%s"' % unit
+        # print >> sys.stderr, 'warning: unknown unit "%s"' % unit
         return qty * MASS_UNITS['pounds']
 
 
@@ -151,7 +151,6 @@ class Recipe(object):
                      for qty, unit, name in self.ingredientLines))
         return price / self.calories
 
-
     def get_display_price(self, calories_per_meal):
         return self.get_bulk_price_per_calorie() * calories_per_meal
 
@@ -168,7 +167,6 @@ class Recipe(object):
 
 
 def read_recipe(path):
-    print path
     return Recipe(convertToDotDictRecurse(json.loads(open(path, 'r').read())))
 
 
