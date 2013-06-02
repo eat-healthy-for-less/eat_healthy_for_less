@@ -6,13 +6,13 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    [2, "cups", "uncooked long grain white rice"],
-    [3, "tablespoons", "high smoke-point oil"],
-    [3, "tablespoons", "finely minced fresh peeled ginger"],
-    [5, "", "chopped scallions"],
-    [0.5, "teaspoons", "kosher salt"],
-    [0.75, "cups", "diced (1/4 inch) cored peeled fresh pineapple (labeled extra sweet)"],
-    [1, "teaspoons", "dark asian sesame oil"]
+    [2, "cups", "white rice"],
+    [3, "tablespoons", "vegetable oil"],
+    [3, "tablespoons", "ginger"],
+    [5, "", "scallions"],
+    [0.5, "teaspoons", "salt"],
+    [0.75, "cups", "pineapple"],
+    [1, "teaspoons", "Asian sesame oil"]
   ],
   "flavors":{
     "Meaty":3.9255043E-5,

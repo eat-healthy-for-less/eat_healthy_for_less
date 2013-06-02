@@ -27,11 +27,11 @@
   ],
   "ingredientLines": [
     [3, "tablespoons", "olive oil"],
-    [4, "ounces", "tilapia fillets, fresh"],
+    [4, "ounces", "tilapia fillets"],
     [2, "tablespoons", "garlic salt"],
     [2, "tablespoons", "cajun seasoning"],
     [0.25, "teaspoons", "black pepper"],
-    [1, "bunches", "cilantro"]
+    [1, "", "cilantro bunches"]
   ],
   "name": "Cilantro Tilapia",
   "numberOfServings": 4,

@@ -8,9 +8,9 @@
   "ingredientLines":[
     [12, "", "whole chicken wings"],
     [3, "ounces", "unsalted butter"],
-    [1, "", "small cloves garlic"],
+    [1, "", "garlic cloves"],
     [0.25, "cups", "hot sauce"],
-    [0.5, "teaspoons", "kosher salt"]
+    [0.5, "teaspoons", "salt"]
   ],
   "flavors":{
     "Sour":0.0049838596023619175,

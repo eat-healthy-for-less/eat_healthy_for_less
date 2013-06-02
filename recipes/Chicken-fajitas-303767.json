@@ -6,12 +6,11 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    [2, "Tablespoons", "olive oil"],
-    [2, "", "medium red and/or green bell peppers, sliced"],
-    [1, "pounds", "boneless, skinless chicken breasts, sliced"],
-    [1, "", "envelope Lipton® Recipe Secrets® Onion Mushroom Soup Mix"],
-    [0.5, "cups", "water"],
-    [1, "", "Flour tortillas, warmed"]
+    [2, "tablespoons", "olive oil"],
+    [2, "", "green bell peppers"],
+    [1, "pounds", "boneless chicken breasts"],
+    [1, "", "envelopes onion mushroom soup mix"],
+    [1, "", "flour tortillas"]
   ],
   "flavors":{
     "Sour":0.0,

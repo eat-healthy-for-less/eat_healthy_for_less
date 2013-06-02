@@ -6,14 +6,14 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    [10, "ounces", "fresh spinach leaves"],
-    [0.5, "cups", "Balsamic Vinaigrette Dressing"],
-    [1, "cups", "sliced mushrooms"],
-    [1, "", "medium tomato"],
+    [10, "ounces", "fresh spinach"],
+    [0.5, "cups", "balsamic vinaigrette dressing"],
+    [1, "cups", "white mushrooms"],
+    [1, "", "tomato"],
     [0.33, "cups", "seasoned croutons"],
-    [0.25, "cups", "chopped red onion"],
-    [4, "slices", "bacon, crisp-cooked and crumbled"],
-    [1, "", "sliced hard-cooked egg"]
+    [0.25, "cups", "red onion"],
+    [4, "", "bacon slices"],
+    [1, "", "egg"]
   ],
   "flavors":{
     "Bitter":9.95578826405108E-4,

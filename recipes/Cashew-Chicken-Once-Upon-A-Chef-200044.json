@@ -6,17 +6,16 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    [0.75, "cups", "roasted, unsalted cashews (these are sometimes in the produce section)"],
-    [1.5, "pounds", "boneless, skinless chicken breasts or tenderloins, cut into 1-1 ½ inch pieces*"],
+    [0.75, "cups", "unsalted cashews"],
+    [1.5, "pounds", "boneless chicken breasts"],
     [0.5, "teaspoons", "salt"],
-    [0.25, "teaspoons", "freshly ground black pepper"],
+    [0.25, "teaspoons", "black pepper"],
     [2, "tablespoons", "vegetable oil"],
-    [6, "", "medium garlic cloves"],
-    [8, "", "scallions (1 bunch), white and green parts separated, each cut into 1-inch pieces"],
+    [6, "", "garlic cloves"],
+    [8, "", "scallions"],
     [2, "tablespoons", "rice vinegar"],
     [4, "tablespoons", "hoisin sauce"],
     [1, "tablespoons", "soy sauce"],
-    [0.25, "cups", "water"],
     [0.25, "teaspoons", "Asian sesame oil"]
   ],
   "flavors":{

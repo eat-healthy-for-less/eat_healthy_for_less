@@ -6,14 +6,14 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    [8, "cups", "chopped romaine lettuce leaves"],
-    [1, "pounds", "cut-up cooked chicken"],
+    [8, "cups", "romaine lettuce"],
+    [1, "pounds", "chicken"],
     [2, "ears", "corn"],
-    [1, "", "large chopped red bell pepper"],
-    [0.5, "cups", "chopped red onion"],
-    [1, "boxes", "frozen cooked lima beans"],
-    [0.75, "cups", "Ranch Dressing"],
-    [2, "", "sliced crisp-cooked bacon"]
+    [1, "", "red bell pepper"],
+    [0.5, "cups", "red onion"],
+    [1, "boxes", "frozen lima beans"],
+    [0.75, "cups", "ranch dressing"],
+    [2, "", "bacon slices"]
   ],
   "flavors":{
     "Bitter":0.0,

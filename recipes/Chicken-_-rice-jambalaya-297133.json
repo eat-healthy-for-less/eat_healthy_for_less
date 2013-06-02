@@ -6,13 +6,13 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    [4, "", "slices bacon or smoked sausage, diced"],
-    [0.5, "pounds", "boneless skinless chicken breasts, cut into 1-inch pieces*"],
-    [0.5, "cups", "diced green bell pepper"],
-    [2, "cups", "water"],
-    [1, "packages", "Knorr® Cajun Sides™ - Red Beans & Rice"],
-    [0.5, "cups", "frozen green peas, partially thawed"],
-    [1, "teaspoons", "hot pepper sauce"]
+    [4, "", "slices bacon"],
+    [0.5, "pounds", "boneless chicken breasts"],
+    [0.5, "cups", "green bell pepper"],
+    [8, "ounces", "kidney beans"],
+    [8, "ounces", "white rice"],
+    [0.5, "cups", "frozen green peas"],
+    [1, "teaspoons", "hot sauce"]
   ],
   "flavors":{
     "Salty":1.2110820534871891E-4,

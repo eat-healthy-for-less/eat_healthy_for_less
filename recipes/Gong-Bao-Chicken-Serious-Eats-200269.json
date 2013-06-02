@@ -6,7 +6,7 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    [1/3, "cups", "unsalted peanuts"],
+    [0.333, "cups", "unsalted peanuts"],
     [1, "pounds", "chicken"],
     [1, "tablespoons", "cornstarch"],
     [4, "tablespoons", "light soy sauce"],
@@ -14,9 +14,9 @@
     [1, "teaspoons", "sichuan peppercorns"],
     [2, "", "dried red chiles"],
     [2, "", "garlic cloves"],
-    [1, "inches", "knob ginger root"],
+    [1, "tablespoons", "ginger root"],
     [4, "", "scallions"],
-    [1, "cups", "cooked white rice"]
+    [1, "cups", "white rice"]
   ],
   "flavors":{
     "Bitter":0.006511769,
