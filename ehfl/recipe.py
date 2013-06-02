@@ -43,8 +43,14 @@ class DotDict(dict):
     __delattr__ = dict.__delitem__
 
 
+class Recipe(object):
+    def __init__(self, stuff):
+        for k, v in stuff.iteritems():
+            setattr(self, k, v)
+
+
 def read_recipe(path):
-    return convertToDotDictRecurse(json.loads(open(path, 'r').read()))
+    return Recipe(convertToDotDictRecurse(json.loads(open(path, 'r').read())))
 
 
 def read_recipes():

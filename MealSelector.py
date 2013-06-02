@@ -25,13 +25,13 @@ class Meal:
 
 ##### type Menu = [Meal] ##### (I can't write this in Python, but the spirit is still there)
 
-def menu_price(price_per,menu):
+def menu_price(price_per, menu):
     """
     determines the price of the menu, given a price_per function.
-    price_per takes two arguments, an ingrediant and an amount, and
+    price_per takes two arguments, an ingredient and an amount, and
     returns the price you would need to pay for that in a store.  for
     instance, if you need 5 units of something and you can only buy
-    that in powers of 2, price_per(that_ingrediant,5) returns the price
+    that in powers of 2, price_per(that_ingredient,5) returns the price
     of buying 8 units.  menu is a list of meals.
     """
     result = {}

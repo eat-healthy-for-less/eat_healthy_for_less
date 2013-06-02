@@ -13,12 +13,14 @@
 
 {% block navbar_content %}
 
+{% comment %}
 {% if user.is_authenticated %}
 <a href="/logout/" class="btn btn-primary pull-right">Logout</a>
 <p class="navbar-text pull-right">Hey there, {{ user.username }}!</p>
 {% else %}
 <a href="/login/" class="btn btn-primary pull-right">Sign In</a>
 {% endif %}
+{% endcomment %}
 
 {% endblock %}
 
@@ -26,28 +28,37 @@
 {% block content %}
 
 <div class="container-fluid content-box">
-  <form action="setup/" method="post">{% csrf_token %}
-    <h3>Who are you shopping for?</h3>
-    <input type="text" class="input" name="who" value="TODO"/>
-    <h3>Nutritional Goals</h3>
+  <form action="." method="post">{% csrf_token %}
+    {{ form.non_field_errors }}
+    <h3>How much food you need</h3>
+    {{ form.calories_per_day.errors }}
+    <select name="calories_per_day" style="width: 300px;">
+      <option value="1500">1500 Calories per day (1 adult, light eater)</option>
+      <option value="2000">2000 Calories per day (1 adult, medium eater)</option>
+      <option value="2500">2500 Calories per day (1 adult, big eater)</option>
+      <option value="4000">4000 Calories per day (2 adults)</option>
+      <option value="6000">6000 Calories per day (3 adults)</option>
+      <option value="8000">8000 Calories per day (4 adults)</option>
+    </select>
+    <h3>Nutritional goals</h3>
     <label class="checkbox">
-      <input type="checkbox" name="lowsodium"> Low Sodium
+      <input type="checkbox" name="low_sodium"> Low Sodium
     </label><br/>
     <label class="checkbox">
-      <input type="checkbox" name="lowfat"> Low Saturated Fat
+      <input type="checkbox" name="low_fat"> Low Saturated Fat
     </label><br/>
     <label class="checkbox">
       <input type="checkbox" name="fiber"> High Fiber
     </label><br/>
 
-    <h3>Budget</h3>
-    <input type="number" class="input" name="budget" placeholder="Weekly Budget" />
+    <h3>Weekly food budget</h3>
+    $ <input type="text" class="input" name="budget" value="100" />
 
-    <h3>Location</h3>
-    <input type="number" class="input" name="zip" placeholder="Zip Code" />
-    
+    <h3>Zip code or address where you shop</h3>
+    <input type="text" class="input" name="address" value="94110" />
+
     <br/><br/>
-    <button type="submit" class="btn btn-success btn-wide">Continue</button>
+    <button type="submit" class="btn btn-success btn-wide">Generate Weekly Menu</button>
   </form>
 </div>
 </div> <!-- /container -->

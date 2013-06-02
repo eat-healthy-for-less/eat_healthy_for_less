@@ -1,20 +1,35 @@
+
+import json
+import sys
+
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
-import json
+
+from ehfl.forms import MenuPreferencesForm
 from ehfl.MealResult import MealResult, FakeResult
 
+
 def index(request):
-	"""Home Page"""
-	return HttpResponseRedirect('/home/')
+    return HttpResponseRedirect('/setup/')
 
-def home(request):
-    """Presents the setup page for user input"""
-    return render(request, 'setup.html')
 
-def post_setup(request):
-	"""TODO: save variables, perform lookup / algo
-	to find the recipe results"""
-	return results(request)
+def setup(request):
+    if request.method == 'POST':
+        print >> sys.stderr, 'hi'
+        form = MenuPreferencesForm(request.POST)
+        if form.is_valid():
+            return menu(request, form)
+        else:
+            return render(request, 'setup.html', {'form': form})
+    elif request.method == 'GET':
+        return render(request, 'setup.html')
+    else:
+        raise Exception()
+
+
+def menu(request, form):
+    return render(request, 'results.html', {'form': form})
+
 
 def results(request):
    """Results Page"""
@@ -35,6 +50,7 @@ def results(request):
    x = MealResult()
    return_set = [x]*7
    return render(request, 'results.html',{'results_set':return_set})
+
 
 def shoppinglist(request):
     """
@@ -60,6 +76,7 @@ def shoppinglist(request):
     return render(request, 'shoppinglist.html', {'results_set':return_set})
 
     """return render(request, 'shoppinglist.html')"""
+
 
 def test_res():
 	return """{
