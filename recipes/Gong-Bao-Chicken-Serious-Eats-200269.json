@@ -6,7 +6,7 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    [1/3, "cups", "unsalted peanuts"],
+    [0.333, "cups", "unsalted peanuts"],
     [1, "pounds", "chicken breast, boneless"],
     [1, "tablespoons", "cornstarch"],
     [4, "tablespoons", "soy sauce"],
