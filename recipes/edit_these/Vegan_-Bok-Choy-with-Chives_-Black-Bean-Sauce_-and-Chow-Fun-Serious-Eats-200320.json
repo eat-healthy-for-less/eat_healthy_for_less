@@ -6,15 +6,15 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    ["1/2", "cup", "shaoxing wine or dry sherry"],
-    ["3", "tablespoons", "dark soy sauce"],
-    ["2", "tablespoons", "fermented black bean sauce (or 3 tablepoons whole fermented black beans, mashed with the back of a fork)"],
-    ["1/2", "pound", "fresh chow fun noodles"],
-    ["2", "tablespoons", "vegetable oil"],
-    ["1 1/2", "pounds", "bok choy (about 1 medium head), cut into rough 2-inch lengths (about 4 quarts packed pieces)"],
-    ["1/4", "pound", "chinese chives of scallions, cut into 2-inch lengths"],
-    ["1", "", "large leek, quartered lengthwise and cut into 1-inch lengths"],
-    ["2", "cups", "mung bean sprouts"]
+    [0.5, "cups", "shaoxing wine or dry sherry"],
+    [3, "tablespoons", "dark soy sauce"],
+    [2, "tablespoons", "fermented black bean sauce"],
+    [0.5, "pounds", "fresh chow fun noodles"],
+    [2, "tablespoons", "vegetable oil"],
+    [1.5, "pounds", "bok choy pieces"],
+    [0.25, "pounds", "chinese chives of scallions"],
+    [1, "", "large leek"],
+    [2, "cups", "mung bean sprouts"]
   ],
   "flavors":{
     "Sour":0.006458975,

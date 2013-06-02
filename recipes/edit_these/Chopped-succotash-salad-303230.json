@@ -6,14 +6,14 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    ["8", "cups", "chopped romaine lettuce leaves"],
-    ["1", "lb.", "cut-up cooked chicken"],
-    ["2", "ears", "corn-on-the-cob, kernels removed (about 2 cups) or 2 cups frozen corn kernels, thawed"],
-    ["1", "", "large red bell pepper, chopped"],
-    ["1/2", "cup", "chopped red onion"],
-    ["1", "box", "frozen lima beans, cooked, drained and rinsed with cold water"],
-    ["3/4", "cup", "Wish-Bone Light® Ranch Dressing"],
-    ["2", "", "slices bacon, crisp-cooked and crumbled (optional)"]
+    [8, "cups", "chopped romaine lettuce leaves"],
+    [1, "pounds", "cut-up cooked chicken"],
+    [2, "ears", "corn"],
+    [1, "", "large chopped red bell pepper"],
+    [0.5, "cups", "chopped red onion"],
+    [1, "boxes", "frozen cooked lima beans"],
+    [0.75, "cups", "Ranch Dressing"],
+    [2, "", "sliced crisp-cooked bacon"]
   ],
   "flavors":{
     "Bitter":0.0,

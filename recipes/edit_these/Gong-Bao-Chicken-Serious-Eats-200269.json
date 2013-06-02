@@ -6,17 +6,17 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    ["1/3", "cup", "unsalted peanuts"],
-    ["1", "pound", "boneless, skinless chicken breasts, cut into 3/4-inch cubes"],
-    ["1", "tablespoon", "cornstarch"],
-    ["4", "tablespoons", "light soy sauce"],
-    ["2", "tablespoons", "unroasted peanut oil or other neutral oil"],
-    ["1", "teaspoon", "sichuan peppercorns"],
-    ["2", "", "dried red chiles, roughly chopped or crushed"],
-    ["2", "", "garlic cloves, peeled and very thinly sliced"],
-    ["1", "inch", "knob ginger root, peeled and very thinly sliced"],
-    ["4", "", "scallions, trimmed and roughly chopped"],
-    ["", "", "cooked white rice, for serving"]
+    [1/3, "cups", "unsalted peanuts"],
+    [1, "pounds", "chicken"],
+    [1, "tablespoons", "cornstarch"],
+    [4, "tablespoons", "light soy sauce"],
+    [2, "tablespoons", "peanut oil"],
+    [1, "teaspoons", "sichuan peppercorns"],
+    [2, "", "dried red chiles"],
+    [2, "", "garlic cloves"],
+    [1, "inches", "knob ginger root"],
+    [4, "", "scallions"],
+    [1, "cups", "cooked white rice"]
   ],
   "flavors":{
     "Bitter":0.006511769,

@@ -1,6 +1,7 @@
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 import json
+from ehfl.MealResult import MealResult, FakeResult
 
 def index(request):
 	"""Home Page"""
@@ -17,24 +18,48 @@ def post_setup(request):
 
 def results(request):
    """Results Page"""
-   test_result = json.loads(test_res())
-   result_set = [test_result]*7
-   return_set = list()
-   for result in result_set:
-      res = dict()
-      res['name'] = result['name']
-      image_list = result['images']
-      res['img'] = image_list[0]['hostedSmallUrl']
-      res['url'] = result['attribution']['url']
-      res['est_price'] = "100"
-      res['cook_time'] = "100"
-      print res
-      return_set.append(res)
+   # test_result = json.loads(test_res())
+   # result_set = [test_result]*7
+   # return_set = list()
+   # for result in result_set:
+   #    res = dict()
+   #    res['id'] = 1
+   #    res['name'] = result['name']
+   #    image_list = result['images']
+   #    res['img'] = image_list[0]['hostedSmallUrl']
+   #    res['url'] = result['attribution']['url']
+   #    res['est_price'] = "100"
+   #    res['cook_time'] = "100"
+   #    print res
+   #    return_set.append(res)
+   x = MealResult()
+   return_set = [x]*7
    return render(request, 'results.html',{'results_set':return_set})
 
 def shoppinglist(request):
-    """Presents the shoppinglist page for user input"""
-    return render(request, 'shoppinglist.html')
+    """
+    Presents the shoppinglist page for user input
+    """
+    test_result = json.loads(test_res())
+    result_set = [test_result]*14
+    return_set = list()
+    for result in result_set:
+       res = dict()
+       res['name'] = result['name']
+       image_list = result['images']
+       res['img'] = image_list[0]['hostedSmallUrl']
+       res['url'] = result['attribution']['url']
+       res['est_price'] = "200"
+       res['cook_time'] = "100"
+       res['ingredient'] = result['ingredientLines']
+
+
+       print res
+       return_set.append(res)
+
+    return render(request, 'shoppinglist.html', {'results_set':return_set})
+
+    """return render(request, 'shoppinglist.html')"""
 
 def test_res():
 	return """{

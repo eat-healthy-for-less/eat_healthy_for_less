@@ -6,13 +6,13 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    ["6", "", "hard-cooked eggs"],
-    ["2", "tablespoons", "mayonnaise"],
-    ["1", "teaspoon", "sugar"],
-    ["1", "teaspoon", "white vinegar"],
-    ["1", "teaspoon", "prepared mustard"],
-    ["1/2", "teaspoon", "salt"],
-    ["1", "", "paprika"]
+    [6, "", "hard-cooked eggs"],
+    [2, "tablespoons", "mayonnaise"],
+    [1, "teaspoons", "sugar"],
+    [1, "teaspoons", "white vinegar"],
+    [1, "teaspoons", "prepared mustard"],
+    [0.5, "teaspoons", "salt"],
+    [1, "", "paprika"]
   ],
   "flavors":{
     "Sweet":1.9411193E-5,

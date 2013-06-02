@@ -6,19 +6,18 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    ["¾", "cup", "roasted, unsalted cashews (these are sometimes in the produce section)"],
-    ["1 ½", "pounds", "boneless, skinless chicken breasts or tenderloins, cut into 1-1 ½ inch pieces*"],
-    ["½", "teaspoon", "salt"],
-    ["¼", "teaspoon", "freshly ground black pepper"],
-    ["2", "tablespoons", "vegetable oil"],
-    ["6", "", "medium garlic cloves, minced (use a garlic press)"],
-    ["8", "", "scallions (1 bunch), white and green parts separated, each cut into 1-inch pieces"],
-    ["8", "", "scallions (1 bunch), white and green parts separated, each cut into 1-inch pieces"],
-    ["2", "tablespoons", "rice vinegar"],
-    ["4", "tablespoons", "hoisin sauce (best brands are Kikkoman or Lee Kum Kee)"],
-    ["1", "tablespoon", "soy sauce"],
-    ["¼", "cup", "water"],
-    ["¼", "teaspoon", "Asian sesame oil"]
+    [0.75, "cups", "roasted, unsalted cashews (these are sometimes in the produce section)"],
+    [1.5, "pounds", "boneless, skinless chicken breasts or tenderloins, cut into 1-1 ½ inch pieces*"],
+    [0.5, "teaspoons", "salt"],
+    [0.25, "teaspoons", "freshly ground black pepper"],
+    [2, "tablespoons", "vegetable oil"],
+    [6, "", "medium garlic cloves"],
+    [8, "", "scallions (1 bunch), white and green parts separated, each cut into 1-inch pieces"],
+    [2, "tablespoons", "rice vinegar"],
+    [4, "tablespoons", "hoisin sauce"],
+    [1, "tablespoons", "soy sauce"],
+    [0.25, "cups", "water"],
+    [0.25, "teaspoons", "Asian sesame oil"]
   ],
   "flavors":{
     "Bitter":0.008489580824971199,

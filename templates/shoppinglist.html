@@ -8,6 +8,22 @@
   }
 </style>
 
+<script>
+
+
+  function formatArray(arr){
+    html_result = "";
+    var length = arr.length,
+    element = null;
+    for (var i = 0; i < length; i++) {
+      element = arr[i];
+      html_result += element + "<br/>";      
+    }
+    return html_result;
+  }
+
+</script>
+
 {% endblock %}
 
 
@@ -22,12 +38,46 @@
 
 {% endblock %}
 
-
 {% block content %}
 
+<div>
+{% for result in results_set %}
 
 
+    <div class="span8">
+      <div class="content-box">
+        <div class="span1 hidden-phone hidden-tablet">
+          <img src='{{ result.img }}' />
+        </div>
 
-</div> <!-- /container -->
+        <!-- Result link and text -->
+        <div class="span11 span12-tablet span12-phone" style="margin-bottom:55px;">
+          <h4>
+            <a href="{{ result.url }}">
+          {% autoescape off %} {# This is for showing raw html symbols #}
+          {{ result.name }}
+          {% endautoescape %}
+        </a>
+          </h4>
+              <div class='hidden-desktop' style="float:left; margin-right:10px" id=ingrident>
+                <img src='{{ result.img }}' />
+              </div>
+              <script>
+                ing = '{{ result.ingredient }}';
+                inAry = ing.split(',');
+                html_result = '';
+                for (var i = 0; i < inAry.length; i++) {
+                    html_result += inAry[i] + "<br/>";      
+                }
+                document.getElementById('ingrident').innerHTML= html_result;
 
+              </script>
+            </div>
+        </div> <!-- /span -->
+      </div> <!-- /row -->
+{% endfor %}
+
+</div>
 {% endblock %}
+
+

@@ -6,16 +6,16 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    ["1", "pound", "elbow macaroni"],
-    ["1/4", "cup", "extra virgin olive oil"],
-    ["4", "cups", "thinly sliced green onions {~3-4 bunches}"],
-    ["3", "", "medium cloves garlic, chopped"],
-    ["", "", "fine grain sea salt"],
-    ["", "", "lots of freshly ground black pepper"],
-    ["", "", "zest and juice of one lemon"],
-    ["1/3", "cup", "grated Parmesan"],
-    ["4", "", "big handfuls arugula"],
-    ["1", "", "large apple, diced"]
+    [1, "pounds", "elbow macaroni"],
+    [0.25, "cups", "extra virgin olive oil"],
+    [4, "cups", "thinly sliced green onions"],
+    [3, "", "medium cloves garlic, chopped"],
+    [0.25, "teaspoons", "fine grain sea salt"],
+    [0.5, "tablespoons", "lots of freshly ground black pepper"],
+    [1, "tablespoons", "zest and juice of one lemon"],
+    [0.33, "cups", "grated Parmesan"],
+    [4, "", "arugula"],
+    [1, "", "diced apple"]
   ],
   "flavors":{
     "Piquant":0.0,

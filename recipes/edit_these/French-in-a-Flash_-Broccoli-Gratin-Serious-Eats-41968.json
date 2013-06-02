@@ -6,12 +6,12 @@
     "logo":"http://static.yummly.com/api-logo.png"
   },
   "ingredientLines":[
-    ["4", "cups", "broccoli florets"],
-    ["1/3", "cup", "crème fraîche"],
-    ["1", "cup", "grated Gruyère"],
-    ["", "", "Kosher salt"],
-    ["", "", "Freshly ground black pepper"],
-    ["3", "tablespoon", "panko"]
+    [4, "cups", "broccoli florets"],
+    [0.33, "cups", "crème fraîche"],
+    [1, "cups", "grated Gruyère"],
+    [0.5, "teaspoons", "Kosher salt"],
+    [0.5, "teaspoons", "Freshly ground black pepper"],
+    [3, "tablespoons", "panko"]
   ],
   "flavors":{
     "Piquant":0.0,
