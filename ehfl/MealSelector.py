@@ -37,7 +37,10 @@ class MealPenalizer:
     can choose to prioritze health, convenience or cost.  The attribute
     base_prices_fun :: (Ingredient,Amount) -> Price
     """
-    def __init__(self, budget, b_pen, c_pen, n_pen):
+    def __init__(self, budget, b_pen=10000, c_pen=1, n_pen=1800):
+        # b_pen: penalty per dollar over budget
+        # c_pen: penalty per second of cooking time
+        # n_pen: penalty for going from best healthy recipe to median
         self.budget = budget
         self.budget_penalty = b_pen
         self.nutrition_penalty = n_pen
@@ -52,7 +55,7 @@ class MealPenalizer:
 
 class SelectionDriver:
     """
-    SelectionDriver takes a list of menues and a penalty function and
+    SelectionDriver takes a list of menus and a penalty function and
     picks a 'good' menu based on Trey's randomized hill-climbing
     algorithm.
 

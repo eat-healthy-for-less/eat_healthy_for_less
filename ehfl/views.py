@@ -7,7 +7,7 @@ from django.shortcuts import render
 
 from ehfl.forms import MenuPreferencesForm
 from ehfl.MealResult import MealResult, FakeResult
-
+from ehfl import MealSelector
 
 def index(request):
     return HttpResponseRedirect('/setup/')
@@ -28,6 +28,13 @@ def setup(request):
 
 
 def menu(request, form):
+    calories_per_day = form.cleaned_data['calories_per_day']
+    low_sodium = form.cleaned_data['low_sodium']
+    low_sugar = form.cleaned_data['low_sugar']
+    high_fiber = form.cleaned_data['high_fiber']
+    budget = form.cleaned_data['budget']
+
+    penalizer = MealSelector.MealPenalizer(budget)
     return render(request, 'results.html', {'form': form})
 
 
