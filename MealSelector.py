@@ -12,16 +12,16 @@ DEFAULT_NUM_RANDOM_MEALS = 100
 class Meal:
     """
     a class representing a single meal.
-    ingrediants is either a dictionary or an a-list associating ingrediants to
+    ingredients is either a dictionary or an a-list associating ingredients to
     amounts, where amount is the actual amount divided by the smallest amount one can buy
-    nutrition and convenience go on an arbitrary scale.  
+    nutrition and convenience go on an arbitrary scale.
     """
 
-    def __init__(self, ingrediants, nutrition, convenience,tags=[]):
-        self.ingrediants = ingrediants 
+    def __init__(self, ingredients, nutrition, convenience,tags=[]):
+        self.ingredients = ingredients
         self.nutrition = nutrition
         self.convenience = convenience
-        
+
 
 ##### type Menu = [Meal] ##### (I can't write this in Python, but the spirit is still there)
 
@@ -30,11 +30,11 @@ class Meal:
 # determines the price of the menu, given a price_per function.
 # price_per takes two arguments, an ingrediant and an amount, and returns the price you would need to pay for that in a store.
 # for instance, if you need 5 units of something and you can only buy that in powers of 2, price_per(that_ingrediant,5) returns the price of buying 8 units.
-# menu is a list of meals.  
+# menu is a list of meals.
 def menu_price(price_per,menu):
     result = {}
     for m in menu:
-        for ing, val in m.ingrediants:
+        for ing, val in m.ingredients:
             if result.has_key(ing):
                 result[ing] = result[ing]+val
             else:
@@ -52,9 +52,9 @@ def logarithmic_pricing(price_fun,ing,amt):
     price_multiplier = 2-sum(map(lambda i:1.0/2**(i+1),
                                  range(log_amt_needed)))
     return price_fun(ing)*(2**log_amt_needed)*price_multiplier
-    
+
 class MealPenalizer:
-    """ 
+    """
     A class for computing the penalty of a Menu.
     requires a budget and coefficients of each part of the penalty (b_pen,c_pen,n_pen), so one can choose to prioritze health, convenience or cost.
     The attribute base_prices_fun :: (Ingrediant,Amount) -> Price
@@ -71,14 +71,14 @@ class MealPenalizer:
         n_pen = self.nutrition_penalty*menu_nutrition(menu)
         c_pen = self.convenience_penalty*menu_convenience(menu)
         return b_pen-n_pen+c_pen
-            
+
 class SelectionDriver:
     """
-    SelectionDriver takes a list of menues and a penalty function and picks a 'good' menu based on Trey's randomized hill-climbing algorithm.  
+    SelectionDriver takes a list of menues and a penalty function and picks a 'good' menu based on Trey's randomized hill-climbing algorithm.
     penalty_fun :: Menu -> Double
-    The function pick_menu is really the only 'public' one.  
+    The function pick_menu is really the only 'public' one.
     It takes a list of meals and returns a 'good' menu.
-    usage: 
+    usage:
        my_menu = SelectionDriver(mp.penalty).pick_menu(meals)
     where meals :: [Meal], mp :: MealPenalizer
     """
@@ -103,4 +103,4 @@ class SelectionDriver:
         return min(map(lambda menu: self.optimize_episode(self.random_menu(meals),meals),
                        range(self.num_episodes)),
                    key=self.penalty)
-    
+
