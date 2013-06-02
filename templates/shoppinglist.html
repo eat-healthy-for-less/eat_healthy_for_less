@@ -9,7 +9,7 @@
         <div class="span11 span12-tablet span12-phone" style="margin-bottom:55px;">
           <h2>Ingredients</h2>
                 {% for ing in results_set %}
-                <h6>{{ ing.1 }} KG of {{ing.0}}</li> -- est. ${{ing.2}}</h6>
+                <strong>{{ ing.1 }} KG</strong> of {{ing.0}} -- <em>est. ${{ing.2}}</em><br/>
               {% endfor %}
               <hr/>
             <h5>Total Est. Price: ${{ total }}</h5>
