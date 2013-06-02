@@ -46,17 +46,15 @@ def menu(request, form):
     calories_per_meal = calories_per_day * 0.75
     menu = MealSelector.select_optimal_menu(recipes, budget, calories_per_meal)
     for m in menu:
-        m.est_price = m.get_display_price(calories_per_meal)
-
+        m.est_price = str(m.get_display_price(calories_per_meal))[:4]
+        m.cook_time = m.convenience/60
+        m.img = m.images[0]['hostedSmallUrl']
     alternate_meals = [r for r in recipes if r not in menu]
     for m in alternate_meals:
         m.est_price = m.get_display_price(calories_per_meal)
-
     # debug
     print >> sys.stderr, 'menu:', [r.name for r in menu]
-
-    return render(request, 'results.html')
-
+    return render(request, 'results.html', {'results_set':menu})
 
 def results(request):
    """Results Page"""
