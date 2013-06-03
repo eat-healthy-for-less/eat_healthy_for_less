@@ -88,6 +88,8 @@ def savemenu(request):
   recipes = dict(((i.name, i) for i in read_recipes()))
   # print recipes.keys()
   for id in meal_set:
+    if (id == '0'):
+        continue
     recipe_set.append(recipes[id])
   res_set, price = get_menu_price(recipe_set, cals)
   print res_set, price
