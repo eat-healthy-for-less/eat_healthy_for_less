@@ -23,6 +23,8 @@ seconds!
 
 ### About Us
 
+![The Eating Healthy for Less hackathon team](team_photo_600.jpg)
+
 The Eat Healthy for Less project was just a crazy idea on the morning of
 Saturday June 1, but a pickup team of developers at the Google Hack for
 Change 2013 hackathon turned it into a winning app in just 48 hours!
@@ -52,3 +54,6 @@ Meet the team:
  * Nandita Garud. Coder.
 
  * Chuang Wang. Coder.
+
+We'd like to thank the Google Hack for Change organizers for putting on
+a great event!
