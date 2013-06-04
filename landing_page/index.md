@@ -51,7 +51,8 @@ Meet the team:
 
  * Samer Buna. Coder and data wrangler.
 
- * Nandita Garud. Coder.
+ * Nandita Garud. Genetics PhD student at Stanford
+   University. Statistician and design thinker.
 
  * Chuang Wang. Coder.
 
